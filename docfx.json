@@ -4,10 +4,10 @@
       "outputFormat": "markdown",
       "src": [
         {
-          "src": "external/Monogame/",
+          "src": "external",
           "files": [
-            "MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj",
-            "MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj"
+            "/Monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj",
+            "/Monogame/MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj"
           ]
         }
       ],
