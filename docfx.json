@@ -6,8 +6,8 @@
         {
           "src": "external",
           "files": [
-            "/Monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj",
-            "/Monogame/MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj"
+            "/Monogame/MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj",
+            "/Monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj"
           ]
         }
       ],
