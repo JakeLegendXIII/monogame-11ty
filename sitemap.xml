@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>/blog/2023-10-24-meeting/</loc>
+		<lastmod>2023-10-24</lastmod>
+	</url>
+	
+	<url>
+		<loc>/blog/2023-11-15-meeting/</loc>
+		<lastmod>2023-11-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>/blog/2023-11-22-meeting/</loc>
+		<lastmod>2023-11-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>/blog/2023-12-29-website-refresh/</loc>
+		<lastmod>2023-12-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>/about/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/api/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/content_pipeline/adding_ttf_fonts/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/content_pipeline/custom_effects/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/content_pipeline/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/content_pipeline/localization/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/content_pipeline/using_mgcb_editor/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/content_pipeline/why_content_pipeline/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/1_setting_up_your_development_environment_unix/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/1_setting_up_your_development_environment_windows/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/2_creating_a_new_project_netcore/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/2_creating_a_new_project_vs/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/3_understanding_the_code/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/4_adding_content/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/5_adding_basic_code/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/getting_started/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/help_and_support/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/migrate_37/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/migrate_38/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/migrate_xna/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/packaging_games/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/platforms/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/samples/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/tools/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/tools/mgcb/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/tools/mgcb_editor/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/tools/mgfxc/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/tutorials/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/articles/whats_new/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/documentation/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/donate/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/foundation/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/presskit/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/bundle.css</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/js/bundle.js</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>/showcase/</loc>
+		<lastmod>2024-01-15</lastmod>
+	</url>
+</urlset>
