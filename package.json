@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "docfx": "dotnet tool restore && dotnet docfx metadata docfx.json",
+        "docfx": "dotnet tool restore && dotnet docfx metadata",
         "build": "npx @11ty/eleventy",
         "dev": "npx @11ty/eleventy --serve",
         "debugbuild": "set DEBUG=Eleventy* & npx @11ty/eleventy",

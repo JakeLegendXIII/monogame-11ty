@@ -8,7 +8,7 @@
             "external/Monogame/MonoGame.Framework.Content.Pipeline/MonoGame.Framework.Content.Pipeline.csproj",
             "external/Monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj"
           ],
-          "src": "."
+          "src": ""
         }
       ],
       "dest": "./content/api",
