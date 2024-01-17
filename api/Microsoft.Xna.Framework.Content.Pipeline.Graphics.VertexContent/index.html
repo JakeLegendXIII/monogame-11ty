@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-vertexcontent" tabindex="-1"><a class="header-anchor" href="#class-vertexcontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent"></a> Class VertexContent</a></h1>
+        <h1 id="class-vertexcontent" tabindex="-1"><a class="header-anchor" href="#class-vertexcontent">Class VertexContent</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides methods and properties for maintaining the vertex data of a GeometryContent.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">VertexContent</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexContent">VertexContent</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1257,12 +1260,12 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <h2 id="remarks" tabindex="-1"><a class="header-anchor" href="#remarks">Remarks</a></h2>
 <p>This class combines a collection of arbitrarily named data channels with a list of position indices that reference the Positions collection of the parent MeshContent.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="channels" tabindex="-1"><a class="header-anchor" href="#channels"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Channels"></a> Channels</a></h3>
+<h3 id="channels" tabindex="-1"><a class="header-anchor" href="#channels"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Channels"></a>Channels</a></h3>
 <p>Gets the list of named vertex data channels in the VertexContent.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">VertexChannelCollection</span> Channels <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannelCollection">VertexChannelCollection</a></p>
-<h3 id="positionindices" tabindex="-1"><a class="header-anchor" href="#positionindices"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_PositionIndices"></a> PositionIndices</a></h3>
+<h3 id="positionindices" tabindex="-1"><a class="header-anchor" href="#positionindices"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_PositionIndices"></a>PositionIndices</a></h3>
 <p>Gets the list of position indices.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">VertexChannel<span class="token punctuation">&lt;</span><span class="token keyword">int</span><span class="token punctuation">></span></span> PositionIndices <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
@@ -1271,20 +1274,20 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>This list adds a level of indirection between the actual triangle indices and the Positions member of the parent. This indirection preserves the topological vertex identity in cases where a single vertex position is used by triangles that straddle a discontinuity in some other data channel.
 For example, the following code gets the position of the first vertex of the first triangle in a GeometryContent object:
 parent.Positions[Vertices.PositionIndices[Indices[0]]]</p>
-<h3 id="positions" tabindex="-1"><a class="header-anchor" href="#positions"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Positions"></a> Positions</a></h3>
+<h3 id="positions" tabindex="-1"><a class="header-anchor" href="#positions"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Positions"></a>Positions</a></h3>
 <p>Gets position data from the parent mesh object.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">IndirectPositionCollection</span> Positions <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.IndirectPositionCollection">IndirectPositionCollection</a></p>
 <h4 id="remarks-2" tabindex="-1"><a class="header-anchor" href="#remarks-2">Remarks</a></h4>
 <p>The collection returned from this call provides a virtualized view of the vertex positions for this batch. The collection uses the contents of the PositionIndices property to index into the parent Positions. This collection is read-only. If you need to modify any contained values, edit the PositionIndices or Positions members directly.</p>
-<h3 id="vertexcount" tabindex="-1"><a class="header-anchor" href="#vertexcount"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_VertexCount"></a> VertexCount</a></h3>
+<h3 id="vertexcount" tabindex="-1"><a class="header-anchor" href="#vertexcount"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_VertexCount"></a>VertexCount</a></h3>
 <p>Number of vertices for the content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> VertexCount <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="add-int" tabindex="-1"><a class="header-anchor" href="#add-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Add_System_Int32_"></a> Add(int)</a></h3>
+<h3 id="add-int" tabindex="-1"><a class="header-anchor" href="#add-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Add_System_Int32_"></a>Add(int)</a></h3>
 <p>Appends a new vertex index to the end of the PositionIndices collection.
 Other vertex channels will automatically be extended and the new indices populated with default values.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">Add</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> positionIndex<span class="token punctuation">)</span></code></pre>
@@ -1294,14 +1297,14 @@ Other vertex channels will automatically be extended and the new indices populat
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Index of the new entry. This can be added to the Indices member of the parent.</p>
-<h3 id="addrange-ienumerable-int" tabindex="-1"><a class="header-anchor" href="#addrange-ienumerable-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_AddRange_System_Collections_Generic_IEnumerable_System_Int32__"></a> AddRange(IEnumerable&lt;int&gt;)</a></h3>
+<h3 id="addrange-ienumerable-int" tabindex="-1"><a class="header-anchor" href="#addrange-ienumerable-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_AddRange_System_Collections_Generic_IEnumerable_System_Int32__"></a>AddRange(IEnumerable&lt;int&gt;)</a></h3>
 <p>Appends multiple vertex indices to the end of the PositionIndices collection.
 Other vertex channels will automatically be extended and the new indices populated with default values.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">AddRange</span><span class="token punctuation">(</span><span class="token class-name">IEnumerable<span class="token punctuation">&lt;</span><span class="token keyword">int</span><span class="token punctuation">></span></span> positionIndexCollection<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>positionIndexCollection</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a>&gt;</p>
 <p>Index into the Positions member of the parent.</p>
-<h3 id="createvertexbuffer" tabindex="-1"><a class="header-anchor" href="#createvertexbuffer"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_CreateVertexBuffer"></a> CreateVertexBuffer()</a></h3>
+<h3 id="createvertexbuffer" tabindex="-1"><a class="header-anchor" href="#createvertexbuffer"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_CreateVertexBuffer"></a>CreateVertexBuffer()</a></h3>
 <p>Converts design-time vertex position and channel data into a vertex buffer format that a graphics device can recognize.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">VertexBufferContent</span> <span class="token function">CreateVertexBuffer</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
@@ -1310,7 +1313,7 @@ Other vertex channels will automatically be extended and the new indices populat
 <h4 id="exceptions" tabindex="-1"><a class="header-anchor" href="#exceptions">Exceptions</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.InvalidContentException">InvalidContentException</a></p>
 <p>One or more of the vertex channel types are invalid or an unrecognized name was passed to VertexElementUsage.</p>
-<h3 id="insert-int-int" tabindex="-1"><a class="header-anchor" href="#insert-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Insert_System_Int32_System_Int32_"></a> Insert(int, int)</a></h3>
+<h3 id="insert-int-int" tabindex="-1"><a class="header-anchor" href="#insert-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_Insert_System_Int32_System_Int32_"></a>Insert(int, int)</a></h3>
 <p>Inserts a new vertex index to the PositionIndices collection.
 Other vertex channels will automatically be extended and the new indices populated with default values.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Insert</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> positionIndex<span class="token punctuation">)</span></code></pre>
@@ -1319,7 +1322,7 @@ Other vertex channels will automatically be extended and the new indices populat
 <p>Vertex index to be inserted.</p>
 <p><code>positionIndex</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Position of new vertex index in the collection.</p>
-<h3 id="insertrange-int-ienumerable-int" tabindex="-1"><a class="header-anchor" href="#insertrange-int-ienumerable-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_InsertRange_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"></a> InsertRange(int, IEnumerable&lt;int&gt;)</a></h3>
+<h3 id="insertrange-int-ienumerable-int" tabindex="-1"><a class="header-anchor" href="#insertrange-int-ienumerable-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_InsertRange_System_Int32_System_Collections_Generic_IEnumerable_System_Int32__"></a>InsertRange(int, IEnumerable&lt;int&gt;)</a></h3>
 <p>Inserts multiple vertex indices to the PositionIndices collection.
 Other vertex channels will automatically be extended and the new indices populated with default values.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">InsertRange</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">,</span> <span class="token class-name">IEnumerable<span class="token punctuation">&lt;</span><span class="token keyword">int</span><span class="token punctuation">></span></span> positionIndexCollection<span class="token punctuation">)</span></code></pre>
@@ -1328,13 +1331,13 @@ Other vertex channels will automatically be extended and the new indices populat
 <p>Vertex index to be inserted.</p>
 <p><code>positionIndexCollection</code> <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a>&gt;</p>
 <p>Position of the first element of the inserted range in the collection.</p>
-<h3 id="removeat-int" tabindex="-1"><a class="header-anchor" href="#removeat-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_RemoveAt_System_Int32_"></a> RemoveAt(int)</a></h3>
+<h3 id="removeat-int" tabindex="-1"><a class="header-anchor" href="#removeat-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_RemoveAt_System_Int32_"></a>RemoveAt(int)</a></h3>
 <p>Removes a vertex index from the specified location in both PositionIndices and VertexChannel&lt;T&gt;.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">RemoveAt</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
 <p><code>index</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Index of the vertex to be removed.</p>
-<h3 id="removerange-int-int" tabindex="-1"><a class="header-anchor" href="#removerange-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_RemoveRange_System_Int32_System_Int32_"></a> RemoveRange(int, int)</a></h3>
+<h3 id="removerange-int-int" tabindex="-1"><a class="header-anchor" href="#removerange-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexContent_RemoveRange_System_Int32_System_Int32_"></a>RemoveRange(int, int)</a></h3>
 <p>Removes a range of vertex indices from the specified location in both PositionIndices and VertexChannel&lt;T&gt;.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">RemoveRange</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> count<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>

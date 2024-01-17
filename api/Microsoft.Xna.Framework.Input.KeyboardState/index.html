@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,12 +1242,12 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="struct-keyboardstate" tabindex="-1"><a class="header-anchor" href="#struct-keyboardstate"><a id="Microsoft_Xna_Framework_Input_KeyboardState"></a> Struct KeyboardState</a></h1>
+        <h1 id="struct-keyboardstate" tabindex="-1"><a class="header-anchor" href="#struct-keyboardstate">Struct KeyboardState</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Input">Microsoft.Xna.Framework.Input</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Holds the state of keystrokes by a keyboard.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">struct</span> <span class="token class-name">KeyboardState</span></code></pre>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1252,7 +1255,7 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="keyboardstate-keys-bool-bool" tabindex="-1"><a class="header-anchor" href="#keyboardstate-keys-bool-bool"><a id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___System_Boolean_System_Boolean_"></a> KeyboardState(Keys[], bool, bool)</a></h3>
+<h3 id="keyboardstate-keys-bool-bool" tabindex="-1"><a class="header-anchor" href="#keyboardstate-keys-bool-bool"><a id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___System_Boolean_System_Boolean_"></a>KeyboardState(Keys[], bool, bool)</a></h3>
 <p>Initializes a new instance of the <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a> class.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">KeyboardState</span><span class="token punctuation">(</span><span class="token class-name">Keys<span class="token punctuation">[</span><span class="token punctuation">]</span></span> keys<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> capsLock <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> numLock <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1262,30 +1265,30 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Caps Lock state.</p>
 <p><code>numLock</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>Num Lock state.</p>
-<h3 id="keyboardstate-params-keys" tabindex="-1"><a class="header-anchor" href="#keyboardstate-params-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___"></a> KeyboardState(params Keys[])</a></h3>
+<h3 id="keyboardstate-params-keys" tabindex="-1"><a class="header-anchor" href="#keyboardstate-params-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState__ctor_Microsoft_Xna_Framework_Input_Keys___"></a>KeyboardState(params Keys[])</a></h3>
 <p>Initializes a new instance of the <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a> class.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">KeyboardState</span><span class="token punctuation">(</span><span class="token keyword">params</span> <span class="token class-name">Keys<span class="token punctuation">[</span><span class="token punctuation">]</span></span> keys<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>keys</code> <a href="/api/Microsoft.Xna.Framework.Input.Keys">Keys</a>[]</p>
 <p>List of keys to be flagged as pressed on initialization.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="capslock" tabindex="-1"><a class="header-anchor" href="#capslock"><a id="Microsoft_Xna_Framework_Input_KeyboardState_CapsLock"></a> CapsLock</a></h3>
+<h3 id="capslock" tabindex="-1"><a class="header-anchor" href="#capslock"><a id="Microsoft_Xna_Framework_Input_KeyboardState_CapsLock"></a>CapsLock</a></h3>
 <p>Gets the current state of the Caps Lock key.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> CapsLock <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="numlock" tabindex="-1"><a class="header-anchor" href="#numlock"><a id="Microsoft_Xna_Framework_Input_KeyboardState_NumLock"></a> NumLock</a></h3>
+<h3 id="numlock" tabindex="-1"><a class="header-anchor" href="#numlock"><a id="Microsoft_Xna_Framework_Input_KeyboardState_NumLock"></a>NumLock</a></h3>
 <p>Gets the current state of the Num Lock key.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> NumLock <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="this-keys" tabindex="-1"><a class="header-anchor" href="#this-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_Item_Microsoft_Xna_Framework_Input_Keys_"></a> this[Keys]</a></h3>
+<h3 id="this-keys" tabindex="-1"><a class="header-anchor" href="#this-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_Item_Microsoft_Xna_Framework_Input_Keys_"></a>this[Keys]</a></h3>
 <p>Returns the state of a specified key.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">KeyState</span> <span class="token keyword">this</span><span class="token punctuation">[</span><span class="token class-name">Keys</span> key<span class="token punctuation">]</span> <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.KeyState">KeyState</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="equals-object" tabindex="-1"><a class="header-anchor" href="#equals-object"><a id="Microsoft_Xna_Framework_Input_KeyboardState_Equals_System_Object_"></a> Equals(object)</a></h3>
+<h3 id="equals-object" tabindex="-1"><a class="header-anchor" href="#equals-object"><a id="Microsoft_Xna_Framework_Input_KeyboardState_Equals_System_Object_"></a>Equals(object)</a></h3>
 <p>Compares whether current instance is equal to specified object.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">Equals</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">object</span></span> obj<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1294,32 +1297,32 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if the provided <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a> instance is same with current; false otherwise.</p>
-<h3 id="gethashcode" tabindex="-1"><a class="header-anchor" href="#gethashcode"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetHashCode"></a> GetHashCode()</a></h3>
+<h3 id="gethashcode" tabindex="-1"><a class="header-anchor" href="#gethashcode"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetHashCode"></a>GetHashCode()</a></h3>
 <p>Gets the hash code for <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a> instance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetHashCode</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Hash code of the object.</p>
-<h3 id="getpressedkeycount" tabindex="-1"><a class="header-anchor" href="#getpressedkeycount"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeyCount"></a> GetPressedKeyCount()</a></h3>
+<h3 id="getpressedkeycount" tabindex="-1"><a class="header-anchor" href="#getpressedkeycount"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeyCount"></a>GetPressedKeyCount()</a></h3>
 <p>Returns the number of pressed keys in this <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetPressedKeyCount</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>An integer representing the number of keys currently pressed in this <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a>.</p>
-<h3 id="getpressedkeys" tabindex="-1"><a class="header-anchor" href="#getpressedkeys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys"></a> GetPressedKeys()</a></h3>
+<h3 id="getpressedkeys" tabindex="-1"><a class="header-anchor" href="#getpressedkeys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys"></a>GetPressedKeys()</a></h3>
 <p>Returns an array of values holding keys that are currently being pressed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Keys<span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">GetPressedKeys</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.Keys">Keys</a>[]</p>
 <p>The keys that are currently being pressed.</p>
-<h3 id="getpressedkeys-keys" tabindex="-1"><a class="header-anchor" href="#getpressedkeys-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys_Microsoft_Xna_Framework_Input_Keys___"></a> GetPressedKeys(Keys[])</a></h3>
+<h3 id="getpressedkeys-keys" tabindex="-1"><a class="header-anchor" href="#getpressedkeys-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_GetPressedKeys_Microsoft_Xna_Framework_Input_Keys___"></a>GetPressedKeys(Keys[])</a></h3>
 <p>Fills an array of values holding keys that are currently being pressed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">GetPressedKeys</span><span class="token punctuation">(</span><span class="token class-name">Keys<span class="token punctuation">[</span><span class="token punctuation">]</span></span> keys<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
 <p><code>keys</code> <a href="/api/Microsoft.Xna.Framework.Input.Keys">Keys</a>[]</p>
 <p>The keys array to fill.
 This array is not cleared, and it must be equal to or larger than the number of keys pressed.</p>
-<h3 id="iskeydown-keys" tabindex="-1"><a class="header-anchor" href="#iskeydown-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_IsKeyDown_Microsoft_Xna_Framework_Input_Keys_"></a> IsKeyDown(Keys)</a></h3>
+<h3 id="iskeydown-keys" tabindex="-1"><a class="header-anchor" href="#iskeydown-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_IsKeyDown_Microsoft_Xna_Framework_Input_Keys_"></a>IsKeyDown(Keys)</a></h3>
 <p>Gets whether given key is currently being pressed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">IsKeyDown</span><span class="token punctuation">(</span><span class="token class-name">Keys</span> key<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
@@ -1328,7 +1331,7 @@ This array is not cleared, and it must be equal to or larger than the number of 
 <h4 id="returns-4" tabindex="-1"><a class="header-anchor" href="#returns-4">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if the key is pressed; false otherwise.</p>
-<h3 id="iskeyup-keys" tabindex="-1"><a class="header-anchor" href="#iskeyup-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_IsKeyUp_Microsoft_Xna_Framework_Input_Keys_"></a> IsKeyUp(Keys)</a></h3>
+<h3 id="iskeyup-keys" tabindex="-1"><a class="header-anchor" href="#iskeyup-keys"><a id="Microsoft_Xna_Framework_Input_KeyboardState_IsKeyUp_Microsoft_Xna_Framework_Input_Keys_"></a>IsKeyUp(Keys)</a></h3>
 <p>Gets whether given key is currently being not pressed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">IsKeyUp</span><span class="token punctuation">(</span><span class="token class-name">Keys</span> key<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>
@@ -1338,7 +1341,7 @@ This array is not cleared, and it must be equal to or larger than the number of 
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if the key is not pressed; false otherwise.</p>
 <h2 id="operators" tabindex="-1"><a class="header-anchor" href="#operators">Operators</a></h2>
-<h3 id="operator-keyboardstate-keyboardstate" tabindex="-1"><a class="header-anchor" href="#operator-keyboardstate-keyboardstate"><a id="Microsoft_Xna_Framework_Input_KeyboardState_op_Equality_Microsoft_Xna_Framework_Input_KeyboardState_Microsoft_Xna_Framework_Input_KeyboardState_"></a> operator ==(KeyboardState, KeyboardState)</a></h3>
+<h3 id="operator-keyboardstate-keyboardstate" tabindex="-1"><a class="header-anchor" href="#operator-keyboardstate-keyboardstate"><a id="Microsoft_Xna_Framework_Input_KeyboardState_op_Equality_Microsoft_Xna_Framework_Input_KeyboardState_Microsoft_Xna_Framework_Input_KeyboardState_"></a>operator ==(KeyboardState, KeyboardState)</a></h3>
 <p>Compares whether two <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a> instances are equal.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">bool</span> <span class="token keyword">operator</span> <span class="token operator">==</span><span class="token punctuation">(</span><span class="token class-name">KeyboardState</span> a<span class="token punctuation">,</span> <span class="token class-name">KeyboardState</span> b<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-6" tabindex="-1"><a class="header-anchor" href="#parameters-6">Parameters</a></h4>
@@ -1349,7 +1352,7 @@ This array is not cleared, and it must be equal to or larger than the number of 
 <h4 id="returns-6" tabindex="-1"><a class="header-anchor" href="#returns-6">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if the instances are equal; false otherwise.</p>
-<h3 id="operator-keyboardstate-keyboardstate-1" tabindex="-1"><a class="header-anchor" href="#operator-keyboardstate-keyboardstate-1"><a id="Microsoft_Xna_Framework_Input_KeyboardState_op_Inequality_Microsoft_Xna_Framework_Input_KeyboardState_Microsoft_Xna_Framework_Input_KeyboardState_"></a> operator !=(KeyboardState, KeyboardState)</a></h3>
+<h3 id="operator-keyboardstate-keyboardstate-1" tabindex="-1"><a class="header-anchor" href="#operator-keyboardstate-keyboardstate-1"><a id="Microsoft_Xna_Framework_Input_KeyboardState_op_Inequality_Microsoft_Xna_Framework_Input_KeyboardState_Microsoft_Xna_Framework_Input_KeyboardState_"></a>operator !=(KeyboardState, KeyboardState)</a></h3>
 <p>Compares whether two <a href="Microsoft.Xna.Framework.Input.KeyboardState">KeyboardState</a> instances are not equal.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">bool</span> <span class="token keyword">operator</span> <span class="token operator">!=</span><span class="token punctuation">(</span><span class="token class-name">KeyboardState</span> a<span class="token punctuation">,</span> <span class="token class-name">KeyboardState</span> b<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>

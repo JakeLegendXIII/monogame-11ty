@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,17 +1242,17 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-audioengine" tabindex="-1"><a class="header-anchor" href="#class-audioengine"><a id="Microsoft_Xna_Framework_Audio_AudioEngine"></a> Class AudioEngine</a></h1>
+        <h1 id="class-audioengine" tabindex="-1"><a class="header-anchor" href="#class-audioengine">Class AudioEngine</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Audio">Microsoft.Xna.Framework.Audio</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Class used to create and manipulate code audio objects.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AudioEngine</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IDisposable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Audio.AudioEngine">AudioEngine</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1258,12 +1261,12 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="audioengine-string" tabindex="-1"><a class="header-anchor" href="#audioengine-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_"></a> AudioEngine(string)</a></h3>
+<h3 id="audioengine-string" tabindex="-1"><a class="header-anchor" href="#audioengine-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_"></a>AudioEngine(string)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">AudioEngine</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> settingsFile<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>settingsFile</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <p>Path to a XACT settings file.</p>
-<h3 id="audioengine-string-timespan-string" tabindex="-1"><a class="header-anchor" href="#audioengine-string-timespan-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_"></a> AudioEngine(string, TimeSpan, string)</a></h3>
+<h3 id="audioengine-string-timespan-string" tabindex="-1"><a class="header-anchor" href="#audioengine-string-timespan-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine__ctor_System_String_System_TimeSpan_System_String_"></a>AudioEngine(string, TimeSpan, string)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">AudioEngine</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> settingsFile<span class="token punctuation">,</span> <span class="token class-name">TimeSpan</span> lookAheadTime<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> rendererId<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>settingsFile</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
@@ -1275,24 +1278,24 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="remarks" tabindex="-1"><a class="header-anchor" href="#remarks">Remarks</a></h4>
 <p>For the best results, use a lookAheadTime of 250 milliseconds or greater.</p>
 <h2 id="fields" tabindex="-1"><a class="header-anchor" href="#fields">Fields</a></h2>
-<h3 id="contentversion" tabindex="-1"><a class="header-anchor" href="#contentversion"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_ContentVersion"></a> ContentVersion</a></h3>
+<h3 id="contentversion" tabindex="-1"><a class="header-anchor" href="#contentversion"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_ContentVersion"></a>ContentVersion</a></h3>
 <p>The current content version.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">const</span> <span class="token class-name"><span class="token keyword">int</span></span> ContentVersion <span class="token operator">=</span> <span class="token number">39</span></code></pre>
 <h4 id="field-value" tabindex="-1"><a class="header-anchor" href="#field-value">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_IsDisposed"></a> IsDisposed</a></h3>
+<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_IsDisposed"></a>IsDisposed</a></h3>
 <p>Is true if the AudioEngine has been disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsDisposed <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Dispose"></a> Dispose()</a></h3>
+<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Dispose"></a>Dispose()</a></h3>
 <p>Disposes the AudioEngine.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="audioengine" tabindex="-1"><a class="header-anchor" href="#audioengine"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Finalize"></a> ~AudioEngine()</a></h3>
+<h3 id="audioengine" tabindex="-1"><a class="header-anchor" href="#audioengine"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Finalize"></a>~AudioEngine()</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token operator">~</span><span class="token function">AudioEngine</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="getcategory-string" tabindex="-1"><a class="header-anchor" href="#getcategory-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_System_String_"></a> GetCategory(string)</a></h3>
+<h3 id="getcategory-string" tabindex="-1"><a class="header-anchor" href="#getcategory-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_GetCategory_System_String_"></a>GetCategory(string)</a></h3>
 <p>Returns an audio category by name.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">AudioCategory</span> <span class="token function">GetCategory</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> name<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1301,7 +1304,7 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Audio.AudioCategory">AudioCategory</a></p>
 <p>The AudioCategory with a matching name. Throws an exception if not found.</p>
-<h3 id="getglobalvariable-string" tabindex="-1"><a class="header-anchor" href="#getglobalvariable-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_GetGlobalVariable_System_String_"></a> GetGlobalVariable(string)</a></h3>
+<h3 id="getglobalvariable-string" tabindex="-1"><a class="header-anchor" href="#getglobalvariable-string"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_GetGlobalVariable_System_String_"></a>GetGlobalVariable(string)</a></h3>
 <p>Gets the value of a global variable.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> <span class="token function">GetGlobalVariable</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> name<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
@@ -1312,7 +1315,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>float value of the queried variable.</p>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>A global variable has global scope. It can be accessed by all code within a project.</p>
-<h3 id="setglobalvariable-string-float" tabindex="-1"><a class="header-anchor" href="#setglobalvariable-string-float"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_SetGlobalVariable_System_String_System_Single_"></a> SetGlobalVariable(string, float)</a></h3>
+<h3 id="setglobalvariable-string-float" tabindex="-1"><a class="header-anchor" href="#setglobalvariable-string-float"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_SetGlobalVariable_System_String_System_Single_"></a>SetGlobalVariable(string, float)</a></h3>
 <p>Sets the value of a global variable.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SetGlobalVariable</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> name<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
@@ -1320,12 +1323,12 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Friendly name of the variable.</p>
 <p><code>value</code> <a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">float</a></p>
 <p>Value of the global variable.</p>
-<h3 id="update" tabindex="-1"><a class="header-anchor" href="#update"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Update"></a> Update()</a></h3>
+<h3 id="update" tabindex="-1"><a class="header-anchor" href="#update"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Update"></a>Update()</a></h3>
 <p>Performs periodic work required by the audio engine.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Update</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-2" tabindex="-1"><a class="header-anchor" href="#remarks-2">Remarks</a></h4>
 <p>Must be called at least once per frame.</p>
-<h3 id="disposing" tabindex="-1"><a class="header-anchor" href="#disposing"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Disposing"></a> Disposing</a></h3>
+<h3 id="disposing" tabindex="-1"><a class="header-anchor" href="#disposing"><a id="Microsoft_Xna_Framework_Audio_AudioEngine_Disposing"></a>Disposing</a></h3>
 <p>This event is triggered when the AudioEngine is disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">event</span> EventHandler<span class="token operator">&lt;</span>EventArgs<span class="token operator">></span> Disposing</code></pre>
 <h4 id="event-type" tabindex="-1"><a class="header-anchor" href="#event-type">Event Type</a></h4>

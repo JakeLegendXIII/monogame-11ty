@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,17 +1242,17 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-crc" tabindex="-1"><a class="header-anchor" href="#class-crc"><a id="MonoGame_Framework_Utilities_Deflate_CRC32"></a> Class CRC32</a></h1>
+        <h1 id="class-crc" tabindex="-1"><a class="header-anchor" href="#class-crc">Class CRC32</a></h1>
 <p>Namespace: <a href="/api/MonoGame.Framework.Utilities.Deflate">MonoGame.Framework.Utilities.Deflate</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Computes a CRC-32. The CRC-32 algorithm is parameterized - you
 can set the polynomial and enable or disable bit
 reversal. This can be used for GZIP, BZip2, or ZIP.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">CRC32</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/MonoGame.Framework.Utilities.Deflate.CRC32">CRC32</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1262,11 +1265,11 @@ reversal. This can be used for GZIP, BZip2, or ZIP.</p>
 directly by applications wishing to create, read, or manipulate zip
 archive files.</p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="crc" tabindex="-1"><a class="header-anchor" href="#crc"><a id="MonoGame_Framework_Utilities_Deflate_CRC32__ctor"></a> CRC32()</a></h3>
+<h3 id="crc" tabindex="-1"><a class="header-anchor" href="#crc"><a id="MonoGame_Framework_Utilities_Deflate_CRC32__ctor"></a>CRC32()</a></h3>
 <p>Create an instance of the CRC32 class using the default settings: no
 bit reversal, and a polynomial of 0xEDB88320.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">CRC32</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="crc-bool" tabindex="-1"><a class="header-anchor" href="#crc-bool"><a id="MonoGame_Framework_Utilities_Deflate_CRC32__ctor_System_Boolean_"></a> CRC32(bool)</a></h3>
+<h3 id="crc-bool" tabindex="-1"><a class="header-anchor" href="#crc-bool"><a id="MonoGame_Framework_Utilities_Deflate_CRC32__ctor_System_Boolean_"></a>CRC32(bool)</a></h3>
 <p>Create an instance of the CRC32 class, specifying whether to reverse
 data bits or not.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">CRC32</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> reverseBits<span class="token punctuation">)</span></code></pre>
@@ -1281,7 +1284,7 @@ data bits or not.</p>
   reversed; Therefore if you want a CRC32 with compatibility with
   those, you should pass false.
 </p>
-<h3 id="crc-int-bool" tabindex="-1"><a class="header-anchor" href="#crc-int-bool"><a id="MonoGame_Framework_Utilities_Deflate_CRC32__ctor_System_Int32_System_Boolean_"></a> CRC32(int, bool)</a></h3>
+<h3 id="crc-int-bool" tabindex="-1"><a class="header-anchor" href="#crc-int-bool"><a id="MonoGame_Framework_Utilities_Deflate_CRC32__ctor_System_Int32_System_Boolean_"></a>CRC32(int, bool)</a></h3>
 <p>Create an instance of the CRC32 class, specifying the polynomial and
 whether to reverse data bits or not.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">CRC32</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> polynomial<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> reverseBits<span class="token punctuation">)</span></code></pre>
@@ -1304,18 +1307,18 @@ polynomial for the CRC-32C used in IEEE 802.3, is 0xEDB88320.</p>
   <code>reverseBits</code> parameter.
 </p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="crcresult" tabindex="-1"><a class="header-anchor" href="#crcresult"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_Crc32Result"></a> Crc32Result</a></h3>
+<h3 id="crcresult" tabindex="-1"><a class="header-anchor" href="#crcresult"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_Crc32Result"></a>Crc32Result</a></h3>
 <p>Indicates the current CRC for all blocks slurped in.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Crc32Result <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="totalbytesread" tabindex="-1"><a class="header-anchor" href="#totalbytesread"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_TotalBytesRead"></a> TotalBytesRead</a></h3>
+<h3 id="totalbytesread" tabindex="-1"><a class="header-anchor" href="#totalbytesread"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_TotalBytesRead"></a>TotalBytesRead</a></h3>
 <p>Indicates the total number of bytes applied to the CRC.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">long</span></span> TotalBytesRead <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="combine-int-int" tabindex="-1"><a class="header-anchor" href="#combine-int-int"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_Combine_System_Int32_System_Int32_"></a> Combine(int, int)</a></h3>
+<h3 id="combine-int-int" tabindex="-1"><a class="header-anchor" href="#combine-int-int"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_Combine_System_Int32_System_Int32_"></a>Combine(int, int)</a></h3>
 <p>Combines the given CRC32 value with the current running total.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Combine</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> crc<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> length<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1328,7 +1331,7 @@ polynomial for the CRC-32C used in IEEE 802.3, is 0xEDB88320.</p>
 calculating a CRC.  Multiple threads can each calculate a
 CRC32 on a segment of the data, and then combine the
 individual CRC32 values at the end.</p>
-<h3 id="computecrc-int-byte" tabindex="-1"><a class="header-anchor" href="#computecrc-int-byte"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_ComputeCrc32_System_Int32_System_Byte_"></a> ComputeCrc32(int, byte)</a></h3>
+<h3 id="computecrc-int-byte" tabindex="-1"><a class="header-anchor" href="#computecrc-int-byte"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_ComputeCrc32_System_Int32_System_Byte_"></a>ComputeCrc32(int, byte)</a></h3>
 <p>Get the CRC32 for the given (word,byte) combo.  This is a
 computation defined by PKzip for PKZIP 2.0 (weak) encryption.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">ComputeCrc32</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> W<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">byte</span></span> B<span class="token punctuation">)</span></code></pre>
@@ -1340,7 +1343,7 @@ computation defined by PKzip for PKZIP 2.0 (weak) encryption.</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>The CRC-ized result.</p>
-<h3 id="getcrc-stream" tabindex="-1"><a class="header-anchor" href="#getcrc-stream"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_GetCrc32_System_IO_Stream_"></a> GetCrc32(Stream)</a></h3>
+<h3 id="getcrc-stream" tabindex="-1"><a class="header-anchor" href="#getcrc-stream"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_GetCrc32_System_IO_Stream_"></a>GetCrc32(Stream)</a></h3>
 <p>Returns the CRC32 for the specified stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetCrc32</span><span class="token punctuation">(</span><span class="token class-name">Stream</span> input<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
@@ -1349,7 +1352,7 @@ computation defined by PKzip for PKZIP 2.0 (weak) encryption.</p>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>the CRC32 calculation</p>
-<h3 id="getcrcandcopy-stream-stream" tabindex="-1"><a class="header-anchor" href="#getcrcandcopy-stream-stream"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_GetCrc32AndCopy_System_IO_Stream_System_IO_Stream_"></a> GetCrc32AndCopy(Stream, Stream)</a></h3>
+<h3 id="getcrcandcopy-stream-stream" tabindex="-1"><a class="header-anchor" href="#getcrcandcopy-stream-stream"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_GetCrc32AndCopy_System_IO_Stream_System_IO_Stream_"></a>GetCrc32AndCopy(Stream, Stream)</a></h3>
 <p>Returns the CRC32 for the specified stream, and writes the input into the
 output stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetCrc32AndCopy</span><span class="token punctuation">(</span><span class="token class-name">Stream</span> input<span class="token punctuation">,</span> <span class="token class-name">Stream</span> output<span class="token punctuation">)</span></code></pre>
@@ -1361,7 +1364,7 @@ output stream.</p>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>the CRC32 calculation</p>
-<h3 id="reset" tabindex="-1"><a class="header-anchor" href="#reset"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_Reset"></a> Reset()</a></h3>
+<h3 id="reset" tabindex="-1"><a class="header-anchor" href="#reset"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_Reset"></a>Reset()</a></h3>
 <p>Reset the CRC-32 class - clear the CRC &quot;remainder register.&quot;</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Reset</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-4" tabindex="-1"><a class="header-anchor" href="#remarks-4">Remarks</a></h4>
@@ -1369,7 +1372,7 @@ output stream.</p>
   Use this when employing a single instance of this class to compute
   multiple, distinct CRCs on multiple, distinct data blocks.
 </p>
-<h3 id="slurpblock-byte-int-int" tabindex="-1"><a class="header-anchor" href="#slurpblock-byte-int-int"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_SlurpBlock_System_Byte___System_Int32_System_Int32_"></a> SlurpBlock(byte[], int, int)</a></h3>
+<h3 id="slurpblock-byte-int-int" tabindex="-1"><a class="header-anchor" href="#slurpblock-byte-int-int"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_SlurpBlock_System_Byte___System_Int32_System_Int32_"></a>SlurpBlock(byte[], int, int)</a></h3>
 <p>Update the value for the running CRC32 using the given block of bytes.
 This is useful when using the CRC32() class in a Stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SlurpBlock</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> block<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> offset<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> count<span class="token punctuation">)</span></code></pre>
@@ -1380,13 +1383,13 @@ This is useful when using the CRC32() class in a Stream.</p>
 <p>starting point in the block</p>
 <p><code>count</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>how many bytes within the block to slurp</p>
-<h3 id="updatecrc-byte" tabindex="-1"><a class="header-anchor" href="#updatecrc-byte"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_UpdateCRC_System_Byte_"></a> UpdateCRC(byte)</a></h3>
+<h3 id="updatecrc-byte" tabindex="-1"><a class="header-anchor" href="#updatecrc-byte"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_UpdateCRC_System_Byte_"></a>UpdateCRC(byte)</a></h3>
 <p>Process one byte in the CRC.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">UpdateCRC</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span></span> b<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>
 <p><code>b</code> <a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a></p>
 <p>the byte to include into the CRC .</p>
-<h3 id="updatecrc-byte-int" tabindex="-1"><a class="header-anchor" href="#updatecrc-byte-int"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_UpdateCRC_System_Byte_System_Int32_"></a> UpdateCRC(byte, int)</a></h3>
+<h3 id="updatecrc-byte-int" tabindex="-1"><a class="header-anchor" href="#updatecrc-byte-int"><a id="MonoGame_Framework_Utilities_Deflate_CRC32_UpdateCRC_System_Byte_System_Int32_"></a>UpdateCRC(byte, int)</a></h3>
 <p>Process a run of N identical bytes into the CRC.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">UpdateCRC</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span></span> b<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> n<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-8" tabindex="-1"><a class="header-anchor" href="#parameters-8">Parameters</a></h4>

@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,7 +1242,7 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-externalreference-t" tabindex="-1"><a class="header-anchor" href="#class-externalreference-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1"></a> Class ExternalReference&lt;T&gt;</a></h1>
+        <h1 id="class-externalreference-t" tabindex="-1"><a class="header-anchor" href="#class-externalreference-t">Class ExternalReference&lt;T&gt;</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline">Microsoft.Xna.Framework.Content.Pipeline</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Specifies external references to a data file for the content item.</p>
@@ -1247,11 +1250,11 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">ExternalReference<span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ContentItem</span></span></code></pre>
 <h4 id="type-parameters" tabindex="-1"><a class="header-anchor" href="#type-parameters">Type Parameters</a></h4>
 <p><code>T</code></p>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem">ContentItem</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ExternalReference-1/">ExternalReference&lt;T&gt;</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_Identity">ContentItem.Identity</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_Name">ContentItem.Name</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_OpaqueData">ContentItem.OpaqueData</a>,
@@ -1262,16 +1265,16 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="externalreference" tabindex="-1"><a class="header-anchor" href="#externalreference"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1__ctor"></a> ExternalReference()</a></h3>
+<h3 id="externalreference" tabindex="-1"><a class="header-anchor" href="#externalreference"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1__ctor"></a>ExternalReference()</a></h3>
 <p>Initializes a new instance of ExternalReference.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ExternalReference</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="externalreference-string" tabindex="-1"><a class="header-anchor" href="#externalreference-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1__ctor_System_String_"></a> ExternalReference(string)</a></h3>
+<h3 id="externalreference-string" tabindex="-1"><a class="header-anchor" href="#externalreference-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1__ctor_System_String_"></a>ExternalReference(string)</a></h3>
 <p>Initializes a new instance of ExternalReference.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ExternalReference</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filename<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>filename</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <p>The name of the referenced file.</p>
-<h3 id="externalreference-string-contentidentity" tabindex="-1"><a class="header-anchor" href="#externalreference-string-contentidentity"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1__ctor_System_String_Microsoft_Xna_Framework_Content_Pipeline_ContentIdentity_"></a> ExternalReference(string, ContentIdentity)</a></h3>
+<h3 id="externalreference-string-contentidentity" tabindex="-1"><a class="header-anchor" href="#externalreference-string-contentidentity"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1__ctor_System_String_Microsoft_Xna_Framework_Content_Pipeline_ContentIdentity_"></a>ExternalReference(string, ContentIdentity)</a></h3>
 <p>Initializes a new instance of ExternalReference, specifying the file path relative to another content item.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ExternalReference</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filename<span class="token punctuation">,</span> <span class="token class-name">ContentIdentity</span> relativeToContent<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1280,7 +1283,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p><code>relativeToContent</code> <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentIdentity">ContentIdentity</a></p>
 <p>The content that the path specified in filename is relative to.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="filename" tabindex="-1"><a class="header-anchor" href="#filename"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1_Filename"></a> Filename</a></h3>
+<h3 id="filename" tabindex="-1"><a class="header-anchor" href="#filename"><a id="Microsoft_Xna_Framework_Content_Pipeline_ExternalReference_1_Filename"></a>Filename</a></h3>
 <p>Gets and sets the file name of an ExternalReference.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Filename <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>

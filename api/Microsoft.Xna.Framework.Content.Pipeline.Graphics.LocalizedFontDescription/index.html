@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,7 +1242,7 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-localizedfontdescription" tabindex="-1"><a class="header-anchor" href="#class-localizedfontdescription"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription"></a> Class LocalizedFontDescription</a></h1>
+        <h1 id="class-localizedfontdescription" tabindex="-1"><a class="header-anchor" href="#class-localizedfontdescription">Class LocalizedFontDescription</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Normally, when you add a .spritefont file to your project, this data is
@@ -1250,12 +1253,12 @@ know what .resx files it needs to scan. We do this by defining our own
 custom font description class, deriving from the built in FontDescription
 type, and adding a new property to store the resource filenames.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">LocalizedFontDescription</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">FontDescription</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem">ContentItem</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription">FontDescription</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.LocalizedFontDescription">LocalizedFontDescription</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription#Microsoft_Xna_Framework_Content_Pipeline_Graphics_FontDescription_FontName">FontDescription.FontName</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription#Microsoft_Xna_Framework_Content_Pipeline_Graphics_FontDescription_Size">FontDescription.Size</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.FontDescription#Microsoft_Xna_Framework_Content_Pipeline_Graphics_FontDescription_Spacing">FontDescription.Spacing</a>,
@@ -1274,11 +1277,11 @@ type, and adding a new property to store the resource filenames.</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="localizedfontdescription" tabindex="-1"><a class="header-anchor" href="#localizedfontdescription"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription__ctor"></a> LocalizedFontDescription()</a></h3>
+<h3 id="localizedfontdescription" tabindex="-1"><a class="header-anchor" href="#localizedfontdescription"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription__ctor"></a>LocalizedFontDescription()</a></h3>
 <p>Constructor.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">LocalizedFontDescription</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="resourcefiles" tabindex="-1"><a class="header-anchor" href="#resourcefiles"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription_ResourceFiles"></a> ResourceFiles</a></h3>
+<h3 id="resourcefiles" tabindex="-1"><a class="header-anchor" href="#resourcefiles"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription_ResourceFiles"></a>ResourceFiles</a></h3>
 <p>Add a new property to our font description, which will allow us to
 include a ResourceFiles element in the .spritefont XML. We use the
 ContentSerializer attribute to mark this as optional, so existing

@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,17 +1242,17 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="struct-touchcollection" tabindex="-1"><a class="header-anchor" href="#struct-touchcollection"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection"></a> Struct TouchCollection</a></h1>
+        <h1 id="struct-touchcollection" tabindex="-1"><a class="header-anchor" href="#struct-touchcollection">Struct TouchCollection</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Input.Touch">Microsoft.Xna.Framework.Input.Touch</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Provides state information for a touch screen enabled device.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">struct</span> <span class="token class-name">TouchCollection</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IList<span class="token punctuation">&lt;</span>TouchLocation<span class="token punctuation">></span></span><span class="token punctuation">,</span> <span class="token class-name">ICollection<span class="token punctuation">&lt;</span>TouchLocation<span class="token punctuation">></span></span><span class="token punctuation">,</span> <span class="token class-name">IEnumerable<span class="token punctuation">&lt;</span>TouchLocation<span class="token punctuation">></span></span><span class="token punctuation">,</span> <span class="token class-name">IEnumerable</span></span></code></pre>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1" target="_blank" rel="noopener noreferrer">IList&lt;TouchLocation&gt;</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1" target="_blank" rel="noopener noreferrer">ICollection&lt;TouchLocation&gt;</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1" target="_blank" rel="noopener noreferrer">IEnumerable&lt;TouchLocation&gt;</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable" target="_blank" rel="noopener noreferrer">IEnumerable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1257,44 +1260,44 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="touchcollection-touchlocation" tabindex="-1"><a class="header-anchor" href="#touchcollection-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___"></a> TouchCollection(TouchLocation[])</a></h3>
+<h3 id="touchcollection-touchlocation" tabindex="-1"><a class="header-anchor" href="#touchcollection-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection__ctor_Microsoft_Xna_Framework_Input_Touch_TouchLocation___"></a>TouchCollection(TouchLocation[])</a></h3>
 <p>Initializes a new instance of the <a href="Microsoft.Xna.Framework.Input.Touch.TouchCollection">TouchCollection</a> with a pre-determined set of touch locations.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">TouchCollection</span><span class="token punctuation">(</span><span class="token class-name">TouchLocation<span class="token punctuation">[</span><span class="token punctuation">]</span></span> touches<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>touches</code> <a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a>[]</p>
 <p>Array of <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> items to initialize with.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="count" tabindex="-1"><a class="header-anchor" href="#count"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count"></a> Count</a></h3>
+<h3 id="count" tabindex="-1"><a class="header-anchor" href="#count"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Count"></a>Count</a></h3>
 <p>Returns the number of <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> items that exist in the collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Count <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="isconnected" tabindex="-1"><a class="header-anchor" href="#isconnected"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected"></a> IsConnected</a></h3>
+<h3 id="isconnected" tabindex="-1"><a class="header-anchor" href="#isconnected"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsConnected"></a>IsConnected</a></h3>
 <p>States if a touch screen is available.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsConnected <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="isreadonly" tabindex="-1"><a class="header-anchor" href="#isreadonly"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly"></a> IsReadOnly</a></h3>
+<h3 id="isreadonly" tabindex="-1"><a class="header-anchor" href="#isreadonly"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IsReadOnly"></a>IsReadOnly</a></h3>
 <p>States if touch collection is read only.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsReadOnly <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="this-int" tabindex="-1"><a class="header-anchor" href="#this-int"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_"></a> this[int]</a></h3>
+<h3 id="this-int" tabindex="-1"><a class="header-anchor" href="#this-int"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Item_System_Int32_"></a>this[int]</a></h3>
 <p>Gets or sets the item at the specified index of the collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">TouchLocation</span> <span class="token keyword">this</span><span class="token punctuation">[</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">]</span> <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="add-touchlocation" tabindex="-1"><a class="header-anchor" href="#add-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a> Add(TouchLocation)</a></h3>
+<h3 id="add-touchlocation" tabindex="-1"><a class="header-anchor" href="#add-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Add_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a>Add(TouchLocation)</a></h3>
 <p>Adds a <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> to the collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Add</span><span class="token punctuation">(</span><span class="token class-name">TouchLocation</span> item<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>item</code> <a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a></p>
 <p>The <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item to be added.</p>
-<h3 id="clear" tabindex="-1"><a class="header-anchor" href="#clear"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear"></a> Clear()</a></h3>
+<h3 id="clear" tabindex="-1"><a class="header-anchor" href="#clear"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Clear"></a>Clear()</a></h3>
 <p>Clears all the items in collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="contains-touchlocation" tabindex="-1"><a class="header-anchor" href="#contains-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a> Contains(TouchLocation)</a></h3>
+<h3 id="contains-touchlocation" tabindex="-1"><a class="header-anchor" href="#contains-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Contains_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a>Contains(TouchLocation)</a></h3>
 <p>Returns true if specified <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item exists in the collection, false otherwise./&gt;</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">Contains</span><span class="token punctuation">(</span><span class="token class-name">TouchLocation</span> item<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1303,7 +1306,7 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>Returns true if queried item is found, false otherwise.</p>
-<h3 id="copyto-touchlocation-int" tabindex="-1"><a class="header-anchor" href="#copyto-touchlocation-int"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_"></a> CopyTo(TouchLocation[], int)</a></h3>
+<h3 id="copyto-touchlocation-int" tabindex="-1"><a class="header-anchor" href="#copyto-touchlocation-int"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_CopyTo_Microsoft_Xna_Framework_Input_Touch_TouchLocation___System_Int32_"></a>CopyTo(TouchLocation[], int)</a></h3>
 <p>Copies the <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a>collection to specified array starting from the given index.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">CopyTo</span><span class="token punctuation">(</span><span class="token class-name">TouchLocation<span class="token punctuation">[</span><span class="token punctuation">]</span></span> array<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> arrayIndex<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
@@ -1311,7 +1314,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>The array to copy <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> items.</p>
 <p><code>arrayIndex</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>The starting index of the copy operation.</p>
-<h3 id="findbyid-int-out-touchlocation" tabindex="-1"><a class="header-anchor" href="#findbyid-int-out-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__"></a> FindById(int, out TouchLocation)</a></h3>
+<h3 id="findbyid-int-out-touchlocation" tabindex="-1"><a class="header-anchor" href="#findbyid-int-out-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_FindById_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation__"></a>FindById(int, out TouchLocation)</a></h3>
 <p>Returns <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> specified by ID.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">FindById</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> id<span class="token punctuation">,</span> <span class="token keyword">out</span> <span class="token class-name">TouchLocation</span> touchLocation<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
@@ -1319,13 +1322,13 @@ Assembly: MonoGame.Framework.dll</p>
 <p><code>touchLocation</code> <a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a></p>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="getenumerator" tabindex="-1"><a class="header-anchor" href="#getenumerator"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator"></a> GetEnumerator()</a></h3>
+<h3 id="getenumerator" tabindex="-1"><a class="header-anchor" href="#getenumerator"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_GetEnumerator"></a>GetEnumerator()</a></h3>
 <p>Returns an enumerator for the <a href="Microsoft.Xna.Framework.Input.Touch.TouchCollection">TouchCollection</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">TouchCollection<span class="token punctuation">.</span>Enumerator</span> <span class="token function">GetEnumerator</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchCollection">TouchCollection</a>.<a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchCollection.Enumerator">Enumerator</a></p>
 <p>Enumerable list of <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> objects.</p>
-<h3 id="indexof-touchlocation" tabindex="-1"><a class="header-anchor" href="#indexof-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a> IndexOf(TouchLocation)</a></h3>
+<h3 id="indexof-touchlocation" tabindex="-1"><a class="header-anchor" href="#indexof-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_IndexOf_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a>IndexOf(TouchLocation)</a></h3>
 <p>Returns the index of the first occurrence of specified <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item in the collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">IndexOf</span><span class="token punctuation">(</span><span class="token class-name">TouchLocation</span> item<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>
@@ -1333,7 +1336,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p><a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> to query.</p>
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="insert-int-touchlocation" tabindex="-1"><a class="header-anchor" href="#insert-int-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a> Insert(int, TouchLocation)</a></h3>
+<h3 id="insert-int-touchlocation" tabindex="-1"><a class="header-anchor" href="#insert-int-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Insert_System_Int32_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a>Insert(int, TouchLocation)</a></h3>
 <p>Inserts a <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item into the indicated position.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Insert</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">,</span> <span class="token class-name">TouchLocation</span> item<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-6" tabindex="-1"><a class="header-anchor" href="#parameters-6">Parameters</a></h4>
@@ -1341,7 +1344,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>The position to insert into.</p>
 <p><code>item</code> <a href="/api/Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a></p>
 <p>The <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item to insert.</p>
-<h3 id="remove-touchlocation" tabindex="-1"><a class="header-anchor" href="#remove-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a> Remove(TouchLocation)</a></h3>
+<h3 id="remove-touchlocation" tabindex="-1"><a class="header-anchor" href="#remove-touchlocation"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_Remove_Microsoft_Xna_Framework_Input_Touch_TouchLocation_"></a>Remove(TouchLocation)</a></h3>
 <p>Removes the specified <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item from the collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">Remove</span><span class="token punctuation">(</span><span class="token class-name">TouchLocation</span> item<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>
@@ -1349,7 +1352,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>The <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item to remove.</p>
 <h4 id="returns-4" tabindex="-1"><a class="header-anchor" href="#returns-4">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="removeat-int" tabindex="-1"><a class="header-anchor" href="#removeat-int"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_"></a> RemoveAt(int)</a></h3>
+<h3 id="removeat-int" tabindex="-1"><a class="header-anchor" href="#removeat-int"><a id="Microsoft_Xna_Framework_Input_Touch_TouchCollection_RemoveAt_System_Int32_"></a>RemoveAt(int)</a></h3>
 <p>Removes the <a href="Microsoft.Xna.Framework.Input.Touch.TouchLocation">TouchLocation</a> item at specified index.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">RemoveAt</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-8" tabindex="-1"><a class="header-anchor" href="#parameters-8">Parameters</a></h4>

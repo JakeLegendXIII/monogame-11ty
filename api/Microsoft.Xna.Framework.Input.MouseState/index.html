@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,12 +1242,12 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="struct-mousestate" tabindex="-1"><a class="header-anchor" href="#struct-mousestate"><a id="Microsoft_Xna_Framework_Input_MouseState"></a> Struct MouseState</a></h1>
+        <h1 id="struct-mousestate" tabindex="-1"><a class="header-anchor" href="#struct-mousestate">Struct MouseState</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Input">Microsoft.Xna.Framework.Input</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Represents a mouse state with cursor position and button press information.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">struct</span> <span class="token class-name">MouseState</span></code></pre>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1252,7 +1255,7 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate" tabindex="-1"><a class="header-anchor" href="#mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate"><a id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_"></a> MouseState(int, int, int, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState)</a></h3>
+<h3 id="mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate" tabindex="-1"><a class="header-anchor" href="#mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate"><a id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_"></a>MouseState(int, int, int, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState)</a></h3>
 <p>Initializes a new instance of the MouseState.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">MouseState</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> x<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> y<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> scrollWheel<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> leftButton<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> middleButton<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> rightButton<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> xButton1<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> xButton2<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1274,7 +1277,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>XBUTTON2's state.</p>
 <h4 id="remarks" tabindex="-1"><a class="header-anchor" href="#remarks">Remarks</a></h4>
 <p>Normally <a href="Microsoft.Xna.Framework.Input.Mouse.GetState">GetState</a> should be used to get mouse current state. The constructor is provided for simulating mouse input.</p>
-<h3 id="mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate-int" tabindex="-1"><a class="header-anchor" href="#mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate-int"><a id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_System_Int32_"></a> MouseState(int, int, int, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState, int)</a></h3>
+<h3 id="mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate-int" tabindex="-1"><a class="header-anchor" href="#mousestate-int-int-int-buttonstate-buttonstate-buttonstate-buttonstate-buttonstate-int"><a id="Microsoft_Xna_Framework_Input_MouseState__ctor_System_Int32_System_Int32_System_Int32_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_Microsoft_Xna_Framework_Input_ButtonState_System_Int32_"></a>MouseState(int, int, int, ButtonState, ButtonState, ButtonState, ButtonState, ButtonState, int)</a></h3>
 <p>Initializes a new instance of the MouseState.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">MouseState</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> x<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> y<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> scrollWheel<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> leftButton<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> middleButton<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> rightButton<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> xButton1<span class="token punctuation">,</span> <span class="token class-name">ButtonState</span> xButton2<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> horizontalScrollWheel<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1299,58 +1302,58 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>Normally <a href="Microsoft.Xna.Framework.Input.Mouse.GetState">GetState</a> should be used to get mouse current state. The constructor is provided for simulating mouse input.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="horizontalscrollwheelvalue" tabindex="-1"><a class="header-anchor" href="#horizontalscrollwheelvalue"><a id="Microsoft_Xna_Framework_Input_MouseState_HorizontalScrollWheelValue"></a> HorizontalScrollWheelValue</a></h3>
+<h3 id="horizontalscrollwheelvalue" tabindex="-1"><a class="header-anchor" href="#horizontalscrollwheelvalue"><a id="Microsoft_Xna_Framework_Input_MouseState_HorizontalScrollWheelValue"></a>HorizontalScrollWheelValue</a></h3>
 <p>Returns the cumulative horizontal scroll wheel value since the game start</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> HorizontalScrollWheelValue <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="leftbutton" tabindex="-1"><a class="header-anchor" href="#leftbutton"><a id="Microsoft_Xna_Framework_Input_MouseState_LeftButton"></a> LeftButton</a></h3>
+<h3 id="leftbutton" tabindex="-1"><a class="header-anchor" href="#leftbutton"><a id="Microsoft_Xna_Framework_Input_MouseState_LeftButton"></a>LeftButton</a></h3>
 <p>Gets state of the left mouse button.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ButtonState</span> LeftButton <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.ButtonState">ButtonState</a></p>
-<h3 id="middlebutton" tabindex="-1"><a class="header-anchor" href="#middlebutton"><a id="Microsoft_Xna_Framework_Input_MouseState_MiddleButton"></a> MiddleButton</a></h3>
+<h3 id="middlebutton" tabindex="-1"><a class="header-anchor" href="#middlebutton"><a id="Microsoft_Xna_Framework_Input_MouseState_MiddleButton"></a>MiddleButton</a></h3>
 <p>Gets state of the middle mouse button.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ButtonState</span> MiddleButton <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.ButtonState">ButtonState</a></p>
-<h3 id="position" tabindex="-1"><a class="header-anchor" href="#position"><a id="Microsoft_Xna_Framework_Input_MouseState_Position"></a> Position</a></h3>
+<h3 id="position" tabindex="-1"><a class="header-anchor" href="#position"><a id="Microsoft_Xna_Framework_Input_MouseState_Position"></a>Position</a></h3>
 <p>Gets cursor position.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Point</span> Position <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Point">Point</a></p>
-<h3 id="rightbutton" tabindex="-1"><a class="header-anchor" href="#rightbutton"><a id="Microsoft_Xna_Framework_Input_MouseState_RightButton"></a> RightButton</a></h3>
+<h3 id="rightbutton" tabindex="-1"><a class="header-anchor" href="#rightbutton"><a id="Microsoft_Xna_Framework_Input_MouseState_RightButton"></a>RightButton</a></h3>
 <p>Gets state of the right mouse button.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ButtonState</span> RightButton <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.ButtonState">ButtonState</a></p>
-<h3 id="scrollwheelvalue" tabindex="-1"><a class="header-anchor" href="#scrollwheelvalue"><a id="Microsoft_Xna_Framework_Input_MouseState_ScrollWheelValue"></a> ScrollWheelValue</a></h3>
+<h3 id="scrollwheelvalue" tabindex="-1"><a class="header-anchor" href="#scrollwheelvalue"><a id="Microsoft_Xna_Framework_Input_MouseState_ScrollWheelValue"></a>ScrollWheelValue</a></h3>
 <p>Returns cumulative scroll wheel value since the game start.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> ScrollWheelValue <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="x" tabindex="-1"><a class="header-anchor" href="#x"><a id="Microsoft_Xna_Framework_Input_MouseState_X"></a> X</a></h3>
+<h3 id="x" tabindex="-1"><a class="header-anchor" href="#x"><a id="Microsoft_Xna_Framework_Input_MouseState_X"></a>X</a></h3>
 <p>Gets horizontal position of the cursor in relation to the window.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> X <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-6" tabindex="-1"><a class="header-anchor" href="#property-value-6">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="xbutton" tabindex="-1"><a class="header-anchor" href="#xbutton"><a id="Microsoft_Xna_Framework_Input_MouseState_XButton1"></a> XButton1</a></h3>
+<h3 id="xbutton" tabindex="-1"><a class="header-anchor" href="#xbutton"><a id="Microsoft_Xna_Framework_Input_MouseState_XButton1"></a>XButton1</a></h3>
 <p>Gets state of the XButton1.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ButtonState</span> XButton1 <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-7" tabindex="-1"><a class="header-anchor" href="#property-value-7">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.ButtonState">ButtonState</a></p>
-<h3 id="xbutton-1" tabindex="-1"><a class="header-anchor" href="#xbutton-1"><a id="Microsoft_Xna_Framework_Input_MouseState_XButton2"></a> XButton2</a></h3>
+<h3 id="xbutton-1" tabindex="-1"><a class="header-anchor" href="#xbutton-1"><a id="Microsoft_Xna_Framework_Input_MouseState_XButton2"></a>XButton2</a></h3>
 <p>Gets state of the XButton2.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ButtonState</span> XButton2 <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-8" tabindex="-1"><a class="header-anchor" href="#property-value-8">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Input.ButtonState">ButtonState</a></p>
-<h3 id="y" tabindex="-1"><a class="header-anchor" href="#y"><a id="Microsoft_Xna_Framework_Input_MouseState_Y"></a> Y</a></h3>
+<h3 id="y" tabindex="-1"><a class="header-anchor" href="#y"><a id="Microsoft_Xna_Framework_Input_MouseState_Y"></a>Y</a></h3>
 <p>Gets vertical position of the cursor in relation to the window.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Y <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-9" tabindex="-1"><a class="header-anchor" href="#property-value-9">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="equals-object" tabindex="-1"><a class="header-anchor" href="#equals-object"><a id="Microsoft_Xna_Framework_Input_MouseState_Equals_System_Object_"></a> Equals(object)</a></h3>
+<h3 id="equals-object" tabindex="-1"><a class="header-anchor" href="#equals-object"><a id="Microsoft_Xna_Framework_Input_MouseState_Equals_System_Object_"></a>Equals(object)</a></h3>
 <p>Compares whether current instance is equal to specified object.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">Equals</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">object</span></span> obj<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1358,19 +1361,19 @@ Assembly: MonoGame.Framework.dll</p>
 <p>The MouseState to compare.</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="gethashcode" tabindex="-1"><a class="header-anchor" href="#gethashcode"><a id="Microsoft_Xna_Framework_Input_MouseState_GetHashCode"></a> GetHashCode()</a></h3>
+<h3 id="gethashcode" tabindex="-1"><a class="header-anchor" href="#gethashcode"><a id="Microsoft_Xna_Framework_Input_MouseState_GetHashCode"></a>GetHashCode()</a></h3>
 <p>Gets the hash code for MouseState instance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetHashCode</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Hash code of the object.</p>
-<h3 id="tostring" tabindex="-1"><a class="header-anchor" href="#tostring"><a id="Microsoft_Xna_Framework_Input_MouseState_ToString"></a> ToString()</a></h3>
+<h3 id="tostring" tabindex="-1"><a class="header-anchor" href="#tostring"><a id="Microsoft_Xna_Framework_Input_MouseState_ToString"></a>ToString()</a></h3>
 <p>Returns a string describing the mouse state.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> <span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <h2 id="operators" tabindex="-1"><a class="header-anchor" href="#operators">Operators</a></h2>
-<h3 id="operator-mousestate-mousestate" tabindex="-1"><a class="header-anchor" href="#operator-mousestate-mousestate"><a id="Microsoft_Xna_Framework_Input_MouseState_op_Equality_Microsoft_Xna_Framework_Input_MouseState_Microsoft_Xna_Framework_Input_MouseState_"></a> operator ==(MouseState, MouseState)</a></h3>
+<h3 id="operator-mousestate-mousestate" tabindex="-1"><a class="header-anchor" href="#operator-mousestate-mousestate"><a id="Microsoft_Xna_Framework_Input_MouseState_op_Equality_Microsoft_Xna_Framework_Input_MouseState_Microsoft_Xna_Framework_Input_MouseState_"></a>operator ==(MouseState, MouseState)</a></h3>
 <p>Compares whether two MouseState instances are equal.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">bool</span> <span class="token keyword">operator</span> <span class="token operator">==</span><span class="token punctuation">(</span><span class="token class-name">MouseState</span> left<span class="token punctuation">,</span> <span class="token class-name">MouseState</span> right<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
@@ -1381,7 +1384,7 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if the instances are equal; false otherwise.</p>
-<h3 id="operator-mousestate-mousestate-1" tabindex="-1"><a class="header-anchor" href="#operator-mousestate-mousestate-1"><a id="Microsoft_Xna_Framework_Input_MouseState_op_Inequality_Microsoft_Xna_Framework_Input_MouseState_Microsoft_Xna_Framework_Input_MouseState_"></a> operator !=(MouseState, MouseState)</a></h3>
+<h3 id="operator-mousestate-mousestate-1" tabindex="-1"><a class="header-anchor" href="#operator-mousestate-mousestate-1"><a id="Microsoft_Xna_Framework_Input_MouseState_op_Inequality_Microsoft_Xna_Framework_Input_MouseState_Microsoft_Xna_Framework_Input_MouseState_"></a>operator !=(MouseState, MouseState)</a></h3>
 <p>Compares whether two MouseState instances are not equal.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">bool</span> <span class="token keyword">operator</span> <span class="token operator">!=</span><span class="token punctuation">(</span><span class="token class-name">MouseState</span> left<span class="token punctuation">,</span> <span class="token class-name">MouseState</span> right<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>

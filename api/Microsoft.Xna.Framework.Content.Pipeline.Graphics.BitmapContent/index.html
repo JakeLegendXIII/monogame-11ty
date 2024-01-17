@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,22 +1242,22 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-bitmapcontent" tabindex="-1"><a class="header-anchor" href="#class-bitmapcontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent"></a> Class BitmapContent</a></h1>
+        <h1 id="class-bitmapcontent" tabindex="-1"><a class="header-anchor" href="#class-bitmapcontent">Class BitmapContent</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides properties and methods for creating and maintaining a bitmap resource.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">BitmapContent</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ContentItem</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem">ContentItem</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent">BitmapContent</a></p>
-<h4 id="derived" tabindex="-1"><a class="header-anchor" href="#derived">Derived</a></h4>
+<h6 id="derived" tabindex="-1"><a class="header-anchor" href="#derived">Derived</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.AtcBitmapContent">AtcBitmapContent</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.DxtBitmapContent">DxtBitmapContent</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.Etc1BitmapContent">Etc1BitmapContent</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PixelBitmapContent-1/">PixelBitmapContent&lt;T&gt;</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PvrtcBitmapContent">PvrtcBitmapContent</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_Identity">ContentItem.Identity</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_Name">ContentItem.Name</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_OpaqueData">ContentItem.OpaqueData</a>,
@@ -1266,10 +1269,10 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="bitmapcontent" tabindex="-1"><a class="header-anchor" href="#bitmapcontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent__ctor"></a> BitmapContent()</a></h3>
+<h3 id="bitmapcontent" tabindex="-1"><a class="header-anchor" href="#bitmapcontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent__ctor"></a>BitmapContent()</a></h3>
 <p>Initializes a new instance of BitmapContent.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token function">BitmapContent</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="bitmapcontent-int-int" tabindex="-1"><a class="header-anchor" href="#bitmapcontent-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent__ctor_System_Int32_System_Int32_"></a> BitmapContent(int, int)</a></h3>
+<h3 id="bitmapcontent-int-int" tabindex="-1"><a class="header-anchor" href="#bitmapcontent-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent__ctor_System_Int32_System_Int32_"></a>BitmapContent(int, int)</a></h3>
 <p>Initializes a new instance of BitmapContent with the specified width or height.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token function">BitmapContent</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> width<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> height<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1278,18 +1281,18 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p><code>height</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Height, in pixels, of the bitmap resource.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="height" tabindex="-1"><a class="header-anchor" href="#height"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Height"></a> Height</a></h3>
+<h3 id="height" tabindex="-1"><a class="header-anchor" href="#height"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Height"></a>Height</a></h3>
 <p>Gets or sets the height of the bitmap, in pixels.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Height <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">protected</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="width" tabindex="-1"><a class="header-anchor" href="#width"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Width"></a> Width</a></h3>
+<h3 id="width" tabindex="-1"><a class="header-anchor" href="#width"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Width"></a>Width</a></h3>
 <p>Gets or sets the width of the bitmap, in pixels.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Width <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">protected</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="copy-bitmapcontent-bitmapcontent" tabindex="-1"><a class="header-anchor" href="#copy-bitmapcontent-bitmapcontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Copy_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_"></a> Copy(BitmapContent, BitmapContent)</a></h3>
+<h3 id="copy-bitmapcontent-bitmapcontent" tabindex="-1"><a class="header-anchor" href="#copy-bitmapcontent-bitmapcontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Copy_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_"></a>Copy(BitmapContent, BitmapContent)</a></h3>
 <p>Copies one bitmap into another.
 The destination bitmap can be in any format and size. If the destination is larger or smaller, the source bitmap is scaled accordingly.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Copy</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> sourceBitmap<span class="token punctuation">,</span> <span class="token class-name">BitmapContent</span> destinationBitmap<span class="token punctuation">)</span></code></pre>
@@ -1298,7 +1301,7 @@ The destination bitmap can be in any format and size. If the destination is larg
 <p>BitmapContent being copied.</p>
 <p><code>destinationBitmap</code> <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent">BitmapContent</a></p>
 <p>BitmapContent being overwritten.</p>
-<h3 id="copy-bitmapcontent-rectangle-bitmapcontent-rectangle" tabindex="-1"><a class="header-anchor" href="#copy-bitmapcontent-rectangle-bitmapcontent-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Copy_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_"></a> Copy(BitmapContent, Rectangle, BitmapContent, Rectangle)</a></h3>
+<h3 id="copy-bitmapcontent-rectangle-bitmapcontent-rectangle" tabindex="-1"><a class="header-anchor" href="#copy-bitmapcontent-rectangle-bitmapcontent-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Copy_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_"></a>Copy(BitmapContent, Rectangle, BitmapContent, Rectangle)</a></h3>
 <p>Copies one bitmap into another.
 The destination bitmap can be in any format and size. If the destination is larger or smaller, the source bitmap is scaled accordingly.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Copy</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> sourceBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> sourceRegion<span class="token punctuation">,</span> <span class="token class-name">BitmapContent</span> destinationBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> destinationRegion<span class="token punctuation">)</span></code></pre>
@@ -1311,25 +1314,25 @@ The destination bitmap can be in any format and size. If the destination is larg
 <p>BitmapContent being overwritten.</p>
 <p><code>destinationRegion</code> <a href="/api/Microsoft.Xna.Framework.Rectangle">Rectangle</a></p>
 <p>Region of bitmap to be overwritten.</p>
-<h3 id="getpixeldata" tabindex="-1"><a class="header-anchor" href="#getpixeldata"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_GetPixelData"></a> GetPixelData()</a></h3>
+<h3 id="getpixeldata" tabindex="-1"><a class="header-anchor" href="#getpixeldata"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_GetPixelData"></a>GetPixelData()</a></h3>
 <p>Reads encoded bitmap content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">GetPixelData</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
 <p>Array containing encoded bitmap data.</p>
-<h3 id="setpixeldata-byte" tabindex="-1"><a class="header-anchor" href="#setpixeldata-byte"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_SetPixelData_System_Byte___"></a> SetPixelData(byte[])</a></h3>
+<h3 id="setpixeldata-byte" tabindex="-1"><a class="header-anchor" href="#setpixeldata-byte"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_SetPixelData_System_Byte___"></a>SetPixelData(byte[])</a></h3>
 <p>Writes encoded bitmap content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SetPixelData</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> sourceData<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
 <p><code>sourceData</code> <a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
 <p>Array containing encoded bitmap data to be set.</p>
-<h3 id="tostring" tabindex="-1"><a class="header-anchor" href="#tostring"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_ToString"></a> ToString()</a></h3>
+<h3 id="tostring" tabindex="-1"><a class="header-anchor" href="#tostring"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_ToString"></a>ToString()</a></h3>
 <p>Returns a string description of the bitmap resource.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> <span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <p>Description of the bitmap.</p>
-<h3 id="trycopyfrom-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyfrom-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_TryCopyFrom_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a> TryCopyFrom(BitmapContent, Rectangle, Rectangle)</a></h3>
+<h3 id="trycopyfrom-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyfrom-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_TryCopyFrom_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a>TryCopyFrom(BitmapContent, Rectangle, Rectangle)</a></h3>
 <p>Attempts to copy a region from a specified bitmap.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">abstract</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">TryCopyFrom</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> sourceBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> sourceRegion<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> destinationRegion<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
@@ -1342,7 +1345,7 @@ The destination bitmap can be in any format and size. If the destination is larg
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if region copy is supported; false otherwise.</p>
-<h3 id="trycopyto-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyto-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_TryCopyTo_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a> TryCopyTo(BitmapContent, Rectangle, Rectangle)</a></h3>
+<h3 id="trycopyto-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyto-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_TryCopyTo_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a>TryCopyTo(BitmapContent, Rectangle, Rectangle)</a></h3>
 <p>Attempts to copy a region of the specified bitmap onto another.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">abstract</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">TryCopyTo</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> destinationBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> sourceRegion<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> destinationRegion<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>
@@ -1355,7 +1358,7 @@ The destination bitmap can be in any format and size. If the destination is larg
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if region copy is supported; false otherwise.</p>
-<h3 id="trygetformat-out-surfaceformat" tabindex="-1"><a class="header-anchor" href="#trygetformat-out-surfaceformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_TryGetFormat_Microsoft_Xna_Framework_Graphics_SurfaceFormat__"></a> TryGetFormat(out SurfaceFormat)</a></h3>
+<h3 id="trygetformat-out-surfaceformat" tabindex="-1"><a class="header-anchor" href="#trygetformat-out-surfaceformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_TryGetFormat_Microsoft_Xna_Framework_Graphics_SurfaceFormat__"></a>TryGetFormat(out SurfaceFormat)</a></h3>
 <p>Gets the corresponding GPU texture format for the specified bitmap type.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">TryGetFormat</span><span class="token punctuation">(</span><span class="token keyword">out</span> <span class="token class-name">SurfaceFormat</span> format<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-6" tabindex="-1"><a class="header-anchor" href="#parameters-6">Parameters</a></h4>
@@ -1364,7 +1367,7 @@ The destination bitmap can be in any format and size. If the destination is larg
 <h4 id="returns-4" tabindex="-1"><a class="header-anchor" href="#returns-4">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>The GPU texture format of the bitmap type.</p>
-<h3 id="validatecopyarguments-bitmapcontent-rectangle-bitmapcontent-rectangle" tabindex="-1"><a class="header-anchor" href="#validatecopyarguments-bitmapcontent-rectangle-bitmapcontent-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_ValidateCopyArguments_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_"></a> ValidateCopyArguments(BitmapContent, Rectangle, BitmapContent, Rectangle)</a></h3>
+<h3 id="validatecopyarguments-bitmapcontent-rectangle-bitmapcontent-rectangle" tabindex="-1"><a class="header-anchor" href="#validatecopyarguments-bitmapcontent-rectangle-bitmapcontent-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_ValidateCopyArguments_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_"></a>ValidateCopyArguments(BitmapContent, Rectangle, BitmapContent, Rectangle)</a></h3>
 <p>Validates the arguments to the Copy function.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">ValidateCopyArguments</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> sourceBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> sourceRegion<span class="token punctuation">,</span> <span class="token class-name">BitmapContent</span> destinationBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> destinationRegion<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>

@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,7 +1242,7 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="enum-gesturetype" tabindex="-1"><a class="header-anchor" href="#enum-gesturetype"><a id="Microsoft_Xna_Framework_Input_Touch_GestureType"></a> Enum GestureType</a></h1>
+        <h1 id="enum-gesturetype" tabindex="-1"><a class="header-anchor" href="#enum-gesturetype">Enum GestureType</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Input.Touch">Microsoft.Xna.Framework.Input.Touch</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Enumuration of values that represent different gestures that can be processed by <a href="Microsoft.Xna.Framework.Input.Touch.TouchPanel.ReadGesture">ReadGesture</a>.</p>
@@ -1248,28 +1251,22 @@ Assembly: MonoGame.Framework.dll</p>
 <h2 id="fields" tabindex="-1"><a class="header-anchor" href="#fields">Fields</a></h2>
 <p><code>DoubleTap = 256</code></p>
 <p>The user tapped the device twice which is always preceded by a Tap gesture.</p>
-<p>If the time between two touchs are long enough, insted two seperate single Tap gestures will be generated.</p>
 <p><code>DragComplete = 2</code></p>
 <p>States completion of a drag gesture(VerticalDrag, HorizontalDrag, or FreeDrag).</p>
-<p>No position or delta information is available for this sample.</p>
 <p><code>Flick = 4</code></p>
 <p>States that a touch was combined with a quick swipe.</p>
-<p>Flicks does not contain position information. The velocity of it can be read from <a href="Microsoft.Xna.Framework.Input.Touch.GestureSample.Delta">Delta</a></p>
 <p><code>FreeDrag = 8</code></p>
 <p>The user touched a point and then performed a free-form drag.</p>
 <p><code>Hold = 16</code></p>
 <p>The user touched a single point for approximately one second.</p>
-<p>As this is a single event, it will not be contionusly fired while the user is holding the touch-point.</p>
 <p><code>HorizontalDrag = 32</code></p>
 <p>The user touched the screen and performed either left to right or right to left drag gesture.</p>
 <p><code>None = 0</code></p>
 <p>No gestures.</p>
 <p><code>Pinch = 64</code></p>
 <p>The user either converged or diverged two touch-points on the screen which is like a two-finger drag.</p>
-<p>When this gesture-type is enabled and two fingers are down, it takes precedence over drag gestures.</p>
 <p><code>PinchComplete = 128</code></p>
 <p>An in-progress pinch operation was completed.</p>
-<p>No position or delta information is available for this sample.</p>
 <p><code>Tap = 1</code></p>
 <p>The user touched a single point.</p>
 <p><code>VerticalDrag = 512</code></p>

@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,19 +1242,19 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-wmaimporter" tabindex="-1"><a class="header-anchor" href="#class-wmaimporter"><a id="Microsoft_Xna_Framework_Content_Pipeline_WmaImporter"></a> Class WmaImporter</a></h1>
+        <h1 id="class-wmaimporter" tabindex="-1"><a class="header-anchor" href="#class-wmaimporter">Class WmaImporter</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline">Microsoft.Xna.Framework.Content.Pipeline</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides methods for reading Windows Media Audio (.wma) files for use in the Content Pipeline.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">ContentImporter</span><span class="token attribute-arguments"><span class="token punctuation">(</span><span class="token string">".wma"</span><span class="token punctuation">,</span> DisplayName <span class="token operator">=</span> <span class="token string">"Wma Importer - MonoGame"</span><span class="token punctuation">,</span> DefaultProcessor <span class="token operator">=</span> <span class="token string">"SongProcessor"</span><span class="token punctuation">)</span></span></span><span class="token punctuation">]</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">WmaImporter</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ContentImporter<span class="token punctuation">&lt;</span>AudioContent<span class="token punctuation">></span></span><span class="token punctuation">,</span> <span class="token class-name">IContentImporter</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporter-1/">ContentImporter&lt;AudioContent&gt;</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.WmaImporter">WmaImporter</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.IContentImporter">IContentImporter</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporter-1/#Microsoft_Xna_Framework_Content_Pipeline_ContentImporter_1_Import_System_String_Microsoft_Xna_Framework_Content_Pipeline_ContentImporterContext_">ContentImporter&lt;AudioContent&gt;.Import(string, ContentImporterContext)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
@@ -1261,11 +1264,11 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="wmaimporter" tabindex="-1"><a class="header-anchor" href="#wmaimporter"><a id="Microsoft_Xna_Framework_Content_Pipeline_WmaImporter__ctor"></a> WmaImporter()</a></h3>
+<h3 id="wmaimporter" tabindex="-1"><a class="header-anchor" href="#wmaimporter"><a id="Microsoft_Xna_Framework_Content_Pipeline_WmaImporter__ctor"></a>WmaImporter()</a></h3>
 <p>Initializes a new instance of WmaImporter.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">WmaImporter</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="import-string-contentimportercontext" tabindex="-1"><a class="header-anchor" href="#import-string-contentimportercontext"><a id="Microsoft_Xna_Framework_Content_Pipeline_WmaImporter_Import_System_String_Microsoft_Xna_Framework_Content_Pipeline_ContentImporterContext_"></a> Import(string, ContentImporterContext)</a></h3>
+<h3 id="import-string-contentimportercontext" tabindex="-1"><a class="header-anchor" href="#import-string-contentimportercontext"><a id="Microsoft_Xna_Framework_Content_Pipeline_WmaImporter_Import_System_String_Microsoft_Xna_Framework_Content_Pipeline_ContentImporterContext_"></a>Import(string, ContentImporterContext)</a></h3>
 <p>Called by the XNA Framework when importing a .wma file to be used as a game asset. This is the method called by the XNA Framework when an asset is to be imported into an object that can be recognized by the Content Pipeline.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name">AudioContent</span> <span class="token function">Import</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filename<span class="token punctuation">,</span> <span class="token class-name">ContentImporterContext</span> context<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>

@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-pipelineimportercontext" tabindex="-1"><a class="header-anchor" href="#class-pipelineimportercontext"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext"></a> Class PipelineImporterContext</a></h1>
+        <h1 id="class-pipelineimportercontext" tabindex="-1"><a class="header-anchor" href="#class-pipelineimportercontext">Class PipelineImporterContext</a></h1>
 <p>Namespace: <a href="/api/MonoGame.Framework.Content.Pipeline.Builder">MonoGame.Framework.Content.Pipeline.Builder</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PipelineImporterContext</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ContentImporterContext</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterContext">ContentImporterContext</a> ←
 <a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineImporterContext">PipelineImporterContext</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterContext#Microsoft_Xna_Framework_Content_Pipeline_ContentImporterContext_IntermediateDirectory">ContentImporterContext.IntermediateDirectory</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterContext#Microsoft_Xna_Framework_Content_Pipeline_ContentImporterContext_Logger">ContentImporterContext.Logger</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterContext#Microsoft_Xna_Framework_Content_Pipeline_ContentImporterContext_OutputDirectory">ContentImporterContext.OutputDirectory</a>,
@@ -1260,28 +1263,28 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="pipelineimportercontext-pipelinemanager" tabindex="-1"><a class="header-anchor" href="#pipelineimportercontext-pipelinemanager"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext__ctor_MonoGame_Framework_Content_Pipeline_Builder_PipelineManager_"></a> PipelineImporterContext(PipelineManager)</a></h3>
+<h3 id="pipelineimportercontext-pipelinemanager" tabindex="-1"><a class="header-anchor" href="#pipelineimportercontext-pipelinemanager"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext__ctor_MonoGame_Framework_Content_Pipeline_Builder_PipelineManager_"></a>PipelineImporterContext(PipelineManager)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">PipelineImporterContext</span><span class="token punctuation">(</span><span class="token class-name">PipelineManager</span> manager<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>manager</code> <a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineManager">PipelineManager</a></p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="intermediatedirectory" tabindex="-1"><a class="header-anchor" href="#intermediatedirectory"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_IntermediateDirectory"></a> IntermediateDirectory</a></h3>
+<h3 id="intermediatedirectory" tabindex="-1"><a class="header-anchor" href="#intermediatedirectory"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_IntermediateDirectory"></a>IntermediateDirectory</a></h3>
 <p>The absolute path to the root of the build intermediate (object) directory.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> IntermediateDirectory <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="logger" tabindex="-1"><a class="header-anchor" href="#logger"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_Logger"></a> Logger</a></h3>
+<h3 id="logger" tabindex="-1"><a class="header-anchor" href="#logger"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_Logger"></a>Logger</a></h3>
 <p>Gets the logger for an importer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name">ContentBuildLogger</span> Logger <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentBuildLogger">ContentBuildLogger</a></p>
-<h3 id="outputdirectory" tabindex="-1"><a class="header-anchor" href="#outputdirectory"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_OutputDirectory"></a> OutputDirectory</a></h3>
+<h3 id="outputdirectory" tabindex="-1"><a class="header-anchor" href="#outputdirectory"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_OutputDirectory"></a>OutputDirectory</a></h3>
 <p>The absolute path to the root of the build output (binaries) directory.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> OutputDirectory <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="adddependency-string" tabindex="-1"><a class="header-anchor" href="#adddependency-string"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_AddDependency_System_String_"></a> AddDependency(string)</a></h3>
+<h3 id="adddependency-string" tabindex="-1"><a class="header-anchor" href="#adddependency-string"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineImporterContext_AddDependency_System_String_"></a>AddDependency(string)</a></h3>
 <p>Adds a dependency to the specified file. This causes a rebuild of the file, when modified, on subsequent incremental builds.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">AddDependency</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filename<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>

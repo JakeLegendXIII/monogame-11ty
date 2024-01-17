@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-audiolistener" tabindex="-1"><a class="header-anchor" href="#class-audiolistener"><a id="Microsoft_Xna_Framework_Audio_AudioListener"></a> Class AudioListener</a></h1>
+        <h1 id="class-audiolistener" tabindex="-1"><a class="header-anchor" href="#class-audiolistener">Class AudioListener</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Audio">Microsoft.Xna.Framework.Audio</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Represents a 3D audio listener. Used when simulating 3D Audio.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AudioListener</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Audio.AudioListener">AudioListener</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1256,11 +1259,11 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="audiolistener" tabindex="-1"><a class="header-anchor" href="#audiolistener"><a id="Microsoft_Xna_Framework_Audio_AudioListener__ctor"></a> AudioListener()</a></h3>
+<h3 id="audiolistener" tabindex="-1"><a class="header-anchor" href="#audiolistener"><a id="Microsoft_Xna_Framework_Audio_AudioListener__ctor"></a>AudioListener()</a></h3>
 <p>Create an <a href="Microsoft.Xna.Framework.Audio.AudioListener">AudioListener</a> instance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">AudioListener</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="forward" tabindex="-1"><a class="header-anchor" href="#forward"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Forward"></a> Forward</a></h3>
+<h3 id="forward" tabindex="-1"><a class="header-anchor" href="#forward"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Forward"></a>Forward</a></h3>
 <p>Gets or sets the listener's forward vector.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Vector3</span> Forward <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
@@ -1269,14 +1272,14 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Defaults to Vector3.Forward. (new Vector3(0, 0, -1))</p>
 <p>Used with AudioListener.Velocity and AudioEmitter.Velocity to calculate Doppler values.</p>
 <p>The Forward and Up vectors must be orthonormal.</p>
-<h3 id="position" tabindex="-1"><a class="header-anchor" href="#position"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Position"></a> Position</a></h3>
+<h3 id="position" tabindex="-1"><a class="header-anchor" href="#position"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Position"></a>Position</a></h3>
 <p>Gets or sets the listener's position.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Vector3</span> Position <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Vector3">Vector3</a></p>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>Defaults to Vector3.Zero.</p>
-<h3 id="up" tabindex="-1"><a class="header-anchor" href="#up"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Up"></a> Up</a></h3>
+<h3 id="up" tabindex="-1"><a class="header-anchor" href="#up"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Up"></a>Up</a></h3>
 <p>Gets or sets the listener's up vector..</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Vector3</span> Up <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
@@ -1285,7 +1288,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Defaults to Vector3.Up (New Vector3(0, -1, 0)).</p>
 <p>Used with AudioListener.Velocity and AudioEmitter.Velocity to calculate Doppler values.</p>
 <p>The values of the Forward and Up vectors must be orthonormal.</p>
-<h3 id="velocity" tabindex="-1"><a class="header-anchor" href="#velocity"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Velocity"></a> Velocity</a></h3>
+<h3 id="velocity" tabindex="-1"><a class="header-anchor" href="#velocity"><a id="Microsoft_Xna_Framework_Audio_AudioListener_Velocity"></a>Velocity</a></h3>
 <p>Gets or sets the listener's velocity vector.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Vector3</span> Velocity <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>

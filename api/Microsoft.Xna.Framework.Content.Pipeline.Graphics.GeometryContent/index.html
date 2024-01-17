@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,16 +1242,16 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-geometrycontent" tabindex="-1"><a class="header-anchor" href="#class-geometrycontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent"></a> Class GeometryContent</a></h1>
+        <h1 id="class-geometrycontent" tabindex="-1"><a class="header-anchor" href="#class-geometrycontent">Class GeometryContent</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides properties that define various aspects of a geometry batch.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">GeometryContent</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ContentItem</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem">ContentItem</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.GeometryContent">GeometryContent</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_Identity">ContentItem.Identity</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_Name">ContentItem.Name</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem#Microsoft_Xna_Framework_Content_Pipeline_ContentItem_OpaqueData">ContentItem.OpaqueData</a>,
@@ -1260,26 +1263,26 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="geometrycontent" tabindex="-1"><a class="header-anchor" href="#geometrycontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent__ctor"></a> GeometryContent()</a></h3>
+<h3 id="geometrycontent" tabindex="-1"><a class="header-anchor" href="#geometrycontent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent__ctor"></a>GeometryContent()</a></h3>
 <p>Creates an instance of GeometryContent.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">GeometryContent</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="indices" tabindex="-1"><a class="header-anchor" href="#indices"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Indices"></a> Indices</a></h3>
+<h3 id="indices" tabindex="-1"><a class="header-anchor" href="#indices"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Indices"></a>Indices</a></h3>
 <p>Gets the list of triangle indices for this geometry batch. Geometry is stored as an indexed triangle list, where each group of three indices defines a single triangle.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">IndexCollection</span> Indices <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.IndexCollection">IndexCollection</a></p>
-<h3 id="material" tabindex="-1"><a class="header-anchor" href="#material"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Material"></a> Material</a></h3>
+<h3 id="material" tabindex="-1"><a class="header-anchor" href="#material"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Material"></a>Material</a></h3>
 <p>Gets or sets the material of the parent mesh.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">MaterialContent</span> Material <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaterialContent">MaterialContent</a></p>
-<h3 id="parent" tabindex="-1"><a class="header-anchor" href="#parent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Parent"></a> Parent</a></h3>
+<h3 id="parent" tabindex="-1"><a class="header-anchor" href="#parent"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Parent"></a>Parent</a></h3>
 <p>Gets or sets the parent MeshContent for this object.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">MeshContent</span> Parent <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MeshContent">MeshContent</a></p>
-<h3 id="vertices" tabindex="-1"><a class="header-anchor" href="#vertices"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Vertices"></a> Vertices</a></h3>
+<h3 id="vertices" tabindex="-1"><a class="header-anchor" href="#vertices"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_GeometryContent_Vertices"></a>Vertices</a></h3>
 <p>Gets the set of vertex batches for the geometry batch.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">VertexContent</span> Vertices <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>

@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,19 +1242,19 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-contentwriter" tabindex="-1"><a class="header-anchor" href="#class-contentwriter"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter"></a> Class ContentWriter</a></h1>
+        <h1 id="class-contentwriter" tabindex="-1"><a class="header-anchor" href="#class-contentwriter">Class ContentWriter</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler">Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides an implementation for many of the ContentCompiler methods including compilation, state tracking for shared resources and creation of the header type manifest.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">ContentWriter</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">BinaryWriter</span><span class="token punctuation">,</span> <span class="token class-name">IAsyncDisposable</span><span class="token punctuation">,</span> <span class="token class-name">IDisposable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter" target="_blank" rel="noopener noreferrer">BinaryWriter</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentWriter">ContentWriter</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable" target="_blank" rel="noopener noreferrer">IAsyncDisposable</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter.null" target="_blank" rel="noopener noreferrer">BinaryWriter.Null</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter.close" target="_blank" rel="noopener noreferrer">BinaryWriter.Close()</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.io.binarywriter.dispose#system-io-binarywriter-dispose" target="_blank" rel="noopener noreferrer">BinaryWriter.Dispose()</a>,
@@ -1291,63 +1294,63 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <h2 id="remarks" tabindex="-1"><a class="header-anchor" href="#remarks">Remarks</a></h2>
 <p>A new ContentWriter is constructed for each compilation operation.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="targetplatform" tabindex="-1"><a class="header-anchor" href="#targetplatform"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_TargetPlatform"></a> TargetPlatform</a></h3>
+<h3 id="targetplatform" tabindex="-1"><a class="header-anchor" href="#targetplatform"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_TargetPlatform"></a>TargetPlatform</a></h3>
 <p>Gets the content build target platform.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">TargetPlatform</span> TargetPlatform <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.TargetPlatform">TargetPlatform</a></p>
-<h3 id="targetprofile" tabindex="-1"><a class="header-anchor" href="#targetprofile"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_TargetProfile"></a> TargetProfile</a></h3>
+<h3 id="targetprofile" tabindex="-1"><a class="header-anchor" href="#targetprofile"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_TargetProfile"></a>TargetProfile</a></h3>
 <p>Gets or sets the target graphics profile.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">GraphicsProfile</span> TargetProfile <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Graphics.GraphicsProfile">GraphicsProfile</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="dispose-bool" tabindex="-1"><a class="header-anchor" href="#dispose-bool"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Dispose_System_Boolean_"></a> Dispose(bool)</a></h3>
+<h3 id="dispose-bool" tabindex="-1"><a class="header-anchor" href="#dispose-bool"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Dispose_System_Boolean_"></a>Dispose(bool)</a></h3>
 <p>Releases the resources used by the IDisposable class.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> disposing<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>disposing</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true to release both managed and unmanaged resources; false to release only unmanaged resources.</p>
-<h3 id="flush" tabindex="-1"><a class="header-anchor" href="#flush"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Flush"></a> Flush()</a></h3>
+<h3 id="flush" tabindex="-1"><a class="header-anchor" href="#flush"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Flush"></a>Flush()</a></h3>
 <p>All content has been written, so now finalize the header, footer and anything else that needs finalizing.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Flush</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="write-color" tabindex="-1"><a class="header-anchor" href="#write-color"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Color_"></a> Write(Color)</a></h3>
+<h3 id="write-color" tabindex="-1"><a class="header-anchor" href="#write-color"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Color_"></a>Write(Color)</a></h3>
 <p>Writes a Color value.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name">Color</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>value</code> <a href="/api/Microsoft.Xna.Framework.Color">Color</a></p>
 <p>Value of a color using Red, Green, Blue, and Alpha values to write.</p>
-<h3 id="write-matrix" tabindex="-1"><a class="header-anchor" href="#write-matrix"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Matrix_"></a> Write(Matrix)</a></h3>
+<h3 id="write-matrix" tabindex="-1"><a class="header-anchor" href="#write-matrix"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Matrix_"></a>Write(Matrix)</a></h3>
 <p>Writes a Matrix value.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name">Matrix</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
 <p><code>value</code> <a href="/api/Microsoft.Xna.Framework.Matrix">Matrix</a></p>
 <p>Value to write.</p>
-<h3 id="write-quaternion" tabindex="-1"><a class="header-anchor" href="#write-quaternion"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Quaternion_"></a> Write(Quaternion)</a></h3>
+<h3 id="write-quaternion" tabindex="-1"><a class="header-anchor" href="#write-quaternion"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Quaternion_"></a>Write(Quaternion)</a></h3>
 <p>Writes a Matrix value.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name">Quaternion</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
 <p><code>value</code> <a href="/api/Microsoft.Xna.Framework.Quaternion">Quaternion</a></p>
 <p>Value to write.</p>
-<h3 id="write-vector" tabindex="-1"><a class="header-anchor" href="#write-vector"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Vector2_"></a> Write(Vector2)</a></h3>
+<h3 id="write-vector" tabindex="-1"><a class="header-anchor" href="#write-vector"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Vector2_"></a>Write(Vector2)</a></h3>
 <p>Writes a Vector2 value.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name">Vector2</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
 <p><code>value</code> <a href="/api/Microsoft.Xna.Framework.Vector2">Vector2</a></p>
 <p>Value to write.</p>
-<h3 id="write-vector-1" tabindex="-1"><a class="header-anchor" href="#write-vector-1"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Vector3_"></a> Write(Vector3)</a></h3>
+<h3 id="write-vector-1" tabindex="-1"><a class="header-anchor" href="#write-vector-1"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Vector3_"></a>Write(Vector3)</a></h3>
 <p>Writes a Vector3 value.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name">Vector3</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>
 <p><code>value</code> <a href="/api/Microsoft.Xna.Framework.Vector3">Vector3</a></p>
 <p>Value to write.</p>
-<h3 id="write-vector-2" tabindex="-1"><a class="header-anchor" href="#write-vector-2"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Vector4_"></a> Write(Vector4)</a></h3>
+<h3 id="write-vector-2" tabindex="-1"><a class="header-anchor" href="#write-vector-2"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_Write_Microsoft_Xna_Framework_Vector4_"></a>Write(Vector4)</a></h3>
 <p>Writes a Vector4 value.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name">Vector4</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-6" tabindex="-1"><a class="header-anchor" href="#parameters-6">Parameters</a></h4>
 <p><code>value</code> <a href="/api/Microsoft.Xna.Framework.Vector4">Vector4</a></p>
 <p>Value to write.</p>
-<h3 id="writeexternalreference-t-externalreference-t" tabindex="-1"><a class="header-anchor" href="#writeexternalreference-t-externalreference-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteExternalReference__1_Microsoft_Xna_Framework_Content_Pipeline_ExternalReference___0__"></a> WriteExternalReference&lt;T&gt;(ExternalReference&lt;T&gt;)</a></h3>
+<h3 id="writeexternalreference-t-externalreference-t" tabindex="-1"><a class="header-anchor" href="#writeexternalreference-t-externalreference-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteExternalReference__1_Microsoft_Xna_Framework_Content_Pipeline_ExternalReference___0__"></a>WriteExternalReference&lt;T&gt;(ExternalReference&lt;T&gt;)</a></h3>
 <p>Writes the name of an external file to the output binary.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token generic-method"><span class="token function">WriteExternalReference</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token class-name">ExternalReference<span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span> reference<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>
@@ -1356,7 +1359,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <h4 id="type-parameters" tabindex="-1"><a class="header-anchor" href="#type-parameters">Type Parameters</a></h4>
 <p><code>T</code></p>
 <p>The type of reference.</p>
-<h3 id="writeobject-t-t" tabindex="-1"><a class="header-anchor" href="#writeobject-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteObject__1___0_"></a> WriteObject&lt;T&gt;(T)</a></h3>
+<h3 id="writeobject-t-t" tabindex="-1"><a class="header-anchor" href="#writeobject-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteObject__1___0_"></a>WriteObject&lt;T&gt;(T)</a></h3>
 <p>Writes a single object preceded by a type identifier to the output binary.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token generic-method"><span class="token function">WriteObject</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token class-name">T</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-8" tabindex="-1"><a class="header-anchor" href="#parameters-8">Parameters</a></h4>
@@ -1367,7 +1370,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>The type of value.</p>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>This method can be called recursively with a null value.</p>
-<h3 id="writeobject-t-t-contenttypewriter" tabindex="-1"><a class="header-anchor" href="#writeobject-t-t-contenttypewriter"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteObject__1___0_Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentTypeWriter_"></a> WriteObject&lt;T&gt;(T, ContentTypeWriter)</a></h3>
+<h3 id="writeobject-t-t-contenttypewriter" tabindex="-1"><a class="header-anchor" href="#writeobject-t-t-contenttypewriter"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteObject__1___0_Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentTypeWriter_"></a>WriteObject&lt;T&gt;(T, ContentTypeWriter)</a></h3>
 <p>Writes a single object to the output binary, using the specified type hint and writer worker.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token generic-method"><span class="token function">WriteObject</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token class-name">T</span> <span class="token keyword">value</span><span class="token punctuation">,</span> <span class="token class-name">ContentTypeWriter</span> typeWriter<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-9" tabindex="-1"><a class="header-anchor" href="#parameters-9">Parameters</a></h4>
@@ -1382,7 +1385,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>The type hint should be retrieved from the Initialize method of the ContentTypeWriter
 that is calling WriteObject, by calling GetTypeWriter and passing it the type of the field used
 to hold the value being serialized.</p>
-<h3 id="writerawobject-t-t" tabindex="-1"><a class="header-anchor" href="#writerawobject-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteRawObject__1___0_"></a> WriteRawObject&lt;T&gt;(T)</a></h3>
+<h3 id="writerawobject-t-t" tabindex="-1"><a class="header-anchor" href="#writerawobject-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteRawObject__1___0_"></a>WriteRawObject&lt;T&gt;(T)</a></h3>
 <p>Writes a single object to the output binary as an instance of the specified type.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token generic-method"><span class="token function">WriteRawObject</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token class-name">T</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-10" tabindex="-1"><a class="header-anchor" href="#parameters-10">Parameters</a></h4>
@@ -1395,7 +1398,7 @@ to hold the value being serialized.</p>
 <p>If you specify a base class of the actual object value only data from this base type
 will be written. This method does not write any type identifier so it cannot support null or
 polymorphic values, and the reader must specify an identical type while loading the compiled data.</p>
-<h3 id="writerawobject-t-t-contenttypewriter" tabindex="-1"><a class="header-anchor" href="#writerawobject-t-t-contenttypewriter"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteRawObject__1___0_Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentTypeWriter_"></a> WriteRawObject&lt;T&gt;(T, ContentTypeWriter)</a></h3>
+<h3 id="writerawobject-t-t-contenttypewriter" tabindex="-1"><a class="header-anchor" href="#writerawobject-t-t-contenttypewriter"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteRawObject__1___0_Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentTypeWriter_"></a>WriteRawObject&lt;T&gt;(T, ContentTypeWriter)</a></h3>
 <p>Writes a single object to the output binary using the specified writer worker.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token generic-method"><span class="token function">WriteRawObject</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token class-name">T</span> <span class="token keyword">value</span><span class="token punctuation">,</span> <span class="token class-name">ContentTypeWriter</span> typeWriter<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-11" tabindex="-1"><a class="header-anchor" href="#parameters-11">Parameters</a></h4>
@@ -1410,7 +1413,7 @@ of the ContentTypeWriter that is calling WriteRawObject, by calling GetTypeWrite
 <h4 id="remarks-4" tabindex="-1"><a class="header-anchor" href="#remarks-4">Remarks</a></h4>
 <p>WriteRawObject does not write any type identifier, so it cannot support null or polymorphic
 values, and the reader must specify an identical type while loading the compiled data.</p>
-<h3 id="writesharedresource-t-t" tabindex="-1"><a class="header-anchor" href="#writesharedresource-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteSharedResource__1___0_"></a> WriteSharedResource&lt;T&gt;(T)</a></h3>
+<h3 id="writesharedresource-t-t" tabindex="-1"><a class="header-anchor" href="#writesharedresource-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentWriter_WriteSharedResource__1___0_"></a>WriteSharedResource&lt;T&gt;(T)</a></h3>
 <p>Adds a shared reference to the output binary and records the object to be serialized later.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token generic-method"><span class="token function">WriteSharedResource</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token class-name">T</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-12" tabindex="-1"><a class="header-anchor" href="#parameters-12">Parameters</a></h4>

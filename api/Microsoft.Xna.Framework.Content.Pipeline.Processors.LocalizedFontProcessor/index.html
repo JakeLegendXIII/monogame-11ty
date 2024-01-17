@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,7 +1242,7 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-localizedfontprocessor" tabindex="-1"><a class="header-anchor" href="#class-localizedfontprocessor"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor"></a> Class LocalizedFontProcessor</a></h1>
+        <h1 id="class-localizedfontprocessor" tabindex="-1"><a class="header-anchor" href="#class-localizedfontprocessor">Class LocalizedFontProcessor</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Processors">Microsoft.Xna.Framework.Content.Pipeline.Processors</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Custom processor extends the SpriteFont build process to scan over the resource
@@ -1253,13 +1256,13 @@ use a small fraction of these. Building only the characters we need is far more
 efficient than if we tried to include the entire CJK character region.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token punctuation">[</span><span class="token attribute"><span class="token class-name">ContentProcessor</span></span><span class="token punctuation">]</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">LocalizedFontProcessor</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">ContentProcessor<span class="token punctuation">&lt;</span>LocalizedFontDescription<span class="token punctuation">,</span> SpriteFontContent<span class="token punctuation">></span></span><span class="token punctuation">,</span> <span class="token class-name">IContentProcessor</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentProcessor-2/">ContentProcessor&lt;LocalizedFontDescription, SpriteFontContent&gt;</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.LocalizedFontProcessor">LocalizedFontProcessor</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.IContentProcessor">IContentProcessor</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentProcessor-2/#Microsoft_Xna_Framework_Content_Pipeline_ContentProcessor_2_Process__0_Microsoft_Xna_Framework_Content_Pipeline_ContentProcessorContext_">ContentProcessor&lt;LocalizedFontDescription, SpriteFontContent&gt;.Process(LocalizedFontDescription, ContentProcessorContext)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
@@ -1269,19 +1272,19 @@ efficient than if we tried to include the entire CJK character region.</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="localizedfontprocessor" tabindex="-1"><a class="header-anchor" href="#localizedfontprocessor"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor__ctor"></a> LocalizedFontProcessor()</a></h3>
+<h3 id="localizedfontprocessor" tabindex="-1"><a class="header-anchor" href="#localizedfontprocessor"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor__ctor"></a>LocalizedFontProcessor()</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">LocalizedFontProcessor</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="premultiplyalpha" tabindex="-1"><a class="header-anchor" href="#premultiplyalpha"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor_PremultiplyAlpha"></a> PremultiplyAlpha</a></h3>
+<h3 id="premultiplyalpha" tabindex="-1"><a class="header-anchor" href="#premultiplyalpha"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor_PremultiplyAlpha"></a>PremultiplyAlpha</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> PremultiplyAlpha <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="textureformat" tabindex="-1"><a class="header-anchor" href="#textureformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor_TextureFormat"></a> TextureFormat</a></h3>
+<h3 id="textureformat" tabindex="-1"><a class="header-anchor" href="#textureformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor_TextureFormat"></a>TextureFormat</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name">TextureProcessorOutputFormat</span> TextureFormat <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Processors.TextureProcessorOutputFormat">TextureProcessorOutputFormat</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="process-localizedfontdescription-contentprocessorcontext" tabindex="-1"><a class="header-anchor" href="#process-localizedfontdescription-contentprocessorcontext"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor_Process_Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription_Microsoft_Xna_Framework_Content_Pipeline_ContentProcessorContext_"></a> Process(LocalizedFontDescription, ContentProcessorContext)</a></h3>
+<h3 id="process-localizedfontdescription-contentprocessorcontext" tabindex="-1"><a class="header-anchor" href="#process-localizedfontdescription-contentprocessorcontext"><a id="Microsoft_Xna_Framework_Content_Pipeline_Processors_LocalizedFontProcessor_Process_Microsoft_Xna_Framework_Content_Pipeline_Graphics_LocalizedFontDescription_Microsoft_Xna_Framework_Content_Pipeline_ContentProcessorContext_"></a>Process(LocalizedFontDescription, ContentProcessorContext)</a></h3>
 <p>Converts a font description into SpriteFont format.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name">SpriteFontContent</span> <span class="token function">Process</span><span class="token punctuation">(</span><span class="token class-name">LocalizedFontDescription</span> input<span class="token punctuation">,</span> <span class="token class-name">ContentProcessorContext</span> context<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>

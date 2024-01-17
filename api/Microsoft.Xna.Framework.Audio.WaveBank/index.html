@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,17 +1242,17 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-wavebank" tabindex="-1"><a class="header-anchor" href="#class-wavebank"><a id="Microsoft_Xna_Framework_Audio_WaveBank"></a> Class WaveBank</a></h1>
+        <h1 id="class-wavebank" tabindex="-1"><a class="header-anchor" href="#class-wavebank">Class WaveBank</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Audio">Microsoft.Xna.Framework.Audio</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Represents a collection of wave files.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">WaveBank</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IDisposable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Audio.WaveBank">WaveBank</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1258,7 +1261,7 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="wavebank-audioengine-string" tabindex="-1"><a class="header-anchor" href="#wavebank-audioengine-string"><a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_"></a> WaveBank(AudioEngine, string)</a></h3>
+<h3 id="wavebank-audioengine-string" tabindex="-1"><a class="header-anchor" href="#wavebank-audioengine-string"><a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_"></a>WaveBank(AudioEngine, string)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">WaveBank</span><span class="token punctuation">(</span><span class="token class-name">AudioEngine</span> audioEngine<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> nonStreamingWaveBankFilename<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>audioEngine</code> <a href="/api/Microsoft.Xna.Framework.Audio.AudioEngine">AudioEngine</a></p>
@@ -1267,7 +1270,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Path to the .xwb file to load.</p>
 <h4 id="remarks" tabindex="-1"><a class="header-anchor" href="#remarks">Remarks</a></h4>
 <p>This constructor immediately loads all wave data into memory at once.</p>
-<h3 id="wavebank-audioengine-string-int-short" tabindex="-1"><a class="header-anchor" href="#wavebank-audioengine-string-int-short"><a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_"></a> WaveBank(AudioEngine, string, int, short)</a></h3>
+<h3 id="wavebank-audioengine-string-int-short" tabindex="-1"><a class="header-anchor" href="#wavebank-audioengine-string-int-short"><a id="Microsoft_Xna_Framework_Audio_WaveBank__ctor_Microsoft_Xna_Framework_Audio_AudioEngine_System_String_System_Int32_System_Int16_"></a>WaveBank(AudioEngine, string, int, short)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">WaveBank</span><span class="token punctuation">(</span><span class="token class-name">AudioEngine</span> audioEngine<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> streamingWaveBankFilename<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> offset<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">short</span></span> packetsize<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>audioEngine</code> <a href="/api/Microsoft.Xna.Framework.Audio.AudioEngine">AudioEngine</a></p>
@@ -1283,26 +1286,26 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Note that packetsize is in sectors, which is 2048 bytes.</p>
 <p>AudioEngine.Update() must be called at least once before using data from a streaming wave bank.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed"></a> IsDisposed</a></h3>
+<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_WaveBank_IsDisposed"></a>IsDisposed</a></h3>
 <p>Is true if the WaveBank has been disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsDisposed <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="isinuse" tabindex="-1"><a class="header-anchor" href="#isinuse"><a id="Microsoft_Xna_Framework_Audio_WaveBank_IsInUse"></a> IsInUse</a></h3>
+<h3 id="isinuse" tabindex="-1"><a class="header-anchor" href="#isinuse"><a id="Microsoft_Xna_Framework_Audio_WaveBank_IsInUse"></a>IsInUse</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsInUse <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="isprepared" tabindex="-1"><a class="header-anchor" href="#isprepared"><a id="Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared"></a> IsPrepared</a></h3>
+<h3 id="isprepared" tabindex="-1"><a class="header-anchor" href="#isprepared"><a id="Microsoft_Xna_Framework_Audio_WaveBank_IsPrepared"></a>IsPrepared</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsPrepared <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_WaveBank_Dispose"></a> Dispose()</a></h3>
+<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_WaveBank_Dispose"></a>Dispose()</a></h3>
 <p>Disposes the WaveBank.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="wavebank" tabindex="-1"><a class="header-anchor" href="#wavebank"><a id="Microsoft_Xna_Framework_Audio_WaveBank_Finalize"></a> ~WaveBank()</a></h3>
+<h3 id="wavebank" tabindex="-1"><a class="header-anchor" href="#wavebank"><a id="Microsoft_Xna_Framework_Audio_WaveBank_Finalize"></a>~WaveBank()</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token operator">~</span><span class="token function">WaveBank</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="disposing" tabindex="-1"><a class="header-anchor" href="#disposing"><a id="Microsoft_Xna_Framework_Audio_WaveBank_Disposing"></a> Disposing</a></h3>
+<h3 id="disposing" tabindex="-1"><a class="header-anchor" href="#disposing"><a id="Microsoft_Xna_Framework_Audio_WaveBank_Disposing"></a>Disposing</a></h3>
 <p>This event is triggered when the WaveBank is disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">event</span> EventHandler<span class="token operator">&lt;</span>EventArgs<span class="token operator">></span> Disposing</code></pre>
 <h4 id="event-type" tabindex="-1"><a class="header-anchor" href="#event-type">Event Type</a></h4>

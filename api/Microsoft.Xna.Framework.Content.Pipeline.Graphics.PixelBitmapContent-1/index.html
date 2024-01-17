@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,18 +1242,18 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-pixelbitmapcontent-t" tabindex="-1"><a class="header-anchor" href="#class-pixelbitmapcontent-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1"></a> Class PixelBitmapContent&lt;T&gt;</a></h1>
+        <h1 id="class-pixelbitmapcontent-t" tabindex="-1"><a class="header-anchor" href="#class-pixelbitmapcontent-t">Class PixelBitmapContent&lt;T&gt;</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PixelBitmapContent<span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">BitmapContent</span></span> <span class="token keyword">where</span> <span class="token class-name">T</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token keyword">struct</span><span class="token punctuation">,</span> <span class="token class-name">IEquatable<span class="token punctuation">&lt;</span>T<span class="token punctuation">></span></span></span></code></pre>
 <h4 id="type-parameters" tabindex="-1"><a class="header-anchor" href="#type-parameters">Type Parameters</a></h4>
 <p><code>T</code></p>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentItem">ContentItem</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent">BitmapContent</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.PixelBitmapContent-1/">PixelBitmapContent&lt;T&gt;</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent#Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Height">BitmapContent.Height</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent#Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Width">BitmapContent.Width</a>,
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.BitmapContent#Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Copy_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_">BitmapContent.Copy(BitmapContent, BitmapContent)</a>,
@@ -1273,49 +1276,49 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="pixelbitmapcontent-int-int" tabindex="-1"><a class="header-anchor" href="#pixelbitmapcontent-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1__ctor_System_Int32_System_Int32_"></a> PixelBitmapContent(int, int)</a></h3>
+<h3 id="pixelbitmapcontent-int-int" tabindex="-1"><a class="header-anchor" href="#pixelbitmapcontent-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1__ctor_System_Int32_System_Int32_"></a>PixelBitmapContent(int, int)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">PixelBitmapContent</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> width<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> height<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>width</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p><code>height</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="getpixel-int-int" tabindex="-1"><a class="header-anchor" href="#getpixel-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_GetPixel_System_Int32_System_Int32_"></a> GetPixel(int, int)</a></h3>
+<h3 id="getpixel-int-int" tabindex="-1"><a class="header-anchor" href="#getpixel-int-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_GetPixel_System_Int32_System_Int32_"></a>GetPixel(int, int)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">T</span> <span class="token function">GetPixel</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> x<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> y<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>x</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p><code>y</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p>T</p>
-<h3 id="getpixeldata" tabindex="-1"><a class="header-anchor" href="#getpixeldata"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_GetPixelData"></a> GetPixelData()</a></h3>
+<h3 id="getpixeldata" tabindex="-1"><a class="header-anchor" href="#getpixeldata"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_GetPixelData"></a>GetPixelData()</a></h3>
 <p>Reads encoded bitmap content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">GetPixelData</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
 <p>Array containing encoded bitmap data.</p>
-<h3 id="getrow-int" tabindex="-1"><a class="header-anchor" href="#getrow-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_GetRow_System_Int32_"></a> GetRow(int)</a></h3>
+<h3 id="getrow-int" tabindex="-1"><a class="header-anchor" href="#getrow-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_GetRow_System_Int32_"></a>GetRow(int)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">T<span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">GetRow</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> y<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
 <p><code>y</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p>T[]</p>
-<h3 id="replacecolor-t-t" tabindex="-1"><a class="header-anchor" href="#replacecolor-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_ReplaceColor__0__0_"></a> ReplaceColor(T, T)</a></h3>
+<h3 id="replacecolor-t-t" tabindex="-1"><a class="header-anchor" href="#replacecolor-t-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_ReplaceColor__0__0_"></a>ReplaceColor(T, T)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">ReplaceColor</span><span class="token punctuation">(</span><span class="token class-name">T</span> originalColor<span class="token punctuation">,</span> <span class="token class-name">T</span> newColor<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
 <p><code>originalColor</code> T</p>
 <p><code>newColor</code> T</p>
-<h3 id="setpixel-int-int-t" tabindex="-1"><a class="header-anchor" href="#setpixel-int-int-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_SetPixel_System_Int32_System_Int32__0_"></a> SetPixel(int, int, T)</a></h3>
+<h3 id="setpixel-int-int-t" tabindex="-1"><a class="header-anchor" href="#setpixel-int-int-t"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_SetPixel_System_Int32_System_Int32__0_"></a>SetPixel(int, int, T)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SetPixel</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> x<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> y<span class="token punctuation">,</span> <span class="token class-name">T</span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
 <p><code>x</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p><code>y</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p><code>value</code> T</p>
-<h3 id="setpixeldata-byte" tabindex="-1"><a class="header-anchor" href="#setpixeldata-byte"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_SetPixelData_System_Byte___"></a> SetPixelData(byte[])</a></h3>
+<h3 id="setpixeldata-byte" tabindex="-1"><a class="header-anchor" href="#setpixeldata-byte"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_SetPixelData_System_Byte___"></a>SetPixelData(byte[])</a></h3>
 <p>Writes encoded bitmap content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SetPixelData</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> sourceData<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>
 <p><code>sourceData</code> <a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
 <p>Array containing encoded bitmap data to be set.</p>
-<h3 id="trycopyfrom-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyfrom-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_TryCopyFrom_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a> TryCopyFrom(BitmapContent, Rectangle, Rectangle)</a></h3>
+<h3 id="trycopyfrom-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyfrom-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_TryCopyFrom_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a>TryCopyFrom(BitmapContent, Rectangle, Rectangle)</a></h3>
 <p>Attempts to copy a region from a specified bitmap.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">TryCopyFrom</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> sourceBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> sourceRegion<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> destinationRegion<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-6" tabindex="-1"><a class="header-anchor" href="#parameters-6">Parameters</a></h4>
@@ -1328,7 +1331,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if region copy is supported; false otherwise.</p>
-<h3 id="trycopyto-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyto-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_TryCopyTo_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a> TryCopyTo(BitmapContent, Rectangle, Rectangle)</a></h3>
+<h3 id="trycopyto-bitmapcontent-rectangle-rectangle" tabindex="-1"><a class="header-anchor" href="#trycopyto-bitmapcontent-rectangle-rectangle"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_TryCopyTo_Microsoft_Xna_Framework_Content_Pipeline_Graphics_BitmapContent_Microsoft_Xna_Framework_Rectangle_Microsoft_Xna_Framework_Rectangle_"></a>TryCopyTo(BitmapContent, Rectangle, Rectangle)</a></h3>
 <p>Attempts to copy a region of the specified bitmap onto another.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">TryCopyTo</span><span class="token punctuation">(</span><span class="token class-name">BitmapContent</span> destinationBitmap<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> sourceRegion<span class="token punctuation">,</span> <span class="token class-name">Rectangle</span> destinationRegion<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>
@@ -1341,7 +1344,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <h4 id="returns-4" tabindex="-1"><a class="header-anchor" href="#returns-4">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if region copy is supported; false otherwise.</p>
-<h3 id="trygetformat-out-surfaceformat" tabindex="-1"><a class="header-anchor" href="#trygetformat-out-surfaceformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_TryGetFormat_Microsoft_Xna_Framework_Graphics_SurfaceFormat__"></a> TryGetFormat(out SurfaceFormat)</a></h3>
+<h3 id="trygetformat-out-surfaceformat" tabindex="-1"><a class="header-anchor" href="#trygetformat-out-surfaceformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_PixelBitmapContent_1_TryGetFormat_Microsoft_Xna_Framework_Graphics_SurfaceFormat__"></a>TryGetFormat(out SurfaceFormat)</a></h3>
 <p>Gets the corresponding GPU texture format for the specified bitmap type.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">TryGetFormat</span><span class="token punctuation">(</span><span class="token keyword">out</span> <span class="token class-name">SurfaceFormat</span> format<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-8" tabindex="-1"><a class="header-anchor" href="#parameters-8">Parameters</a></h4>

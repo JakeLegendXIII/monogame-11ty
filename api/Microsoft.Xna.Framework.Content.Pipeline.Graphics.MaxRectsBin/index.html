@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-maxrectsbin" tabindex="-1"><a class="header-anchor" href="#class-maxrectsbin"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin"></a> Class MaxRectsBin</a></h1>
+        <h1 id="class-maxrectsbin" tabindex="-1"><a class="header-anchor" href="#class-maxrectsbin">Class MaxRectsBin</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>A bin that can pack rectangles using the MaxRects algorithm with several heuristics.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MaxRectsBin</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaxRectsBin">MaxRectsBin</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1256,7 +1259,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="maxrectsbin-int-int-growrule-float-bool" tabindex="-1"><a class="header-anchor" href="#maxrectsbin-int-int-growrule-float-bool"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin__ctor_System_Int32_System_Int32_Microsoft_Xna_Framework_Content_Pipeline_Graphics_GrowRule_System_Single_System_Boolean_"></a> MaxRectsBin(int, int, GrowRule, float, bool)</a></h3>
+<h3 id="maxrectsbin-int-int-growrule-float-bool" tabindex="-1"><a class="header-anchor" href="#maxrectsbin-int-int-growrule-float-bool"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin__ctor_System_Int32_System_Int32_Microsoft_Xna_Framework_Content_Pipeline_Graphics_GrowRule_System_Single_System_Boolean_"></a>MaxRectsBin(int, int, GrowRule, float, bool)</a></h3>
 <p>Create a <a href="Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaxRectsBin">MaxRectsBin</a> instance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">MaxRectsBin</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> width <span class="token operator">=</span> <span class="token number">64</span><span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> height <span class="token operator">=</span> <span class="token number">64</span><span class="token punctuation">,</span> <span class="token class-name">GrowRule</span> grow <span class="token operator">=</span> GrowRule<span class="token punctuation">.</span>Both<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> growIncrement <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> allowRotation <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1273,65 +1276,65 @@ E.g. -2 will grow the bin by a factor of 2 when it needs to grow.</p>
 <p><code>allowRotation</code> <a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>Whether to allow rotating the rectangles.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="allowrotations" tabindex="-1"><a class="header-anchor" href="#allowrotations"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_AllowRotations"></a> AllowRotations</a></h3>
+<h3 id="allowrotations" tabindex="-1"><a class="header-anchor" href="#allowrotations"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_AllowRotations"></a>AllowRotations</a></h3>
 <p>Indicates if rectangle can be rotated.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> AllowRotations <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="binheight" tabindex="-1"><a class="header-anchor" href="#binheight"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_BinHeight"></a> BinHeight</a></h3>
+<h3 id="binheight" tabindex="-1"><a class="header-anchor" href="#binheight"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_BinHeight"></a>BinHeight</a></h3>
 <p>Height of the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> BinHeight <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="binwidth" tabindex="-1"><a class="header-anchor" href="#binwidth"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_BinWidth"></a> BinWidth</a></h3>
+<h3 id="binwidth" tabindex="-1"><a class="header-anchor" href="#binwidth"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_BinWidth"></a>BinWidth</a></h3>
 <p>Width of the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> BinWidth <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="grow" tabindex="-1"><a class="header-anchor" href="#grow"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Grow"></a> Grow</a></h3>
+<h3 id="grow" tabindex="-1"><a class="header-anchor" href="#grow"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Grow"></a>Grow</a></h3>
 <p>Rule to choose in which dimension to grow.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">GrowRule</span> Grow <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.GrowRule">GrowRule</a></p>
-<h3 id="growincrement" tabindex="-1"><a class="header-anchor" href="#growincrement"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_GrowIncrement"></a> GrowIncrement</a></h3>
+<h3 id="growincrement" tabindex="-1"><a class="header-anchor" href="#growincrement"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_GrowIncrement"></a>GrowIncrement</a></h3>
 <p>Determines how the bin is grown.
 A positive value means a fixed size increase, a negative value means a factor increase.
 E.g. -2 will grow the bin by a factor of 2 when it needs to grow.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> GrowIncrement <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">float</a></p>
-<h3 id="growlimit" tabindex="-1"><a class="header-anchor" href="#growlimit"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_GrowLimit"></a> GrowLimit</a></h3>
+<h3 id="growlimit" tabindex="-1"><a class="header-anchor" href="#growlimit"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_GrowLimit"></a>GrowLimit</a></h3>
 <p>The number of times to grow the bin for a single rectangle when it doesn't fit. Defaults to 3.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> GrowLimit <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="includepadding" tabindex="-1"><a class="header-anchor" href="#includepadding"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_IncludePadding"></a> IncludePadding</a></h3>
+<h3 id="includepadding" tabindex="-1"><a class="header-anchor" href="#includepadding"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_IncludePadding"></a>IncludePadding</a></h3>
 <p>Determines if padding is included in returned rectangles. Default is <code>false</code>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IncludePadding <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-6" tabindex="-1"><a class="header-anchor" href="#property-value-6">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="paddingheight" tabindex="-1"><a class="header-anchor" href="#paddingheight"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_PaddingHeight"></a> PaddingHeight</a></h3>
+<h3 id="paddingheight" tabindex="-1"><a class="header-anchor" href="#paddingheight"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_PaddingHeight"></a>PaddingHeight</a></h3>
 <p>Padding to add to both sides in the vertical dimension. Default is 0.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> PaddingHeight <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-7" tabindex="-1"><a class="header-anchor" href="#property-value-7">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="paddingwidth" tabindex="-1"><a class="header-anchor" href="#paddingwidth"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_PaddingWidth"></a> PaddingWidth</a></h3>
+<h3 id="paddingwidth" tabindex="-1"><a class="header-anchor" href="#paddingwidth"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_PaddingWidth"></a>PaddingWidth</a></h3>
 <p>Padding to add to both sides in the horizontal dimension. Default is 0.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> PaddingWidth <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-8" tabindex="-1"><a class="header-anchor" href="#property-value-8">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="usedheight" tabindex="-1"><a class="header-anchor" href="#usedheight"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_UsedHeight"></a> UsedHeight</a></h3>
+<h3 id="usedheight" tabindex="-1"><a class="header-anchor" href="#usedheight"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_UsedHeight"></a>UsedHeight</a></h3>
 <p>The actually used height of the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> UsedHeight <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-9" tabindex="-1"><a class="header-anchor" href="#property-value-9">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="usedwidth" tabindex="-1"><a class="header-anchor" href="#usedwidth"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_UsedWidth"></a> UsedWidth</a></h3>
+<h3 id="usedwidth" tabindex="-1"><a class="header-anchor" href="#usedwidth"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_UsedWidth"></a>UsedWidth</a></h3>
 <p>The actually used width of the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> UsedWidth <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-10" tabindex="-1"><a class="header-anchor" href="#property-value-10">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="getoccupancy-bool" tabindex="-1"><a class="header-anchor" href="#getoccupancy-bool"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_GetOccupancy_System_Boolean_"></a> GetOccupancy(bool)</a></h3>
+<h3 id="getoccupancy-bool" tabindex="-1"><a class="header-anchor" href="#getoccupancy-bool"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_GetOccupancy_System_Boolean_"></a>GetOccupancy(bool)</a></h3>
 <p>Computes the ratio of used surface area.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> <span class="token function">GetOccupancy</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> crop <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1340,7 +1343,7 @@ E.g. -2 will grow the bin by a factor of 2 when it needs to grow.</p>
 <a href="Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaxRectsBin.BinWidth">BinWidth</a> and <a href="Microsoft.Xna.Framework.Content.Pipeline.Graphics.MaxRectsBin.BinHeight">BinHeight</a> for available area.</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">float</a></p>
-<h3 id="insert-int-int-maxrectsheuristic" tabindex="-1"><a class="header-anchor" href="#insert-int-int-maxrectsheuristic"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Insert_System_Int32_System_Int32_Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsHeuristic_"></a> Insert(int, int, MaxRectsHeuristic)</a></h3>
+<h3 id="insert-int-int-maxrectsheuristic" tabindex="-1"><a class="header-anchor" href="#insert-int-int-maxrectsheuristic"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Insert_System_Int32_System_Int32_Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsHeuristic_"></a>Insert(int, int, MaxRectsHeuristic)</a></h3>
 <p>Insert a rectangle into the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Rectangle</span> <span class="token function">Insert</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> width<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> height<span class="token punctuation">,</span> <span class="token class-name">MaxRectsHeuristic</span> heuristic<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1356,7 +1359,7 @@ E.g. -2 will grow the bin by a factor of 2 when it needs to grow.</p>
 <h4 id="exceptions" tabindex="-1"><a class="header-anchor" href="#exceptions">Exceptions</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.exception" target="_blank" rel="noopener noreferrer">Exception</a></p>
 <p>If the rectangle did not fit in the bin.</p>
-<h3 id="insert-point-maxrectsheuristic" tabindex="-1"><a class="header-anchor" href="#insert-point-maxrectsheuristic"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Insert_Microsoft_Xna_Framework_Point___Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsHeuristic_"></a> Insert(Point[], MaxRectsHeuristic)</a></h3>
+<h3 id="insert-point-maxrectsheuristic" tabindex="-1"><a class="header-anchor" href="#insert-point-maxrectsheuristic"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Insert_Microsoft_Xna_Framework_Point___Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsHeuristic_"></a>Insert(Point[], MaxRectsHeuristic)</a></h3>
 <p>Place an array of rectangles in the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">Rectangle<span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">Insert</span><span class="token punctuation">(</span><span class="token class-name">Point<span class="token punctuation">[</span><span class="token punctuation">]</span></span> sizes<span class="token punctuation">,</span> <span class="token class-name">MaxRectsHeuristic</span> heuristic <span class="token operator">=</span> MaxRectsHeuristic<span class="token punctuation">.</span>Bssf<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
@@ -1370,7 +1373,7 @@ E.g. -2 will grow the bin by a factor of 2 when it needs to grow.</p>
 <h4 id="exceptions-1" tabindex="-1"><a class="header-anchor" href="#exceptions-1">Exceptions</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception" target="_blank" rel="noopener noreferrer">ArgumentNullException</a></p>
 <p>If <code class="paramref">sizes</code> is <code>null</code>.</p>
-<h3 id="insert-point-rectangle-int-maxrectsheuristic" tabindex="-1"><a class="header-anchor" href="#insert-point-rectangle-int-maxrectsheuristic"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Insert_Microsoft_Xna_Framework_Point___Microsoft_Xna_Framework_Rectangle___System_Int32_Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsHeuristic_"></a> Insert(Point[], Rectangle[], int, MaxRectsHeuristic)</a></h3>
+<h3 id="insert-point-rectangle-int-maxrectsheuristic" tabindex="-1"><a class="header-anchor" href="#insert-point-rectangle-int-maxrectsheuristic"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsBin_Insert_Microsoft_Xna_Framework_Point___Microsoft_Xna_Framework_Rectangle___System_Int32_Microsoft_Xna_Framework_Content_Pipeline_Graphics_MaxRectsHeuristic_"></a>Insert(Point[], Rectangle[], int, MaxRectsHeuristic)</a></h3>
 <p>Place an array of rectangles in the bin.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Insert</span><span class="token punctuation">(</span><span class="token class-name">Point<span class="token punctuation">[</span><span class="token punctuation">]</span></span> sizes<span class="token punctuation">,</span> <span class="token class-name">Rectangle<span class="token punctuation">[</span><span class="token punctuation">]</span></span> bounds<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> indexOffset <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token class-name">MaxRectsHeuristic</span> heuristic <span class="token operator">=</span> MaxRectsHeuristic<span class="token punctuation">.</span>Bssf<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>

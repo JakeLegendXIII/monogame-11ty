@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,20 +1242,20 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-gzipstream" tabindex="-1"><a class="header-anchor" href="#class-gzipstream"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream"></a> Class GZipStream</a></h1>
+        <h1 id="class-gzipstream" tabindex="-1"><a class="header-anchor" href="#class-gzipstream">Class GZipStream</a></h1>
 <p>Namespace: <a href="/api/MonoGame.Framework.Utilities.Deflate">MonoGame.Framework.Utilities.Deflate</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>A class for compressing and decompressing GZIP streams.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">GZipStream</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">Stream</span><span class="token punctuation">,</span> <span class="token class-name">IAsyncDisposable</span><span class="token punctuation">,</span> <span class="token class-name">IDisposable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject" target="_blank" rel="noopener noreferrer">MarshalByRefObject</a> ←
 <a href="https://learn.microsoft.com/dotnet/api/system.io.stream" target="_blank" rel="noopener noreferrer">Stream</a> ←
 <a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable" target="_blank" rel="noopener noreferrer">IAsyncDisposable</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.io.stream.null" target="_blank" rel="noopener noreferrer">Stream.Null</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.io.stream.beginread" target="_blank" rel="noopener noreferrer">Stream.BeginRead(byte[], int, int, AsyncCallback?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.io.stream.beginwrite" target="_blank" rel="noopener noreferrer">Stream.BeginWrite(byte[], int, int, AsyncCallback?, object?)</a>,
@@ -1349,7 +1352,7 @@ Assembly: MonoGame.Framework.dll</p>
   handles RFC1951-compliant streams. This class handles RFC1952-compliant streams.
 </p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="gzipstream-stream-compressionmode" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_"></a> GZipStream(Stream, CompressionMode)</a></h3>
+<h3 id="gzipstream-stream-compressionmode" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_"></a>GZipStream(Stream, CompressionMode)</a></h3>
 <p>Create a <code>GZipStream</code> using the specified <code>CompressionMode</code>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">GZipStream</span><span class="token punctuation">(</span><span class="token class-name">Stream</span> stream<span class="token punctuation">,</span> <span class="token class-name">CompressionMode</span> mode<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1447,7 +1450,7 @@ End Sub</code></pre>
   <code>Write()</code>.  A <code>GZipStream</code> with
   <code>CompressionMode.Decompress</code> works only through <code>Read()</code>.
 </p>
-<h3 id="gzipstream-stream-compressionmode-compressionlevel" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode-compressionlevel"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_MonoGame_Framework_Utilities_Deflate_CompressionLevel_"></a> GZipStream(Stream, CompressionMode, CompressionLevel)</a></h3>
+<h3 id="gzipstream-stream-compressionmode-compressionlevel" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode-compressionlevel"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_MonoGame_Framework_Utilities_Deflate_CompressionLevel_"></a>GZipStream(Stream, CompressionMode, CompressionLevel)</a></h3>
 <p>Create a <code>GZipStream</code> using the specified <code>CompressionMode</code> and
 the specified <code>CompressionLevel</code>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">GZipStream</span><span class="token punctuation">(</span><span class="token class-name">Stream</span> stream<span class="token punctuation">,</span> <span class="token class-name">CompressionMode</span> mode<span class="token punctuation">,</span> <span class="token class-name">CompressionLevel</span> level<span class="token punctuation">)</span></code></pre>
@@ -1499,7 +1502,7 @@ End Using</code></pre>
   <code>GZipStream</code> with <code>CompressionMode.Decompress</code> works only
   through <code>Read()</code>.
 </p>
-<h3 id="gzipstream-stream-compressionmode-bool" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode-bool"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_System_Boolean_"></a> GZipStream(Stream, CompressionMode, bool)</a></h3>
+<h3 id="gzipstream-stream-compressionmode-bool" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode-bool"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_System_Boolean_"></a>GZipStream(Stream, CompressionMode, bool)</a></h3>
 <p>Create a <code>GZipStream</code> using the specified <code>CompressionMode</code>, and
 explicitly specify whether the stream should be left open after Deflation
 or Inflation.</p>
@@ -1536,7 +1539,7 @@ inflation/deflation.</p>
 <p>
   See the other overloads of this constructor for example code.
 </p>
-<h3 id="gzipstream-stream-compressionmode-compressionlevel-bool" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode-compressionlevel-bool"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Boolean_"></a> GZipStream(Stream, CompressionMode, CompressionLevel, bool)</a></h3>
+<h3 id="gzipstream-stream-compressionmode-compressionlevel-bool" tabindex="-1"><a class="header-anchor" href="#gzipstream-stream-compressionmode-compressionlevel-bool"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream__ctor_System_IO_Stream_MonoGame_Framework_Utilities_Deflate_CompressionMode_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Boolean_"></a>GZipStream(Stream, CompressionMode, CompressionLevel, bool)</a></h3>
 <p>Create a <code>GZipStream</code> using the specified <code>CompressionMode</code> and the
 specified <code>CompressionLevel</code>, and explicitly specify whether the
 stream should be left open after Deflation or Inflation.</p>
@@ -1600,7 +1603,7 @@ End Using</code></pre>
   through <code>Read()</code>.
 </p>
 <h2 id="fields" tabindex="-1"><a class="header-anchor" href="#fields">Fields</a></h2>
-<h3 id="lastmodified" tabindex="-1"><a class="header-anchor" href="#lastmodified"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_LastModified"></a> LastModified</a></h3>
+<h3 id="lastmodified" tabindex="-1"><a class="header-anchor" href="#lastmodified"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_LastModified"></a>LastModified</a></h3>
 <p>The last modified time for the GZIP stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> DateTime<span class="token punctuation">?</span> LastModified</code></pre>
 <h4 id="field-value" tabindex="-1"><a class="header-anchor" href="#field-value">Field Value</a></h4>
@@ -1611,7 +1614,7 @@ When compressing data, you can set this before the first call to
 <code>Write()</code>.  When decompressing, you can retrieve this value any time
 after the first call to <code>Read()</code>.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="buffersize" tabindex="-1"><a class="header-anchor" href="#buffersize"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_BufferSize"></a> BufferSize</a></h3>
+<h3 id="buffersize" tabindex="-1"><a class="header-anchor" href="#buffersize"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_BufferSize"></a>BufferSize</a></h3>
 <p>The size of the working buffer for the compression codec.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> BufferSize <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
@@ -1627,28 +1630,28 @@ after the first call to <code>Read()</code>.</p>
   Set this before the first call to <code>Read()</code> or <code>Write()</code> on the
   stream. If you try to set it afterwards, it will throw.
 </p>
-<h3 id="canread" tabindex="-1"><a class="header-anchor" href="#canread"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CanRead"></a> CanRead</a></h3>
+<h3 id="canread" tabindex="-1"><a class="header-anchor" href="#canread"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CanRead"></a>CanRead</a></h3>
 <p>Indicates whether the stream can be read.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> CanRead <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h4 id="remarks-7" tabindex="-1"><a class="header-anchor" href="#remarks-7">Remarks</a></h4>
 <p>The return value depends on whether the captive stream supports reading.</p>
-<h3 id="canseek" tabindex="-1"><a class="header-anchor" href="#canseek"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CanSeek"></a> CanSeek</a></h3>
+<h3 id="canseek" tabindex="-1"><a class="header-anchor" href="#canseek"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CanSeek"></a>CanSeek</a></h3>
 <p>Indicates whether the stream supports Seek operations.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> CanSeek <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h4 id="remarks-8" tabindex="-1"><a class="header-anchor" href="#remarks-8">Remarks</a></h4>
 <p>Always returns false.</p>
-<h3 id="canwrite" tabindex="-1"><a class="header-anchor" href="#canwrite"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CanWrite"></a> CanWrite</a></h3>
+<h3 id="canwrite" tabindex="-1"><a class="header-anchor" href="#canwrite"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CanWrite"></a>CanWrite</a></h3>
 <p>Indicates whether the stream can be written.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> CanWrite <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h4 id="remarks-9" tabindex="-1"><a class="header-anchor" href="#remarks-9">Remarks</a></h4>
 <p>The return value depends on whether the captive stream supports writing.</p>
-<h3 id="comment" tabindex="-1"><a class="header-anchor" href="#comment"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Comment"></a> Comment</a></h3>
+<h3 id="comment" tabindex="-1"><a class="header-anchor" href="#comment"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Comment"></a>Comment</a></h3>
 <p>The comment on the GZIP stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Comment <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
@@ -1667,14 +1670,14 @@ after the first call to <code>Read()</code>.</p>
   GZIP bytestream, the Comment property will return <code>null</code>
   (<code>Nothing</code> in VB).
 </p>
-<h3 id="crc" tabindex="-1"><a class="header-anchor" href="#crc"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Crc32"></a> Crc32</a></h3>
+<h3 id="crc" tabindex="-1"><a class="header-anchor" href="#crc"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Crc32"></a>Crc32</a></h3>
 <p>The CRC on the GZIP stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Crc32 <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h4 id="remarks-11" tabindex="-1"><a class="header-anchor" href="#remarks-11">Remarks</a></h4>
 <p>This is used for internal error checking. You probably don't need to look at this property.</p>
-<h3 id="filename" tabindex="-1"><a class="header-anchor" href="#filename"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_FileName"></a> FileName</a></h3>
+<h3 id="filename" tabindex="-1"><a class="header-anchor" href="#filename"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_FileName"></a>FileName</a></h3>
 <p>The FileName for the GZIP stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> FileName <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-6" tabindex="-1"><a class="header-anchor" href="#property-value-6">Property Value</a></h4>
@@ -1695,17 +1698,17 @@ after the first call to <code>Read()</code>.</p>
   encoded into the GZIP bytestream, the property will return <code>null</code> (<code>Nothing</code>
   in VB).
 </p>
-<h3 id="flushmode" tabindex="-1"><a class="header-anchor" href="#flushmode"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_FlushMode"></a> FlushMode</a></h3>
+<h3 id="flushmode" tabindex="-1"><a class="header-anchor" href="#flushmode"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_FlushMode"></a>FlushMode</a></h3>
 <p>This property sets the flush behavior on the stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name">FlushType</span> FlushMode <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-7" tabindex="-1"><a class="header-anchor" href="#property-value-7">Property Value</a></h4>
 <p><a href="/api/MonoGame.Framework.Utilities.Deflate.FlushType">FlushType</a></p>
-<h3 id="length" tabindex="-1"><a class="header-anchor" href="#length"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Length"></a> Length</a></h3>
+<h3 id="length" tabindex="-1"><a class="header-anchor" href="#length"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Length"></a>Length</a></h3>
 <p>Reading this property always throws a <a href="System.NotImplementedException">NotImplementedException</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">long</span></span> Length <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-8" tabindex="-1"><a class="header-anchor" href="#property-value-8">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
-<h3 id="position" tabindex="-1"><a class="header-anchor" href="#position"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Position"></a> Position</a></h3>
+<h3 id="position" tabindex="-1"><a class="header-anchor" href="#position"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Position"></a>Position</a></h3>
 <p>The position of the stream pointer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">long</span></span> Position <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-9" tabindex="-1"><a class="header-anchor" href="#property-value-9">Property Value</a></h4>
@@ -1715,18 +1718,18 @@ after the first call to <code>Read()</code>.</p>
 written out, if used in writing, or the total bytes read in, if used in
 reading.  The count may refer to compressed bytes or uncompressed bytes,
 depending on how you've used the stream.</p>
-<h3 id="totalin" tabindex="-1"><a class="header-anchor" href="#totalin"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_TotalIn"></a> TotalIn</a></h3>
+<h3 id="totalin" tabindex="-1"><a class="header-anchor" href="#totalin"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_TotalIn"></a>TotalIn</a></h3>
 <p>Returns the total number of bytes input so far.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">long</span></span> TotalIn <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-10" tabindex="-1"><a class="header-anchor" href="#property-value-10">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
-<h3 id="totalout" tabindex="-1"><a class="header-anchor" href="#totalout"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_TotalOut"></a> TotalOut</a></h3>
+<h3 id="totalout" tabindex="-1"><a class="header-anchor" href="#totalout"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_TotalOut"></a>TotalOut</a></h3>
 <p>Returns the total number of bytes output so far.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">long</span></span> TotalOut <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-11" tabindex="-1"><a class="header-anchor" href="#property-value-11">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="compressbuffer-byte" tabindex="-1"><a class="header-anchor" href="#compressbuffer-byte"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CompressBuffer_System_Byte___"></a> CompressBuffer(byte[])</a></h3>
+<h3 id="compressbuffer-byte" tabindex="-1"><a class="header-anchor" href="#compressbuffer-byte"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CompressBuffer_System_Byte___"></a>CompressBuffer(byte[])</a></h3>
 <p>Compress a byte array into a new byte array using GZip.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">CompressBuffer</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> b<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-4" tabindex="-1"><a class="header-anchor" href="#parameters-4">Parameters</a></h4>
@@ -1738,9 +1741,9 @@ depending on how you've used the stream.</p>
 <h4 id="remarks-14" tabindex="-1"><a class="header-anchor" href="#remarks-14">Remarks</a></h4>
 <p>Uncompress it with <a href="MonoGame.Framework.Utilities.Deflate.GZipStream.UncompressBuffer(System.Byte%5b%5d)">Byte%5b%5d)</a>.</p>
 <h4 id="see-also" tabindex="-1"><a class="header-anchor" href="#see-also">See Also</a></h4>
-<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressString_System_String_">CompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a>),
+<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressString_System_String_">CompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a>)<br>
 <a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressBuffer_System_Byte___">UncompressBuffer</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[])</p>
-<h3 id="compressstring-string" tabindex="-1"><a class="header-anchor" href="#compressstring-string"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CompressString_System_String_"></a> CompressString(string)</a></h3>
+<h3 id="compressstring-string" tabindex="-1"><a class="header-anchor" href="#compressstring-string"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_CompressString_System_String_"></a>CompressString(string)</a></h3>
 <p>Compress a string into a byte array using GZip.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">CompressString</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> s<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-5" tabindex="-1"><a class="header-anchor" href="#parameters-5">Parameters</a></h4>
@@ -1753,9 +1756,9 @@ using UTF8, then compressed.</p>
 <h4 id="remarks-15" tabindex="-1"><a class="header-anchor" href="#remarks-15">Remarks</a></h4>
 <p>Uncompress it with <a href="MonoGame.Framework.Utilities.Deflate.GZipStream.UncompressString(System.Byte%5b%5d)">Byte%5b%5d)</a>.</p>
 <h4 id="see-also-1" tabindex="-1"><a class="header-anchor" href="#see-also-1">See Also</a></h4>
-<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressString_System_Byte___">UncompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]),
+<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressString_System_Byte___">UncompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[])<br>
 <a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressBuffer_System_Byte___">CompressBuffer</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[])</p>
-<h3 id="dispose-bool" tabindex="-1"><a class="header-anchor" href="#dispose-bool"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Dispose_System_Boolean_"></a> Dispose(bool)</a></h3>
+<h3 id="dispose-bool" tabindex="-1"><a class="header-anchor" href="#dispose-bool"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Dispose_System_Boolean_"></a>Dispose(bool)</a></h3>
 <p>Dispose the stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> disposing<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-6" tabindex="-1"><a class="header-anchor" href="#parameters-6">Parameters</a></h4>
@@ -1777,10 +1780,10 @@ using UTF8, then compressed.</p>
   reference other objects; in that case only unmanaged resources must
   be referenced or disposed.
 </p>
-<h3 id="flush" tabindex="-1"><a class="header-anchor" href="#flush"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Flush"></a> Flush()</a></h3>
+<h3 id="flush" tabindex="-1"><a class="header-anchor" href="#flush"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Flush"></a>Flush()</a></h3>
 <p>Flush the stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Flush</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="read-byte-int-int" tabindex="-1"><a class="header-anchor" href="#read-byte-int-int"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Read_System_Byte___System_Int32_System_Int32_"></a> Read(byte[], int, int)</a></h3>
+<h3 id="read-byte-int-int" tabindex="-1"><a class="header-anchor" href="#read-byte-int-int"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Read_System_Byte___System_Int32_System_Int32_"></a>Read(byte[], int, int)</a></h3>
 <p>Read and decompress data from the source stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">Read</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> buffer<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> offset<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> count<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-7" tabindex="-1"><a class="header-anchor" href="#parameters-7">Parameters</a></h4>
@@ -1811,7 +1814,7 @@ using (System.IO.Stream input = System.IO.File.OpenRead(_CompressedFile))
 }</code></pre>
 <h4 id="remarks-17" tabindex="-1"><a class="header-anchor" href="#remarks-17">Remarks</a></h4>
 <p>With a <code>GZipStream</code>, decompression is done through reading.</p>
-<h3 id="seek-long-seekorigin" tabindex="-1"><a class="header-anchor" href="#seek-long-seekorigin"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Seek_System_Int64_System_IO_SeekOrigin_"></a> Seek(long, SeekOrigin)</a></h3>
+<h3 id="seek-long-seekorigin" tabindex="-1"><a class="header-anchor" href="#seek-long-seekorigin"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Seek_System_Int64_System_IO_SeekOrigin_"></a>Seek(long, SeekOrigin)</a></h3>
 <p>Calling this method always throws a <a href="System.NotImplementedException">NotImplementedException</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">long</span></span> <span class="token function">Seek</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">long</span></span> offset<span class="token punctuation">,</span> <span class="token class-name">SeekOrigin</span> origin<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-8" tabindex="-1"><a class="header-anchor" href="#parameters-8">Parameters</a></h4>
@@ -1822,13 +1825,13 @@ using (System.IO.Stream input = System.IO.File.OpenRead(_CompressedFile))
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
 <p>irrelevant!</p>
-<h3 id="setlength-long" tabindex="-1"><a class="header-anchor" href="#setlength-long"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_SetLength_System_Int64_"></a> SetLength(long)</a></h3>
+<h3 id="setlength-long" tabindex="-1"><a class="header-anchor" href="#setlength-long"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_SetLength_System_Int64_"></a>SetLength(long)</a></h3>
 <p>Calling this method always throws a <a href="System.NotImplementedException">NotImplementedException</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SetLength</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">long</span></span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-9" tabindex="-1"><a class="header-anchor" href="#parameters-9">Parameters</a></h4>
 <p><code>value</code> <a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
 <p>irrelevant; this method will always throw!</p>
-<h3 id="uncompressbuffer-byte" tabindex="-1"><a class="header-anchor" href="#uncompressbuffer-byte"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressBuffer_System_Byte___"></a> UncompressBuffer(byte[])</a></h3>
+<h3 id="uncompressbuffer-byte" tabindex="-1"><a class="header-anchor" href="#uncompressbuffer-byte"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressBuffer_System_Byte___"></a>UncompressBuffer(byte[])</a></h3>
 <p>Uncompress a GZip'ed byte array into a byte array.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> <span class="token function">UncompressBuffer</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> compressed<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-10" tabindex="-1"><a class="header-anchor" href="#parameters-10">Parameters</a></h4>
@@ -1838,9 +1841,9 @@ using (System.IO.Stream input = System.IO.File.OpenRead(_CompressedFile))
 <p><a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
 <p>The data in uncompressed form</p>
 <h4 id="see-also-2" tabindex="-1"><a class="header-anchor" href="#see-also-2">See Also</a></h4>
-<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressBuffer_System_Byte___">CompressBuffer</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]),
+<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressBuffer_System_Byte___">CompressBuffer</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[])<br>
 <a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressString_System_Byte___">UncompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[])</p>
-<h3 id="uncompressstring-byte" tabindex="-1"><a class="header-anchor" href="#uncompressstring-byte"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressString_System_Byte___"></a> UncompressString(byte[])</a></h3>
+<h3 id="uncompressstring-byte" tabindex="-1"><a class="header-anchor" href="#uncompressstring-byte"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressString_System_Byte___"></a>UncompressString(byte[])</a></h3>
 <p>Uncompress a GZip'ed byte array into a single string.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> <span class="token function">UncompressString</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> compressed<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-11" tabindex="-1"><a class="header-anchor" href="#parameters-11">Parameters</a></h4>
@@ -1850,9 +1853,9 @@ using (System.IO.Stream input = System.IO.File.OpenRead(_CompressedFile))
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <p>The uncompressed string</p>
 <h4 id="see-also-3" tabindex="-1"><a class="header-anchor" href="#see-also-3">See Also</a></h4>
-<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressString_System_String_">CompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a>),
+<p><a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_CompressString_System_String_">CompressString</a>(<a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a>)<br>
 <a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream">GZipStream</a>.<a href="/api/MonoGame.Framework.Utilities.Deflate.GZipStream#MonoGame_Framework_Utilities_Deflate_GZipStream_UncompressBuffer_System_Byte___">UncompressBuffer</a>(<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[])</p>
-<h3 id="write-byte-int-int" tabindex="-1"><a class="header-anchor" href="#write-byte-int-int"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Write_System_Byte___System_Int32_System_Int32_"></a> Write(byte[], int, int)</a></h3>
+<h3 id="write-byte-int-int" tabindex="-1"><a class="header-anchor" href="#write-byte-int-int"><a id="MonoGame_Framework_Utilities_Deflate_GZipStream_Write_System_Byte___System_Int32_System_Int32_"></a>Write(byte[], int, int)</a></h3>
 <p>Write data to the stream.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Write</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> buffer<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> offset<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> count<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-12" tabindex="-1"><a class="header-anchor" href="#parameters-12">Parameters</a></h4>
@@ -1875,7 +1878,7 @@ using (System.IO.Stream input = System.IO.File.OpenRead(_CompressedFile))
   both. Writing implies compression.  Reading implies decompression.
 </p>
 <h2 id="see-also-4" tabindex="-1"><a class="header-anchor" href="#see-also-4">See Also</a></h2>
-<p><a href="/api/MonoGame.Framework.Utilities.Deflate.DeflateStream">DeflateStream</a>,
+<p><a href="/api/MonoGame.Framework.Utilities.Deflate.DeflateStream">DeflateStream</a><br>
 <a href="/api/MonoGame.Framework.Utilities.Deflate.ZlibStream">ZlibStream</a></p>
 
     </article>

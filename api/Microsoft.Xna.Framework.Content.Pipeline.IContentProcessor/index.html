@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,24 +1242,24 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="interface-icontentprocessor" tabindex="-1"><a class="header-anchor" href="#interface-icontentprocessor"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor"></a> Interface IContentProcessor</a></h1>
+        <h1 id="interface-icontentprocessor" tabindex="-1"><a class="header-anchor" href="#interface-icontentprocessor">Interface IContentProcessor</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline">Microsoft.Xna.Framework.Content.Pipeline</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides methods and properties for accessing a statically typed ContentProcessor subclass, using dynamically typed object data.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">IContentProcessor</span></code></pre>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="inputtype" tabindex="-1"><a class="header-anchor" href="#inputtype"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor_InputType"></a> InputType</a></h3>
+<h3 id="inputtype" tabindex="-1"><a class="header-anchor" href="#inputtype"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor_InputType"></a>InputType</a></h3>
 <p>Gets the expected object type of the input parameter to IContentProcessor.Process.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token return-type class-name">Type</span> InputType <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></p>
-<h3 id="outputtype" tabindex="-1"><a class="header-anchor" href="#outputtype"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor_OutputType"></a> OutputType</a></h3>
+<h3 id="outputtype" tabindex="-1"><a class="header-anchor" href="#outputtype"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor_OutputType"></a>OutputType</a></h3>
 <p>Gets the object type returned by IContentProcessor.Process.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token return-type class-name">Type</span> OutputType <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="process-object-contentprocessorcontext" tabindex="-1"><a class="header-anchor" href="#process-object-contentprocessorcontext"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor_Process_System_Object_Microsoft_Xna_Framework_Content_Pipeline_ContentProcessorContext_"></a> Process(object, ContentProcessorContext)</a></h3>
+<h3 id="process-object-contentprocessorcontext" tabindex="-1"><a class="header-anchor" href="#process-object-contentprocessorcontext"><a id="Microsoft_Xna_Framework_Content_Pipeline_IContentProcessor_Process_System_Object_Microsoft_Xna_Framework_Content_Pipeline_ContentProcessorContext_"></a>Process(object, ContentProcessorContext)</a></h3>
 <p>Processes the specified input data and returns the result.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token return-type class-name"><span class="token keyword">object</span></span> <span class="token function">Process</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">object</span></span> input<span class="token punctuation">,</span> <span class="token class-name">ContentProcessorContext</span> context<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>

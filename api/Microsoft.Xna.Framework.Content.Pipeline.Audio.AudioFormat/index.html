@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-audioformat" tabindex="-1"><a class="header-anchor" href="#class-audioformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat"></a> Class AudioFormat</a></h1>
+        <h1 id="class-audioformat" tabindex="-1"><a class="header-anchor" href="#class-audioformat">Class AudioFormat</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Audio">Microsoft.Xna.Framework.Content.Pipeline.Audio</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Encapsulates the native audio format (WAVEFORMATEX) information of the audio content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">AudioFormat</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Audio.AudioFormat">AudioFormat</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1255,37 +1258,37 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="averagebytespersecond" tabindex="-1"><a class="header-anchor" href="#averagebytespersecond"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_AverageBytesPerSecond"></a> AverageBytesPerSecond</a></h3>
+<h3 id="averagebytespersecond" tabindex="-1"><a class="header-anchor" href="#averagebytespersecond"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_AverageBytesPerSecond"></a>AverageBytesPerSecond</a></h3>
 <p>Gets the average bytes processed per second.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> AverageBytesPerSecond <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="bitspersample" tabindex="-1"><a class="header-anchor" href="#bitspersample"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_BitsPerSample"></a> BitsPerSample</a></h3>
+<h3 id="bitspersample" tabindex="-1"><a class="header-anchor" href="#bitspersample"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_BitsPerSample"></a>BitsPerSample</a></h3>
 <p>Gets the bit depth of the audio content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> BitsPerSample <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="blockalign" tabindex="-1"><a class="header-anchor" href="#blockalign"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_BlockAlign"></a> BlockAlign</a></h3>
+<h3 id="blockalign" tabindex="-1"><a class="header-anchor" href="#blockalign"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_BlockAlign"></a>BlockAlign</a></h3>
 <p>Gets the number of bytes per sample block, taking channels into consideration. For example, for 16-bit stereo audio (PCM format), the size of each sample block is 4 bytes.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> BlockAlign <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="channelcount" tabindex="-1"><a class="header-anchor" href="#channelcount"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_ChannelCount"></a> ChannelCount</a></h3>
+<h3 id="channelcount" tabindex="-1"><a class="header-anchor" href="#channelcount"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_ChannelCount"></a>ChannelCount</a></h3>
 <p>Gets the number of channels.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> ChannelCount <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="format" tabindex="-1"><a class="header-anchor" href="#format"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_Format"></a> Format</a></h3>
+<h3 id="format" tabindex="-1"><a class="header-anchor" href="#format"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_Format"></a>Format</a></h3>
 <p>Gets the format of the audio content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Format <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="nativewaveformat" tabindex="-1"><a class="header-anchor" href="#nativewaveformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_NativeWaveFormat"></a> NativeWaveFormat</a></h3>
+<h3 id="nativewaveformat" tabindex="-1"><a class="header-anchor" href="#nativewaveformat"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_NativeWaveFormat"></a>NativeWaveFormat</a></h3>
 <p>Gets the raw byte buffer for the format. For non-PCM formats, this buffer contains important format-specific information beyond the basic format information exposed in other properties of the AudioFormat type.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ReadOnlyCollection<span class="token punctuation">&lt;</span><span class="token keyword">byte</span><span class="token punctuation">></span></span> NativeWaveFormat <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1" target="_blank" rel="noopener noreferrer">ReadOnlyCollection</a>&lt;<a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>&gt;</p>
-<h3 id="samplerate" tabindex="-1"><a class="header-anchor" href="#samplerate"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_SampleRate"></a> SampleRate</a></h3>
+<h3 id="samplerate" tabindex="-1"><a class="header-anchor" href="#samplerate"><a id="Microsoft_Xna_Framework_Content_Pipeline_Audio_AudioFormat_SampleRate"></a>SampleRate</a></h3>
 <p>Gets the sample rate of the audio content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> SampleRate <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-6" tabindex="-1"><a class="header-anchor" href="#property-value-6">Property Value</a></h4>

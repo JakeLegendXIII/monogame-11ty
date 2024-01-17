@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-contentcompiler" tabindex="-1"><a class="header-anchor" href="#class-contentcompiler"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler"></a> Class ContentCompiler</a></h1>
+        <h1 id="class-contentcompiler" tabindex="-1"><a class="header-anchor" href="#class-contentcompiler">Class ContentCompiler</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler">Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides methods for writing compiled binary format.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">ContentCompiler</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler.ContentCompiler">ContentCompiler</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1255,11 +1258,11 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="contentcompiler" tabindex="-1"><a class="header-anchor" href="#contentcompiler"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler__ctor"></a> ContentCompiler()</a></h3>
+<h3 id="contentcompiler" tabindex="-1"><a class="header-anchor" href="#contentcompiler"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler__ctor"></a>ContentCompiler()</a></h3>
 <p>Initializes a new instance of ContentCompiler.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ContentCompiler</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="compile-stream-object-targetplatform-graphicsprofile-bool-string-string" tabindex="-1"><a class="header-anchor" href="#compile-stream-object-targetplatform-graphicsprofile-bool-string-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler_Compile_System_IO_Stream_System_Object_Microsoft_Xna_Framework_Content_Pipeline_TargetPlatform_Microsoft_Xna_Framework_Graphics_GraphicsProfile_System_Boolean_System_String_System_String_"></a> Compile(Stream, object, TargetPlatform, GraphicsProfile, bool, string, string)</a></h3>
+<h3 id="compile-stream-object-targetplatform-graphicsprofile-bool-string-string" tabindex="-1"><a class="header-anchor" href="#compile-stream-object-targetplatform-graphicsprofile-bool-string-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler_Compile_System_IO_Stream_System_Object_Microsoft_Xna_Framework_Content_Pipeline_TargetPlatform_Microsoft_Xna_Framework_Graphics_GraphicsProfile_System_Boolean_System_String_System_String_"></a>Compile(Stream, object, TargetPlatform, GraphicsProfile, bool, string, string)</a></h3>
 <p>Write the content to a XNB file.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Compile</span><span class="token punctuation">(</span><span class="token class-name">Stream</span> stream<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">object</span></span> content<span class="token punctuation">,</span> <span class="token class-name">TargetPlatform</span> targetPlatform<span class="token punctuation">,</span> <span class="token class-name">GraphicsProfile</span> targetProfile<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> compressContent<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> rootDirectory<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">string</span></span> referenceRelocationPath<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1277,7 +1280,7 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>The root directory of the content.</p>
 <p><code>referenceRelocationPath</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <p>The path of the XNB file, used to calculate relative paths for external references.</p>
-<h3 id="gettypewriter-type" tabindex="-1"><a class="header-anchor" href="#gettypewriter-type"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler_GetTypeWriter_System_Type_"></a> GetTypeWriter(Type)</a></h3>
+<h3 id="gettypewriter-type" tabindex="-1"><a class="header-anchor" href="#gettypewriter-type"><a id="Microsoft_Xna_Framework_Content_Pipeline_Serialization_Compiler_ContentCompiler_GetTypeWriter_System_Type_"></a>GetTypeWriter(Type)</a></h3>
 <p>Retrieves the worker writer for the specified type.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">ContentTypeWriter</span> <span class="token function">GetTypeWriter</span><span class="token punctuation">(</span><span class="token class-name">Type</span> type<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>

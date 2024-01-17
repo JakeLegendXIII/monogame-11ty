@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,19 +1242,19 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-soundeffectinstance" tabindex="-1"><a class="header-anchor" href="#class-soundeffectinstance"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance"></a> Class SoundEffectInstance</a></h1>
+        <h1 id="class-soundeffectinstance" tabindex="-1"><a class="header-anchor" href="#class-soundeffectinstance">Class SoundEffectInstance</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Audio">Microsoft.Xna.Framework.Audio</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Represents a single instance of a playing, paused, or stopped sound.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SoundEffectInstance</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IDisposable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Audio.SoundEffectInstance">SoundEffectInstance</a></p>
-<h4 id="derived" tabindex="-1"><a class="header-anchor" href="#derived">Derived</a></h4>
+<h6 id="derived" tabindex="-1"><a class="header-anchor" href="#derived">Derived</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Audio.DynamicSoundEffectInstance">DynamicSoundEffectInstance</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1262,34 +1265,34 @@ Assembly: MonoGame.Framework.dll</p>
 <h2 id="remarks" tabindex="-1"><a class="header-anchor" href="#remarks">Remarks</a></h2>
 <p>SoundEffectInstances are created through SoundEffect.CreateInstance() and used internally by SoundEffect.Play()</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsDisposed"></a> IsDisposed</a></h3>
+<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsDisposed"></a>IsDisposed</a></h3>
 <p>Indicates whether the object is disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsDisposed <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="islooped" tabindex="-1"><a class="header-anchor" href="#islooped"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsLooped"></a> IsLooped</a></h3>
+<h3 id="islooped" tabindex="-1"><a class="header-anchor" href="#islooped"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_IsLooped"></a>IsLooped</a></h3>
 <p>Enables or Disables whether the SoundEffectInstance should repeat after playback.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsLooped <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>This value has no effect on an already playing sound.</p>
-<h3 id="pan" tabindex="-1"><a class="header-anchor" href="#pan"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pan"></a> Pan</a></h3>
+<h3 id="pan" tabindex="-1"><a class="header-anchor" href="#pan"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pan"></a>Pan</a></h3>
 <p>Gets or sets the pan, or speaker balance..</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> Pan <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">float</a></p>
-<h3 id="pitch" tabindex="-1"><a class="header-anchor" href="#pitch"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pitch"></a> Pitch</a></h3>
+<h3 id="pitch" tabindex="-1"><a class="header-anchor" href="#pitch"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pitch"></a>Pitch</a></h3>
 <p>Gets or sets the pitch adjustment.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> Pitch <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.single" target="_blank" rel="noopener noreferrer">float</a></p>
-<h3 id="state" tabindex="-1"><a class="header-anchor" href="#state"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_State"></a> State</a></h3>
+<h3 id="state" tabindex="-1"><a class="header-anchor" href="#state"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_State"></a>State</a></h3>
 <p>Gets the SoundEffectInstance's current playback state.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name">SoundState</span> State <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Audio.SoundState">SoundState</a></p>
-<h3 id="volume" tabindex="-1"><a class="header-anchor" href="#volume"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Volume"></a> Volume</a></h3>
+<h3 id="volume" tabindex="-1"><a class="header-anchor" href="#volume"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Volume"></a>Volume</a></h3>
 <p>Gets or sets the volume of the SoundEffectInstance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> Volume <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
@@ -1297,7 +1300,7 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="remarks-2" tabindex="-1"><a class="header-anchor" href="#remarks-2">Remarks</a></h4>
 <p>This is the volume relative to SoundEffect.MasterVolume. Before playback, this Volume property is multiplied by SoundEffect.MasterVolume when determining the final mix volume.</p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="applyd-audiolistener-audioemitter" tabindex="-1"><a class="header-anchor" href="#applyd-audiolistener-audioemitter"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_"></a> Apply3D(AudioListener, AudioEmitter)</a></h3>
+<h3 id="applyd-audiolistener-audioemitter" tabindex="-1"><a class="header-anchor" href="#applyd-audiolistener-audioemitter"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_"></a>Apply3D(AudioListener, AudioEmitter)</a></h3>
 <p>Applies 3D positioning to the SoundEffectInstance using a single listener.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Apply3D</span><span class="token punctuation">(</span><span class="token class-name">AudioListener</span> listener<span class="token punctuation">,</span> <span class="token class-name">AudioEmitter</span> emitter<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1305,7 +1308,7 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Data about the listener.</p>
 <p><code>emitter</code> <a href="/api/Microsoft.Xna.Framework.Audio.AudioEmitter">AudioEmitter</a></p>
 <p>Data about the source of emission.</p>
-<h3 id="applyd-audiolistener-audioemitter-1" tabindex="-1"><a class="header-anchor" href="#applyd-audiolistener-audioemitter-1"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_"></a> Apply3D(AudioListener[], AudioEmitter)</a></h3>
+<h3 id="applyd-audiolistener-audioemitter-1" tabindex="-1"><a class="header-anchor" href="#applyd-audiolistener-audioemitter-1"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener___Microsoft_Xna_Framework_Audio_AudioEmitter_"></a>Apply3D(AudioListener[], AudioEmitter)</a></h3>
 <p>Applies 3D positioning to the SoundEffectInstance using multiple listeners.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Apply3D</span><span class="token punctuation">(</span><span class="token class-name">AudioListener<span class="token punctuation">[</span><span class="token punctuation">]</span></span> listeners<span class="token punctuation">,</span> <span class="token class-name">AudioEmitter</span> emitter<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1313,10 +1316,10 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Data about each listener.</p>
 <p><code>emitter</code> <a href="/api/Microsoft.Xna.Framework.Audio.AudioEmitter">AudioEmitter</a></p>
 <p>Data about the source of emission.</p>
-<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose"></a> Dispose()</a></h3>
+<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose"></a>Dispose()</a></h3>
 <p>Releases the resources held by this <a href="Microsoft.Xna.Framework.Audio.SoundEffectInstance">SoundEffectInstance</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="dispose-bool" tabindex="-1"><a class="header-anchor" href="#dispose-bool"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose_System_Boolean_"></a> Dispose(bool)</a></h3>
+<h3 id="dispose-bool" tabindex="-1"><a class="header-anchor" href="#dispose-bool"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Dispose_System_Boolean_"></a>Dispose(bool)</a></h3>
 <p>Releases the resources held by this <a href="Microsoft.Xna.Framework.Audio.SoundEffectInstance">SoundEffectInstance</a>.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> disposing<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1328,29 +1331,29 @@ means that managed objects referenced by this instance should be disposed or rel
 required.  If the disposing parameter is false, Dispose was called by the finalizer and
 no managed objects should be touched because we do not know if they are still valid or
 not at that time.  Unmanaged resources should always be released.</p>
-<h3 id="soundeffectinstance" tabindex="-1"><a class="header-anchor" href="#soundeffectinstance"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Finalize"></a> ~SoundEffectInstance()</a></h3>
+<h3 id="soundeffectinstance" tabindex="-1"><a class="header-anchor" href="#soundeffectinstance"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Finalize"></a>~SoundEffectInstance()</a></h3>
 <p>Releases unmanaged resources and performs other cleanup operations before the
 <a href="Microsoft.Xna.Framework.Audio.SoundEffectInstance">SoundEffectInstance</a> is reclaimed by garbage collection.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">protected</span> <span class="token operator">~</span><span class="token function">SoundEffectInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="pause" tabindex="-1"><a class="header-anchor" href="#pause"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause"></a> Pause()</a></h3>
+<h3 id="pause" tabindex="-1"><a class="header-anchor" href="#pause"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Pause"></a>Pause()</a></h3>
 <p>Pauses playback of a SoundEffectInstance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Pause</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-4" tabindex="-1"><a class="header-anchor" href="#remarks-4">Remarks</a></h4>
 <p>Paused instances can be resumed with SoundEffectInstance.Play() or SoundEffectInstance.Resume().</p>
-<h3 id="play" tabindex="-1"><a class="header-anchor" href="#play"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play"></a> Play()</a></h3>
+<h3 id="play" tabindex="-1"><a class="header-anchor" href="#play"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Play"></a>Play()</a></h3>
 <p>Plays or resumes a SoundEffectInstance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Play</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-5" tabindex="-1"><a class="header-anchor" href="#remarks-5">Remarks</a></h4>
 <p>Throws an exception if more sounds are playing than the platform allows.</p>
-<h3 id="resume" tabindex="-1"><a class="header-anchor" href="#resume"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Resume"></a> Resume()</a></h3>
+<h3 id="resume" tabindex="-1"><a class="header-anchor" href="#resume"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Resume"></a>Resume()</a></h3>
 <p>Resumes playback for a SoundEffectInstance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Resume</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-6" tabindex="-1"><a class="header-anchor" href="#remarks-6">Remarks</a></h4>
 <p>Only has effect on a SoundEffectInstance in a paused state.</p>
-<h3 id="stop" tabindex="-1"><a class="header-anchor" href="#stop"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop"></a> Stop()</a></h3>
+<h3 id="stop" tabindex="-1"><a class="header-anchor" href="#stop"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop"></a>Stop()</a></h3>
 <p>Immediately stops playing a SoundEffectInstance.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="stop-bool" tabindex="-1"><a class="header-anchor" href="#stop-bool"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop_System_Boolean_"></a> Stop(bool)</a></h3>
+<h3 id="stop-bool" tabindex="-1"><a class="header-anchor" href="#stop-bool"><a id="Microsoft_Xna_Framework_Audio_SoundEffectInstance_Stop_System_Boolean_"></a>Stop(bool)</a></h3>
 <p>Stops playing a SoundEffectInstance, either immediately or as authored.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Stop</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> immediate<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>

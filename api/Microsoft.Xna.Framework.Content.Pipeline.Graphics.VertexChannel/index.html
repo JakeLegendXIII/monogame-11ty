@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,22 +1242,22 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-vertexchannel" tabindex="-1"><a class="header-anchor" href="#class-vertexchannel"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel"></a> Class VertexChannel</a></h1>
+        <h1 id="class-vertexchannel" tabindex="-1"><a class="header-anchor" href="#class-vertexchannel">Class VertexChannel</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics">Microsoft.Xna.Framework.Content.Pipeline.Graphics</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides methods and properties for maintaining a vertex channel.
 A vertex channel is a list of arbitrary data with one value for each vertex. Channels are stored inside a GeometryContent and identified by name.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">VertexChannel</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IList</span><span class="token punctuation">,</span> <span class="token class-name">ICollection</span><span class="token punctuation">,</span> <span class="token class-name">IEnumerable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannel">VertexChannel</a></p>
-<h4 id="derived" tabindex="-1"><a class="header-anchor" href="#derived">Derived</a></h4>
+<h6 id="derived" tabindex="-1"><a class="header-anchor" href="#derived">Derived</a></h6>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.Graphics.VertexChannel-1/">VertexChannel&lt;T&gt;</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.ilist" target="_blank" rel="noopener noreferrer">IList</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.icollection" target="_blank" rel="noopener noreferrer">ICollection</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable" target="_blank" rel="noopener noreferrer">IEnumerable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1263,28 +1266,28 @@ A vertex channel is a list of arbitrary data with one value for each vertex. Cha
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="count" tabindex="-1"><a class="header-anchor" href="#count"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Count"></a> Count</a></h3>
+<h3 id="count" tabindex="-1"><a class="header-anchor" href="#count"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Count"></a>Count</a></h3>
 <p>Gets the number of elements in the vertex channel</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Count <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="elementtype" tabindex="-1"><a class="header-anchor" href="#elementtype"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_ElementType"></a> ElementType</a></h3>
+<h3 id="elementtype" tabindex="-1"><a class="header-anchor" href="#elementtype"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_ElementType"></a>ElementType</a></h3>
 <p>Gets the type of data contained in this channel.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token return-type class-name">Type</span> ElementType <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a></p>
-<h3 id="name" tabindex="-1"><a class="header-anchor" href="#name"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Name"></a> Name</a></h3>
+<h3 id="name" tabindex="-1"><a class="header-anchor" href="#name"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Name"></a>Name</a></h3>
 <p>Gets the name of the vertex channel.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Name <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="this-int" tabindex="-1"><a class="header-anchor" href="#this-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Item_System_Int32_"></a> this[int]</a></h3>
+<h3 id="this-int" tabindex="-1"><a class="header-anchor" href="#this-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Item_System_Int32_"></a>this[int]</a></h3>
 <p>Gets or sets the element at the specified index.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">object</span></span> <span class="token keyword">this</span><span class="token punctuation">[</span><span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">]</span> <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="contains-object" tabindex="-1"><a class="header-anchor" href="#contains-object"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Contains_System_Object_"></a> Contains(object)</a></h3>
+<h3 id="contains-object" tabindex="-1"><a class="header-anchor" href="#contains-object"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_Contains_System_Object_"></a>Contains(object)</a></h3>
 <p>Determines whether the specified element is in the channel.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">Contains</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">object</span></span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1293,7 +1296,7 @@ A vertex channel is a list of arbitrary data with one value for each vertex. Cha
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <p>true if the element is present; false otherwise.</p>
-<h3 id="copyto-array-int" tabindex="-1"><a class="header-anchor" href="#copyto-array-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_CopyTo_System_Array_System_Int32_"></a> CopyTo(Array, int)</a></h3>
+<h3 id="copyto-array-int" tabindex="-1"><a class="header-anchor" href="#copyto-array-int"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_CopyTo_System_Array_System_Int32_"></a>CopyTo(Array, int)</a></h3>
 <p>Copies the elements of the channel to an array, starting at the specified index.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">CopyTo</span><span class="token punctuation">(</span><span class="token class-name">Array</span> array<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> index<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1301,13 +1304,13 @@ A vertex channel is a list of arbitrary data with one value for each vertex. Cha
 <p>Array that will receive the copied channel elements.</p>
 <p><code>index</code> <a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Starting index for copy operation.</p>
-<h3 id="getenumerator" tabindex="-1"><a class="header-anchor" href="#getenumerator"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_GetEnumerator"></a> GetEnumerator()</a></h3>
+<h3 id="getenumerator" tabindex="-1"><a class="header-anchor" href="#getenumerator"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_GetEnumerator"></a>GetEnumerator()</a></h3>
 <p>Gets an enumerator interface for reading channel content.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">IEnumerator</span> <span class="token function">GetEnumerator</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator" target="_blank" rel="noopener noreferrer">IEnumerator</a></p>
 <p>Enumeration of the channel content.</p>
-<h3 id="indexof-object" tabindex="-1"><a class="header-anchor" href="#indexof-object"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_IndexOf_System_Object_"></a> IndexOf(object)</a></h3>
+<h3 id="indexof-object" tabindex="-1"><a class="header-anchor" href="#indexof-object"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_IndexOf_System_Object_"></a>IndexOf(object)</a></h3>
 <p>Gets the index of the specified item.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">IndexOf</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">object</span></span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1316,7 +1319,7 @@ A vertex channel is a list of arbitrary data with one value for each vertex. Cha
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Index of specified item.</p>
-<h3 id="readconvertedcontent-targettype" tabindex="-1"><a class="header-anchor" href="#readconvertedcontent-targettype"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_ReadConvertedContent__1"></a> ReadConvertedContent&lt;TargetType&gt;()</a></h3>
+<h3 id="readconvertedcontent-targettype" tabindex="-1"><a class="header-anchor" href="#readconvertedcontent-targettype"><a id="Microsoft_Xna_Framework_Content_Pipeline_Graphics_VertexChannel_ReadConvertedContent__1"></a>ReadConvertedContent&lt;TargetType&gt;()</a></h3>
 <p>Reads channel content and automatically converts it to the specified vector format.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token return-type class-name">IEnumerable<span class="token punctuation">&lt;</span>TargetType<span class="token punctuation">></span></span> <span class="token generic-method"><span class="token function">ReadConvertedContent</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>TargetType<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>

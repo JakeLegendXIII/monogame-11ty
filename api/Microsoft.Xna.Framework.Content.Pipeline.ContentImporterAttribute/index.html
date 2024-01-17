@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,17 +1242,17 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-contentimporterattribute" tabindex="-1"><a class="header-anchor" href="#class-contentimporterattribute"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute"></a> Class ContentImporterAttribute</a></h1>
+        <h1 id="class-contentimporterattribute" tabindex="-1"><a class="header-anchor" href="#class-contentimporterattribute">Class ContentImporterAttribute</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Content.Pipeline">Microsoft.Xna.Framework.Content.Pipeline</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <p>Provides properties that identify and provide metadata about the importer, such as supported file extensions and caching information.
 Importers are required to initialize this attribute.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ContentImporterAttribute</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">Attribute</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="https://learn.microsoft.com/dotnet/api/system.attribute" target="_blank" rel="noopener noreferrer">Attribute</a> ←
 <a href="/api/Microsoft.Xna.Framework.Content.Pipeline.ContentImporterAttribute">ContentImporterAttribute</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.attribute.equals" target="_blank" rel="noopener noreferrer">Attribute.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)" target="_blank" rel="noopener noreferrer">Attribute.GetCustomAttribute(Assembly, Type)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)" target="_blank" rel="noopener noreferrer">Attribute.GetCustomAttribute(Assembly, Type, bool)</a>,
@@ -1295,35 +1298,35 @@ Importers are required to initialize this attribute.</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="contentimporterattribute-string" tabindex="-1"><a class="header-anchor" href="#contentimporterattribute-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute__ctor_System_String_"></a> ContentImporterAttribute(string)</a></h3>
+<h3 id="contentimporterattribute-string" tabindex="-1"><a class="header-anchor" href="#contentimporterattribute-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute__ctor_System_String_"></a>ContentImporterAttribute(string)</a></h3>
 <p>Initializes a new instance of ContentImporterAttribute and sets the file name extension supported by the importer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ContentImporterAttribute</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> fileExtension<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>fileExtension</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <p>The list of file name extensions supported by the importer. Prefix each extension with a '.'.</p>
-<h3 id="contentimporterattribute-params-string" tabindex="-1"><a class="header-anchor" href="#contentimporterattribute-params-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute__ctor_System_String___"></a> ContentImporterAttribute(params string[])</a></h3>
+<h3 id="contentimporterattribute-params-string" tabindex="-1"><a class="header-anchor" href="#contentimporterattribute-params-string"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute__ctor_System_String___"></a>ContentImporterAttribute(params string[])</a></h3>
 <p>Initializes a new instance of ContentImporterAttribute and sets the file name extensions supported by the importer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ContentImporterAttribute</span><span class="token punctuation">(</span><span class="token keyword">params</span> <span class="token class-name"><span class="token keyword">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> fileExtensions<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>fileExtensions</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a>[]</p>
 <p>The list of file name extensions supported by the importer. Prefix each extension with a '.'.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="cacheimporteddata" tabindex="-1"><a class="header-anchor" href="#cacheimporteddata"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_CacheImportedData"></a> CacheImportedData</a></h3>
+<h3 id="cacheimporteddata" tabindex="-1"><a class="header-anchor" href="#cacheimporteddata"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_CacheImportedData"></a>CacheImportedData</a></h3>
 <p>Gets and sets the caching of the content during importation.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> CacheImportedData <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="defaultprocessor" tabindex="-1"><a class="header-anchor" href="#defaultprocessor"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_DefaultProcessor"></a> DefaultProcessor</a></h3>
+<h3 id="defaultprocessor" tabindex="-1"><a class="header-anchor" href="#defaultprocessor"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_DefaultProcessor"></a>DefaultProcessor</a></h3>
 <p>Gets or sets the name of the default processor for content read by this importer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> DefaultProcessor <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="displayname" tabindex="-1"><a class="header-anchor" href="#displayname"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_DisplayName"></a> DisplayName</a></h3>
+<h3 id="displayname" tabindex="-1"><a class="header-anchor" href="#displayname"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_DisplayName"></a>DisplayName</a></h3>
 <p>Gets or sets the string representing the importer in a user interface. This name is not used by the content pipeline and should not be passed to the BuildAssets task (a custom MSBuild task used by XNA Game Studio). It is used for display purposes only.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">virtual</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> DisplayName <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="fileextensions" tabindex="-1"><a class="header-anchor" href="#fileextensions"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_FileExtensions"></a> FileExtensions</a></h3>
+<h3 id="fileextensions" tabindex="-1"><a class="header-anchor" href="#fileextensions"><a id="Microsoft_Xna_Framework_Content_Pipeline_ContentImporterAttribute_FileExtensions"></a>FileExtensions</a></h3>
 <p>Gets the supported file name extensions of the importer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">IEnumerable<span class="token punctuation">&lt;</span><span class="token keyword">string</span><span class="token punctuation">></span></span> FileExtensions <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>

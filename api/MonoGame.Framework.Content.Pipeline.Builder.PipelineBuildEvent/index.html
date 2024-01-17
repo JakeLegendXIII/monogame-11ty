@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,14 +1242,14 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-pipelinebuildevent" tabindex="-1"><a class="header-anchor" href="#class-pipelinebuildevent"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent"></a> Class PipelineBuildEvent</a></h1>
+        <h1 id="class-pipelinebuildevent" tabindex="-1"><a class="header-anchor" href="#class-pipelinebuildevent">Class PipelineBuildEvent</a></h1>
 <p>Namespace: <a href="/api/MonoGame.Framework.Content.Pipeline.Builder">MonoGame.Framework.Content.Pipeline.Builder</a><br>
 Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PipelineBuildEvent</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent">PipelineBuildEvent</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1255,15 +1258,15 @@ Assembly: MonoGame.Framework.Content.Pipeline.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="pipelinebuildevent" tabindex="-1"><a class="header-anchor" href="#pipelinebuildevent"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent__ctor"></a> PipelineBuildEvent()</a></h3>
+<h3 id="pipelinebuildevent" tabindex="-1"><a class="header-anchor" href="#pipelinebuildevent"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent__ctor"></a>PipelineBuildEvent()</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">PipelineBuildEvent</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h2 id="fields" tabindex="-1"><a class="header-anchor" href="#fields">Fields</a></h2>
-<h3 id="extension" tabindex="-1"><a class="header-anchor" href="#extension"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Extension"></a> Extension</a></h3>
+<h3 id="extension" tabindex="-1"><a class="header-anchor" href="#extension"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Extension"></a>Extension</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">readonly</span> <span class="token keyword">string</span> Extension</code></pre>
 <h4 id="field-value" tabindex="-1"><a class="header-anchor" href="#field-value">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="buildasset" tabindex="-1"><a class="header-anchor" href="#buildasset"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_BuildAsset"></a> BuildAsset</a></h3>
+<h3 id="buildasset" tabindex="-1"><a class="header-anchor" href="#buildasset"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_BuildAsset"></a>BuildAsset</a></h3>
 <p>Gets or sets the additional (nested) assets.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">List<span class="token punctuation">&lt;</span><span class="token keyword">string</span><span class="token punctuation">></span></span> BuildAsset <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
@@ -1277,7 +1280,7 @@ or <a href="Microsoft.Xna.Framework.Content.Pipeline.ContentProcessorContext.Bui
 <p>
 Examples: The mesh processor may build textures and effects in addition to the mesh.
 </p>
-<h3 id="buildoutput" tabindex="-1"><a class="header-anchor" href="#buildoutput"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_BuildOutput"></a> BuildOutput</a></h3>
+<h3 id="buildoutput" tabindex="-1"><a class="header-anchor" href="#buildoutput"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_BuildOutput"></a>BuildOutput</a></h3>
 <p>Gets or sets the related output files.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">List<span class="token punctuation">&lt;</span><span class="token keyword">string</span><span class="token punctuation">></span></span> BuildOutput <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
@@ -1286,7 +1289,7 @@ Examples: The mesh processor may build textures and effects in addition to the m
 <p>Related output files are non-XNB files that are included in addition to the XNB files.
 Related output files need to be copied to the output folder by a content processor and
 registered by calling <a href="Microsoft.Xna.Framework.Content.Pipeline.ContentProcessorContext.AddOutputFile(System.String)">String)</a>.</p>
-<h3 id="dependencies" tabindex="-1"><a class="header-anchor" href="#dependencies"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Dependencies"></a> Dependencies</a></h3>
+<h3 id="dependencies" tabindex="-1"><a class="header-anchor" href="#dependencies"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Dependencies"></a>Dependencies</a></h3>
 <p>Gets or sets the dependencies.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">List<span class="token punctuation">&lt;</span><span class="token keyword">string</span><span class="token punctuation">></span></span> Dependencies <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
@@ -1295,67 +1298,67 @@ registered by calling <a href="Microsoft.Xna.Framework.Content.Pipeline.ContentP
 <p>Dependencies are extra files that are required in addition to the <a href="MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent.SourceFile">SourceFile</a>.
 Dependencies are added using <a href="Microsoft.Xna.Framework.Content.Pipeline.ContentProcessorContext.AddDependency(System.String)">String)</a>. Changes
 to the dependent file causes a rebuilt of the content.</p>
-<h3 id="destfile" tabindex="-1"><a class="header-anchor" href="#destfile"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_DestFile"></a> DestFile</a></h3>
+<h3 id="destfile" tabindex="-1"><a class="header-anchor" href="#destfile"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_DestFile"></a>DestFile</a></h3>
 <p>Absolute path to the output file.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> DestFile <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="desttime" tabindex="-1"><a class="header-anchor" href="#desttime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_DestTime"></a> DestTime</a></h3>
+<h3 id="desttime" tabindex="-1"><a class="header-anchor" href="#desttime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_DestTime"></a>DestTime</a></h3>
 <p>The date/time stamp of the destination file.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">DateTime</span> DestTime <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.datetime" target="_blank" rel="noopener noreferrer">DateTime</a></p>
-<h3 id="importer" tabindex="-1"><a class="header-anchor" href="#importer"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Importer"></a> Importer</a></h3>
+<h3 id="importer" tabindex="-1"><a class="header-anchor" href="#importer"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Importer"></a>Importer</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Importer <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="importertime" tabindex="-1"><a class="header-anchor" href="#importertime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_ImporterTime"></a> ImporterTime</a></h3>
+<h3 id="importertime" tabindex="-1"><a class="header-anchor" href="#importertime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_ImporterTime"></a>ImporterTime</a></h3>
 <p>The date/time stamp of the DLL containing the importer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">DateTime</span> ImporterTime <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-6" tabindex="-1"><a class="header-anchor" href="#property-value-6">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.datetime" target="_blank" rel="noopener noreferrer">DateTime</a></p>
-<h3 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Parameters"></a> Parameters</a></h3>
+<h3 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Parameters"></a>Parameters</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">OpaqueDataDictionary</span> Parameters <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-7" tabindex="-1"><a class="header-anchor" href="#property-value-7">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Content.Pipeline.OpaqueDataDictionary">OpaqueDataDictionary</a></p>
-<h3 id="parametersxml" tabindex="-1"><a class="header-anchor" href="#parametersxml"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_ParametersXml"></a> ParametersXml</a></h3>
+<h3 id="parametersxml" tabindex="-1"><a class="header-anchor" href="#parametersxml"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_ParametersXml"></a>ParametersXml</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">List<span class="token punctuation">&lt;</span>PipelineBuildEvent<span class="token punctuation">.</span>Pair<span class="token punctuation">></span></span> ParametersXml <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-8" tabindex="-1"><a class="header-anchor" href="#property-value-8">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1" target="_blank" rel="noopener noreferrer">List</a>&lt;<a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent">PipelineBuildEvent</a>.<a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent.Pair">Pair</a>&gt;</p>
-<h3 id="processor" tabindex="-1"><a class="header-anchor" href="#processor"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Processor"></a> Processor</a></h3>
+<h3 id="processor" tabindex="-1"><a class="header-anchor" href="#processor"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Processor"></a>Processor</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Processor <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-9" tabindex="-1"><a class="header-anchor" href="#property-value-9">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="processortime" tabindex="-1"><a class="header-anchor" href="#processortime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_ProcessorTime"></a> ProcessorTime</a></h3>
+<h3 id="processortime" tabindex="-1"><a class="header-anchor" href="#processortime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_ProcessorTime"></a>ProcessorTime</a></h3>
 <p>The date/time stamp of the DLL containing the processor.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">DateTime</span> ProcessorTime <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-10" tabindex="-1"><a class="header-anchor" href="#property-value-10">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.datetime" target="_blank" rel="noopener noreferrer">DateTime</a></p>
-<h3 id="sourcefile" tabindex="-1"><a class="header-anchor" href="#sourcefile"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_SourceFile"></a> SourceFile</a></h3>
+<h3 id="sourcefile" tabindex="-1"><a class="header-anchor" href="#sourcefile"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_SourceFile"></a>SourceFile</a></h3>
 <p>Absolute path to the source file.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> SourceFile <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-11" tabindex="-1"><a class="header-anchor" href="#property-value-11">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="sourcetime" tabindex="-1"><a class="header-anchor" href="#sourcetime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_SourceTime"></a> SourceTime</a></h3>
+<h3 id="sourcetime" tabindex="-1"><a class="header-anchor" href="#sourcetime"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_SourceTime"></a>SourceTime</a></h3>
 <p>The date/time stamp of the source file.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">DateTime</span> SourceTime <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-12" tabindex="-1"><a class="header-anchor" href="#property-value-12">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.datetime" target="_blank" rel="noopener noreferrer">DateTime</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="load-string" tabindex="-1"><a class="header-anchor" href="#load-string"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Load_System_String_"></a> Load(string)</a></h3>
+<h3 id="load-string" tabindex="-1"><a class="header-anchor" href="#load-string"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Load_System_String_"></a>Load(string)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">PipelineBuildEvent</span> <span class="token function">Load</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filePath<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
 <p><code>filePath</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent">PipelineBuildEvent</a></p>
-<h3 id="needsrebuild-pipelinemanager-pipelinebuildevent" tabindex="-1"><a class="header-anchor" href="#needsrebuild-pipelinemanager-pipelinebuildevent"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_NeedsRebuild_MonoGame_Framework_Content_Pipeline_Builder_PipelineManager_MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_"></a> NeedsRebuild(PipelineManager, PipelineBuildEvent)</a></h3>
+<h3 id="needsrebuild-pipelinemanager-pipelinebuildevent" tabindex="-1"><a class="header-anchor" href="#needsrebuild-pipelinemanager-pipelinebuildevent"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_NeedsRebuild_MonoGame_Framework_Content_Pipeline_Builder_PipelineManager_MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_"></a>NeedsRebuild(PipelineManager, PipelineBuildEvent)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> <span class="token function">NeedsRebuild</span><span class="token punctuation">(</span><span class="token class-name">PipelineManager</span> manager<span class="token punctuation">,</span> <span class="token class-name">PipelineBuildEvent</span> cachedEvent<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
 <p><code>manager</code> <a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineManager">PipelineManager</a></p>
 <p><code>cachedEvent</code> <a href="/api/MonoGame.Framework.Content.Pipeline.Builder.PipelineBuildEvent">PipelineBuildEvent</a></p>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="save-string" tabindex="-1"><a class="header-anchor" href="#save-string"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Save_System_String_"></a> Save(string)</a></h3>
+<h3 id="save-string" tabindex="-1"><a class="header-anchor" href="#save-string"><a id="MonoGame_Framework_Content_Pipeline_Builder_PipelineBuildEvent_Save_System_String_"></a>Save(string)</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Save</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> filePath<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
 <p><code>filePath</code> <a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>

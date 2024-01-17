@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,17 +1242,17 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-cue" tabindex="-1"><a class="header-anchor" href="#class-cue"><a id="Microsoft_Xna_Framework_Audio_Cue"></a> Class Cue</a></h1>
+        <h1 id="class-cue" tabindex="-1"><a class="header-anchor" href="#class-cue">Class Cue</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Audio">Microsoft.Xna.Framework.Audio</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Manages the playback of a sound or set of sounds.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Cue</span> <span class="token punctuation">:</span> <span class="token type-list"><span class="token class-name">IDisposable</span></span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Audio.Cue">Cue</a></p>
-<h4 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h4>
+<h6 id="implements" tabindex="-1"><a class="header-anchor" href="#implements">Implements</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1262,47 +1265,47 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Cues also define specific properties such as pitch or volume.</p>
 <p>Cues are referenced through SoundBank objects.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="iscreated" tabindex="-1"><a class="header-anchor" href="#iscreated"><a id="Microsoft_Xna_Framework_Audio_Cue_IsCreated"></a> IsCreated</a></h3>
+<h3 id="iscreated" tabindex="-1"><a class="header-anchor" href="#iscreated"><a id="Microsoft_Xna_Framework_Audio_Cue_IsCreated"></a>IsCreated</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsCreated <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_Cue_IsDisposed"></a> IsDisposed</a></h3>
+<h3 id="isdisposed" tabindex="-1"><a class="header-anchor" href="#isdisposed"><a id="Microsoft_Xna_Framework_Audio_Cue_IsDisposed"></a>IsDisposed</a></h3>
 <p>Is true if the Cue has been disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsDisposed <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="ispaused" tabindex="-1"><a class="header-anchor" href="#ispaused"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPaused"></a> IsPaused</a></h3>
+<h3 id="ispaused" tabindex="-1"><a class="header-anchor" href="#ispaused"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPaused"></a>IsPaused</a></h3>
 <p>Indicates whether or not the cue is currently paused.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsPaused <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>IsPlaying and IsPaused both return true if a cue is paused while playing.</p>
-<h3 id="isplaying" tabindex="-1"><a class="header-anchor" href="#isplaying"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying"></a> IsPlaying</a></h3>
+<h3 id="isplaying" tabindex="-1"><a class="header-anchor" href="#isplaying"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPlaying"></a>IsPlaying</a></h3>
 <p>Indicates whether or not the cue is currently playing.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsPlaying <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
 <h4 id="remarks-2" tabindex="-1"><a class="header-anchor" href="#remarks-2">Remarks</a></h4>
 <p>IsPlaying and IsPaused both return true if a cue is paused while playing.</p>
-<h3 id="isprepared" tabindex="-1"><a class="header-anchor" href="#isprepared"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPrepared"></a> IsPrepared</a></h3>
+<h3 id="isprepared" tabindex="-1"><a class="header-anchor" href="#isprepared"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPrepared"></a>IsPrepared</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsPrepared <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="ispreparing" tabindex="-1"><a class="header-anchor" href="#ispreparing"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPreparing"></a> IsPreparing</a></h3>
+<h3 id="ispreparing" tabindex="-1"><a class="header-anchor" href="#ispreparing"><a id="Microsoft_Xna_Framework_Audio_Cue_IsPreparing"></a>IsPreparing</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsPreparing <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="isstopped" tabindex="-1"><a class="header-anchor" href="#isstopped"><a id="Microsoft_Xna_Framework_Audio_Cue_IsStopped"></a> IsStopped</a></h3>
+<h3 id="isstopped" tabindex="-1"><a class="header-anchor" href="#isstopped"><a id="Microsoft_Xna_Framework_Audio_Cue_IsStopped"></a>IsStopped</a></h3>
 <p>Indicates whether or not the cue is currently stopped.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsStopped <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-6" tabindex="-1"><a class="header-anchor" href="#property-value-6">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="isstopping" tabindex="-1"><a class="header-anchor" href="#isstopping"><a id="Microsoft_Xna_Framework_Audio_Cue_IsStopping"></a> IsStopping</a></h3>
+<h3 id="isstopping" tabindex="-1"><a class="header-anchor" href="#isstopping"><a id="Microsoft_Xna_Framework_Audio_Cue_IsStopping"></a>IsStopping</a></h3>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsStopping <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-7" tabindex="-1"><a class="header-anchor" href="#property-value-7">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="name" tabindex="-1"><a class="header-anchor" href="#name"><a id="Microsoft_Xna_Framework_Audio_Cue_Name"></a> Name</a></h3>
+<h3 id="name" tabindex="-1"><a class="header-anchor" href="#name"><a id="Microsoft_Xna_Framework_Audio_Cue_Name"></a>Name</a></h3>
 <p>Gets the friendly name of the cue.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">string</span></span> Name <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-8" tabindex="-1"><a class="header-anchor" href="#property-value-8">Property Value</a></h4>
@@ -1310,7 +1313,7 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="remarks-3" tabindex="-1"><a class="header-anchor" href="#remarks-3">Remarks</a></h4>
 <p>The friendly name is a value set from the designer.</p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="applyd-audiolistener-audioemitter" tabindex="-1"><a class="header-anchor" href="#applyd-audiolistener-audioemitter"><a id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_"></a> Apply3D(AudioListener, AudioEmitter)</a></h3>
+<h3 id="applyd-audiolistener-audioemitter" tabindex="-1"><a class="header-anchor" href="#applyd-audiolistener-audioemitter"><a id="Microsoft_Xna_Framework_Audio_Cue_Apply3D_Microsoft_Xna_Framework_Audio_AudioListener_Microsoft_Xna_Framework_Audio_AudioEmitter_"></a>Apply3D(AudioListener, AudioEmitter)</a></h3>
 <p>Updates the simulated 3D Audio settings calculated between an AudioEmitter and AudioListener.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Apply3D</span><span class="token punctuation">(</span><span class="token class-name">AudioListener</span> listener<span class="token punctuation">,</span> <span class="token class-name">AudioEmitter</span> emitter<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1321,10 +1324,10 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="remarks-4" tabindex="-1"><a class="header-anchor" href="#remarks-4">Remarks</a></h4>
 <p>This must be called before Play().</p>
 <p>Calling this method automatically converts the sound to monoaural and sets the speaker mix for any sound played by this cue to a value calculated with the listener's and emitter's positions. Any stereo information in the sound will be discarded.</p>
-<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_Cue_Dispose"></a> Dispose()</a></h3>
+<h3 id="dispose" tabindex="-1"><a class="header-anchor" href="#dispose"><a id="Microsoft_Xna_Framework_Audio_Cue_Dispose"></a>Dispose()</a></h3>
 <p>Disposes the Cue.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="getvariable-string" tabindex="-1"><a class="header-anchor" href="#getvariable-string"><a id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String_"></a> GetVariable(string)</a></h3>
+<h3 id="getvariable-string" tabindex="-1"><a class="header-anchor" href="#getvariable-string"><a id="Microsoft_Xna_Framework_Audio_Cue_GetVariable_System_String_"></a>GetVariable(string)</a></h3>
 <p>Gets a cue-instance variable value based on its friendly name.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">float</span></span> <span class="token function">GetVariable</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> name<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1336,18 +1339,18 @@ Assembly: MonoGame.Framework.dll</p>
 <h4 id="remarks-5" tabindex="-1"><a class="header-anchor" href="#remarks-5">Remarks</a></h4>
 <p>Cue-instance variables are useful when multiple instantiations of a single cue (and its associated sounds) are required (for example, a "car" cue where there may be more than one car at any given time). While a global variable allows multiple audio elements to be controlled in unison, a cue instance variable grants discrete control of each instance of a cue, even for each copy of the same cue.</p>
 <p>The friendly name is a value set from the designer.</p>
-<h3 id="pause" tabindex="-1"><a class="header-anchor" href="#pause"><a id="Microsoft_Xna_Framework_Audio_Cue_Pause"></a> Pause()</a></h3>
+<h3 id="pause" tabindex="-1"><a class="header-anchor" href="#pause"><a id="Microsoft_Xna_Framework_Audio_Cue_Pause"></a>Pause()</a></h3>
 <p>Pauses playback.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Pause</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="play" tabindex="-1"><a class="header-anchor" href="#play"><a id="Microsoft_Xna_Framework_Audio_Cue_Play"></a> Play()</a></h3>
+<h3 id="play" tabindex="-1"><a class="header-anchor" href="#play"><a id="Microsoft_Xna_Framework_Audio_Cue_Play"></a>Play()</a></h3>
 <p>Requests playback of a prepared or preparing Cue.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Play</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-6" tabindex="-1"><a class="header-anchor" href="#remarks-6">Remarks</a></h4>
 <p>Calling Play when the Cue already is playing can result in an InvalidOperationException.</p>
-<h3 id="resume" tabindex="-1"><a class="header-anchor" href="#resume"><a id="Microsoft_Xna_Framework_Audio_Cue_Resume"></a> Resume()</a></h3>
+<h3 id="resume" tabindex="-1"><a class="header-anchor" href="#resume"><a id="Microsoft_Xna_Framework_Audio_Cue_Resume"></a>Resume()</a></h3>
 <p>Resumes playback of a paused Cue.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Resume</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="setvariable-string-float" tabindex="-1"><a class="header-anchor" href="#setvariable-string-float"><a id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single_"></a> SetVariable(string, float)</a></h3>
+<h3 id="setvariable-string-float" tabindex="-1"><a class="header-anchor" href="#setvariable-string-float"><a id="Microsoft_Xna_Framework_Audio_Cue_SetVariable_System_String_System_Single_"></a>SetVariable(string, float)</a></h3>
 <p>Sets the value of a cue-instance variable based on its friendly name.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">SetVariable</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span></span> name<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">float</span></span> <span class="token keyword">value</span><span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1357,13 +1360,13 @@ Assembly: MonoGame.Framework.dll</p>
 <p>Value to assign to the variable.</p>
 <h4 id="remarks-7" tabindex="-1"><a class="header-anchor" href="#remarks-7">Remarks</a></h4>
 <p>The friendly name is a value set from the designer.</p>
-<h3 id="stop-audiostopoptions" tabindex="-1"><a class="header-anchor" href="#stop-audiostopoptions"><a id="Microsoft_Xna_Framework_Audio_Cue_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_"></a> Stop(AudioStopOptions)</a></h3>
+<h3 id="stop-audiostopoptions" tabindex="-1"><a class="header-anchor" href="#stop-audiostopoptions"><a id="Microsoft_Xna_Framework_Audio_Cue_Stop_Microsoft_Xna_Framework_Audio_AudioStopOptions_"></a>Stop(AudioStopOptions)</a></h3>
 <p>Stops playback of a Cue.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Stop</span><span class="token punctuation">(</span><span class="token class-name">AudioStopOptions</span> options<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
 <p><code>options</code> <a href="/api/Microsoft.Xna.Framework.Audio.AudioStopOptions">AudioStopOptions</a></p>
 <p>Specifies if the sound should play any pending release phases or transitions before stopping.</p>
-<h3 id="disposing" tabindex="-1"><a class="header-anchor" href="#disposing"><a id="Microsoft_Xna_Framework_Audio_Cue_Disposing"></a> Disposing</a></h3>
+<h3 id="disposing" tabindex="-1"><a class="header-anchor" href="#disposing"><a id="Microsoft_Xna_Framework_Audio_Cue_Disposing"></a>Disposing</a></h3>
 <p>This event is triggered when the Cue is disposed.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">event</span> EventHandler<span class="token operator">&lt;</span>EventArgs<span class="token operator">></span> Disposing</code></pre>
 <h4 id="event-type" tabindex="-1"><a class="header-anchor" href="#event-type">Event Type</a></h4>

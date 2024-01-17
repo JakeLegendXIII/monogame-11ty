@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-microphone" tabindex="-1"><a class="header-anchor" href="#class-microphone"><a id="Microsoft_Xna_Framework_Audio_Microphone"></a> Class Microphone</a></h1>
+        <h1 id="class-microphone" tabindex="-1"><a class="header-anchor" href="#class-microphone">Class Microphone</a></h1>
 <p>Namespace: <a href="/api/Microsoft.Xna.Framework.Audio">Microsoft.Xna.Framework.Audio</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Provides microphones capture features.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">Microphone</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/Microsoft.Xna.Framework.Audio.Microphone">Microphone</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1255,47 +1258,47 @@ Assembly: MonoGame.Framework.dll</p>
 <a href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals" target="_blank" rel="noopener noreferrer">object.ReferenceEquals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">object.ToString()</a></p>
 <h2 id="fields" tabindex="-1"><a class="header-anchor" href="#fields">Fields</a></h2>
-<h3 id="name" tabindex="-1"><a class="header-anchor" href="#name"><a id="Microsoft_Xna_Framework_Audio_Microphone_Name"></a> Name</a></h3>
+<h3 id="name" tabindex="-1"><a class="header-anchor" href="#name"><a id="Microsoft_Xna_Framework_Audio_Microphone_Name"></a>Name</a></h3>
 <p>Returns the friendly name of the microphone.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">readonly</span> <span class="token keyword">string</span> Name</code></pre>
 <h4 id="field-value" tabindex="-1"><a class="header-anchor" href="#field-value">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="all" tabindex="-1"><a class="header-anchor" href="#all"><a id="Microsoft_Xna_Framework_Audio_Microphone_All"></a> All</a></h3>
+<h3 id="all" tabindex="-1"><a class="header-anchor" href="#all"><a id="Microsoft_Xna_Framework_Audio_Microphone_All"></a>All</a></h3>
 <p>Returns all compatible microphones.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">ReadOnlyCollection<span class="token punctuation">&lt;</span>Microphone<span class="token punctuation">></span></span> All <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1" target="_blank" rel="noopener noreferrer">ReadOnlyCollection</a>&lt;<a href="/api/Microsoft.Xna.Framework.Audio.Microphone">Microphone</a>&gt;</p>
-<h3 id="bufferduration" tabindex="-1"><a class="header-anchor" href="#bufferduration"><a id="Microsoft_Xna_Framework_Audio_Microphone_BufferDuration"></a> BufferDuration</a></h3>
+<h3 id="bufferduration" tabindex="-1"><a class="header-anchor" href="#bufferduration"><a id="Microsoft_Xna_Framework_Audio_Microphone_BufferDuration"></a>BufferDuration</a></h3>
 <p>Gets or sets the capture buffer duration. This value must be greater than 100 milliseconds, lower than 1000 milliseconds, and must be 10 milliseconds aligned (BufferDuration % 10 == 10).</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">TimeSpan</span> BufferDuration <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-1" tabindex="-1"><a class="header-anchor" href="#property-value-1">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.timespan" target="_blank" rel="noopener noreferrer">TimeSpan</a></p>
-<h3 id="default" tabindex="-1"><a class="header-anchor" href="#default"><a id="Microsoft_Xna_Framework_Audio_Microphone_Default"></a> Default</a></h3>
+<h3 id="default" tabindex="-1"><a class="header-anchor" href="#default"><a id="Microsoft_Xna_Framework_Audio_Microphone_Default"></a>Default</a></h3>
 <p>Returns the default microphone.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name">Microphone</span> Default <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-2" tabindex="-1"><a class="header-anchor" href="#property-value-2">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Audio.Microphone">Microphone</a></p>
-<h3 id="isheadset" tabindex="-1"><a class="header-anchor" href="#isheadset"><a id="Microsoft_Xna_Framework_Audio_Microphone_IsHeadset"></a> IsHeadset</a></h3>
+<h3 id="isheadset" tabindex="-1"><a class="header-anchor" href="#isheadset"><a id="Microsoft_Xna_Framework_Audio_Microphone_IsHeadset"></a>IsHeadset</a></h3>
 <p>Determines if the microphone is a wired headset.
 Note: XNA could know if a headset microphone was plugged in an Xbox 360 controller but MonoGame can't.
 Hence, this is always true on mobile platforms, and always false otherwise.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">bool</span></span> IsHeadset <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-3" tabindex="-1"><a class="header-anchor" href="#property-value-3">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.boolean" target="_blank" rel="noopener noreferrer">bool</a></p>
-<h3 id="samplerate" tabindex="-1"><a class="header-anchor" href="#samplerate"><a id="Microsoft_Xna_Framework_Audio_Microphone_SampleRate"></a> SampleRate</a></h3>
+<h3 id="samplerate" tabindex="-1"><a class="header-anchor" href="#samplerate"><a id="Microsoft_Xna_Framework_Audio_Microphone_SampleRate"></a>SampleRate</a></h3>
 <p>Returns the sample rate of the captured audio.
 Note: default value is 44100hz</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> SampleRate <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-4" tabindex="-1"><a class="header-anchor" href="#property-value-4">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="state" tabindex="-1"><a class="header-anchor" href="#state"><a id="Microsoft_Xna_Framework_Audio_Microphone_State"></a> State</a></h3>
+<h3 id="state" tabindex="-1"><a class="header-anchor" href="#state"><a id="Microsoft_Xna_Framework_Audio_Microphone_State"></a>State</a></h3>
 <p>Returns the state of the Microphone.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">MicrophoneState</span> State <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value-5" tabindex="-1"><a class="header-anchor" href="#property-value-5">Property Value</a></h4>
 <p><a href="/api/Microsoft.Xna.Framework.Audio.MicrophoneState">MicrophoneState</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="getdata-byte" tabindex="-1"><a class="header-anchor" href="#getdata-byte"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___"></a> GetData(byte[])</a></h3>
+<h3 id="getdata-byte" tabindex="-1"><a class="header-anchor" href="#getdata-byte"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___"></a>GetData(byte[])</a></h3>
 <p>Gets the latest available data from the microphone.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetData</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> buffer<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
@@ -1304,7 +1307,7 @@ Note: default value is 44100hz</p>
 <h4 id="returns" tabindex="-1"><a class="header-anchor" href="#returns">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>The buffer size, in bytes, of the captured data.</p>
-<h3 id="getdata-byte-int-int" tabindex="-1"><a class="header-anchor" href="#getdata-byte-int-int"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___System_Int32_System_Int32_"></a> GetData(byte[], int, int)</a></h3>
+<h3 id="getdata-byte-int-int" tabindex="-1"><a class="header-anchor" href="#getdata-byte-int-int"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetData_System_Byte___System_Int32_System_Int32_"></a>GetData(byte[], int, int)</a></h3>
 <p>Gets the latest available data from the microphone.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetData</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> buffer<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> offset<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> count<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1317,7 +1320,7 @@ Note: default value is 44100hz</p>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>The buffer size, in bytes, of the captured data.</p>
-<h3 id="getsampleduration-int" tabindex="-1"><a class="header-anchor" href="#getsampleduration-int"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetSampleDuration_System_Int32_"></a> GetSampleDuration(int)</a></h3>
+<h3 id="getsampleduration-int" tabindex="-1"><a class="header-anchor" href="#getsampleduration-int"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetSampleDuration_System_Int32_"></a>GetSampleDuration(int)</a></h3>
 <p>Returns the duration based on the size of the buffer (assuming 16-bit PCM data).</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name">TimeSpan</span> <span class="token function">GetSampleDuration</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> sizeInBytes<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1326,7 +1329,7 @@ Note: default value is 44100hz</p>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.timespan" target="_blank" rel="noopener noreferrer">TimeSpan</a></p>
 <p>TimeSpan of the duration.</p>
-<h3 id="getsamplesizeinbytes-timespan" tabindex="-1"><a class="header-anchor" href="#getsamplesizeinbytes-timespan"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetSampleSizeInBytes_System_TimeSpan_"></a> GetSampleSizeInBytes(TimeSpan)</a></h3>
+<h3 id="getsamplesizeinbytes-timespan" tabindex="-1"><a class="header-anchor" href="#getsamplesizeinbytes-timespan"><a id="Microsoft_Xna_Framework_Audio_Microphone_GetSampleSizeInBytes_System_TimeSpan_"></a>GetSampleSizeInBytes(TimeSpan)</a></h3>
 <p>Returns the size, in bytes, of the array required to hold the specified duration of 16-bit PCM data.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">GetSampleSizeInBytes</span><span class="token punctuation">(</span><span class="token class-name">TimeSpan</span> duration<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
@@ -1335,13 +1338,13 @@ Note: default value is 44100hz</p>
 <h4 id="returns-3" tabindex="-1"><a class="header-anchor" href="#returns-3">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Size, in bytes, of the buffer.</p>
-<h3 id="start" tabindex="-1"><a class="header-anchor" href="#start"><a id="Microsoft_Xna_Framework_Audio_Microphone_Start"></a> Start()</a></h3>
+<h3 id="start" tabindex="-1"><a class="header-anchor" href="#start"><a id="Microsoft_Xna_Framework_Audio_Microphone_Start"></a>Start()</a></h3>
 <p>Starts microphone capture.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="stop" tabindex="-1"><a class="header-anchor" href="#stop"><a id="Microsoft_Xna_Framework_Audio_Microphone_Stop"></a> Stop()</a></h3>
+<h3 id="stop" tabindex="-1"><a class="header-anchor" href="#stop"><a id="Microsoft_Xna_Framework_Audio_Microphone_Stop"></a>Stop()</a></h3>
 <p>Stops microphone capture.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
-<h3 id="bufferready" tabindex="-1"><a class="header-anchor" href="#bufferready"><a id="Microsoft_Xna_Framework_Audio_Microphone_BufferReady"></a> BufferReady</a></h3>
+<h3 id="bufferready" tabindex="-1"><a class="header-anchor" href="#bufferready"><a id="Microsoft_Xna_Framework_Audio_Microphone_BufferReady"></a>BufferReady</a></h3>
 <p>Event fired when the audio data are available.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">event</span> EventHandler<span class="token operator">&lt;</span>EventArgs<span class="token operator">></span> BufferReady</code></pre>
 <h4 id="event-type" tabindex="-1"><a class="header-anchor" href="#event-type">Event Type</a></h4>

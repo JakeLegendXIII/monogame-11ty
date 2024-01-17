@@ -1169,6 +1169,9 @@
                     <ul class="nav flex-column ps-3">
                         <li class="nav-item w-100">
         <a class="nav-link text-break "
+        href="/api/MonoGame.Framework.Utilities.Deflate.Adler">Adler</a>
+    </li><li class="nav-item w-100">
+        <a class="nav-link text-break "
         href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a>
     </li><li class="nav-item w-100">
         <a class="nav-link text-break "
@@ -1239,15 +1242,15 @@
                 <div class="row justify-content-between content-body">
                     
     <article class="col-md-9 col-xxl-8 api-content-body">
-        <h1 id="class-zlibcodec" tabindex="-1"><a class="header-anchor" href="#class-zlibcodec"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec"></a> Class ZlibCodec</a></h1>
+        <h1 id="class-zlibcodec" tabindex="-1"><a class="header-anchor" href="#class-zlibcodec">Class ZlibCodec</a></h1>
 <p>Namespace: <a href="/api/MonoGame.Framework.Utilities.Deflate">MonoGame.Framework.Utilities.Deflate</a><br>
 Assembly: MonoGame.Framework.dll</p>
 <p>Encoder and Decoder for ZLIB and DEFLATE (IETF RFC1950 and RFC1951).</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">sealed</span> <span class="token keyword">class</span> <span class="token class-name">ZlibCodec</span></code></pre>
-<h4 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h4>
+<h6 id="inheritance" tabindex="-1"><a class="header-anchor" href="#inheritance">Inheritance</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">object</a> ←
 <a href="/api/MonoGame.Framework.Utilities.Deflate.ZlibCodec">ZlibCodec</a></p>
-<h4 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h4>
+<h6 id="inherited-members" tabindex="-1"><a class="header-anchor" href="#inherited-members">Inherited Members</a></h6>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)" target="_blank" rel="noopener noreferrer">object.Equals(object?, object?)</a>,
 <a href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode" target="_blank" rel="noopener noreferrer">object.GetHashCode()</a>,
@@ -1258,21 +1261,21 @@ Assembly: MonoGame.Framework.dll</p>
 <p>This class compresses and decompresses data according to the Deflate algorithm
 and optionally, the ZLIB format, as documented in <a href="http://www.ietf.org/rfc/rfc1950.txt">RFC 1950 - ZLIB</a> and <a href="http://www.ietf.org/rfc/rfc1951.txt">RFC 1951 - DEFLATE</a>.</p>
 <h2 id="constructors" tabindex="-1"><a class="header-anchor" href="#constructors">Constructors</a></h2>
-<h3 id="zlibcodec" tabindex="-1"><a class="header-anchor" href="#zlibcodec"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec__ctor"></a> ZlibCodec()</a></h3>
+<h3 id="zlibcodec" tabindex="-1"><a class="header-anchor" href="#zlibcodec"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec__ctor"></a>ZlibCodec()</a></h3>
 <p>Create a ZlibCodec.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ZlibCodec</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-1" tabindex="-1"><a class="header-anchor" href="#remarks-1">Remarks</a></h4>
 <p>If you use this default constructor, you will later have to explicitly call
 InitializeInflate() or InitializeDeflate() before using the ZlibCodec to compress
 or decompress.</p>
-<h3 id="zlibcodec-compressionmode" tabindex="-1"><a class="header-anchor" href="#zlibcodec-compressionmode"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec__ctor_MonoGame_Framework_Utilities_Deflate_CompressionMode_"></a> ZlibCodec(CompressionMode)</a></h3>
+<h3 id="zlibcodec-compressionmode" tabindex="-1"><a class="header-anchor" href="#zlibcodec-compressionmode"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec__ctor_MonoGame_Framework_Utilities_Deflate_CompressionMode_"></a>ZlibCodec(CompressionMode)</a></h3>
 <p>Create a ZlibCodec that either compresses or decompresses.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token function">ZlibCodec</span><span class="token punctuation">(</span><span class="token class-name">CompressionMode</span> mode<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters">Parameters</a></h4>
 <p><code>mode</code> <a href="/api/MonoGame.Framework.Utilities.Deflate.CompressionMode">CompressionMode</a></p>
 <p>Indicates whether the codec should compress (deflate) or decompress (inflate).</p>
 <h2 id="fields" tabindex="-1"><a class="header-anchor" href="#fields">Fields</a></h2>
-<h3 id="availablebytesin" tabindex="-1"><a class="header-anchor" href="#availablebytesin"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_AvailableBytesIn"></a> AvailableBytesIn</a></h3>
+<h3 id="availablebytesin" tabindex="-1"><a class="header-anchor" href="#availablebytesin"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_AvailableBytesIn"></a>AvailableBytesIn</a></h3>
 <p>The number of bytes available in the InputBuffer, starting at NextIn.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">int</span> AvailableBytesIn</code></pre>
 <h4 id="field-value" tabindex="-1"><a class="header-anchor" href="#field-value">Field Value</a></h4>
@@ -1280,7 +1283,7 @@ or decompress.</p>
 <h4 id="remarks-2" tabindex="-1"><a class="header-anchor" href="#remarks-2">Remarks</a></h4>
 <p>Generally you should set this to InputBuffer.Length before the first Inflate() or Deflate() call.
 The class will update this number as calls to Inflate/Deflate are made.</p>
-<h3 id="availablebytesout" tabindex="-1"><a class="header-anchor" href="#availablebytesout"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_AvailableBytesOut"></a> AvailableBytesOut</a></h3>
+<h3 id="availablebytesout" tabindex="-1"><a class="header-anchor" href="#availablebytesout"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_AvailableBytesOut"></a>AvailableBytesOut</a></h3>
 <p>The number of bytes available in the OutputBuffer, starting at NextOut.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">int</span> AvailableBytesOut</code></pre>
 <h4 id="field-value-1" tabindex="-1"><a class="header-anchor" href="#field-value-1">Field Value</a></h4>
@@ -1288,37 +1291,37 @@ The class will update this number as calls to Inflate/Deflate are made.</p>
 <h4 id="remarks-3" tabindex="-1"><a class="header-anchor" href="#remarks-3">Remarks</a></h4>
 <p>Generally you should set this to OutputBuffer.Length before the first Inflate() or Deflate() call.
 The class will update this number as calls to Inflate/Deflate are made.</p>
-<h3 id="compresslevel" tabindex="-1"><a class="header-anchor" href="#compresslevel"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_CompressLevel"></a> CompressLevel</a></h3>
+<h3 id="compresslevel" tabindex="-1"><a class="header-anchor" href="#compresslevel"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_CompressLevel"></a>CompressLevel</a></h3>
 <p>The compression level to use in this codec.  Useful only in compression mode.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> CompressionLevel CompressLevel</code></pre>
 <h4 id="field-value-2" tabindex="-1"><a class="header-anchor" href="#field-value-2">Field Value</a></h4>
 <p><a href="/api/MonoGame.Framework.Utilities.Deflate.CompressionLevel">CompressionLevel</a></p>
-<h3 id="inputbuffer" tabindex="-1"><a class="header-anchor" href="#inputbuffer"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InputBuffer"></a> InputBuffer</a></h3>
+<h3 id="inputbuffer" tabindex="-1"><a class="header-anchor" href="#inputbuffer"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InputBuffer"></a>InputBuffer</a></h3>
 <p>The buffer from which data is taken.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span> InputBuffer</code></pre>
 <h4 id="field-value-3" tabindex="-1"><a class="header-anchor" href="#field-value-3">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
-<h3 id="message" tabindex="-1"><a class="header-anchor" href="#message"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Message"></a> Message</a></h3>
+<h3 id="message" tabindex="-1"><a class="header-anchor" href="#message"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Message"></a>Message</a></h3>
 <p>used for diagnostics, when something goes wrong!</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">string</span> Message</code></pre>
 <h4 id="field-value-4" tabindex="-1"><a class="header-anchor" href="#field-value-4">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">string</a></p>
-<h3 id="nextin" tabindex="-1"><a class="header-anchor" href="#nextin"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_NextIn"></a> NextIn</a></h3>
+<h3 id="nextin" tabindex="-1"><a class="header-anchor" href="#nextin"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_NextIn"></a>NextIn</a></h3>
 <p>An index into the InputBuffer array, indicating where to start reading.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">int</span> NextIn</code></pre>
 <h4 id="field-value-5" tabindex="-1"><a class="header-anchor" href="#field-value-5">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="nextout" tabindex="-1"><a class="header-anchor" href="#nextout"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_NextOut"></a> NextOut</a></h3>
+<h3 id="nextout" tabindex="-1"><a class="header-anchor" href="#nextout"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_NextOut"></a>NextOut</a></h3>
 <p>An index into the OutputBuffer array, indicating where to start writing.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">int</span> NextOut</code></pre>
 <h4 id="field-value-6" tabindex="-1"><a class="header-anchor" href="#field-value-6">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
-<h3 id="outputbuffer" tabindex="-1"><a class="header-anchor" href="#outputbuffer"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_OutputBuffer"></a> OutputBuffer</a></h3>
+<h3 id="outputbuffer" tabindex="-1"><a class="header-anchor" href="#outputbuffer"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_OutputBuffer"></a>OutputBuffer</a></h3>
 <p>Buffer to store output data.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span> OutputBuffer</code></pre>
 <h4 id="field-value-7" tabindex="-1"><a class="header-anchor" href="#field-value-7">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.byte" target="_blank" rel="noopener noreferrer">byte</a>[]</p>
-<h3 id="strategy" tabindex="-1"><a class="header-anchor" href="#strategy"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Strategy"></a> Strategy</a></h3>
+<h3 id="strategy" tabindex="-1"><a class="header-anchor" href="#strategy"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Strategy"></a>Strategy</a></h3>
 <p>The compression strategy to use.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> CompressionStrategy Strategy</code></pre>
 <h4 id="field-value-8" tabindex="-1"><a class="header-anchor" href="#field-value-8">Field Value</a></h4>
@@ -1332,17 +1335,17 @@ compression performance. It's best to leave this property alone if you don't hav
 good feel for it.  Or, you may want to produce a test harness that runs through the
 different strategy options and evaluates them on different file types. If you do that,
 let me know your results.</p>
-<h3 id="totalbytesin" tabindex="-1"><a class="header-anchor" href="#totalbytesin"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_TotalBytesIn"></a> TotalBytesIn</a></h3>
+<h3 id="totalbytesin" tabindex="-1"><a class="header-anchor" href="#totalbytesin"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_TotalBytesIn"></a>TotalBytesIn</a></h3>
 <p>Total number of bytes read so far, through all calls to Inflate()/Deflate().</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">long</span> TotalBytesIn</code></pre>
 <h4 id="field-value-9" tabindex="-1"><a class="header-anchor" href="#field-value-9">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
-<h3 id="totalbytesout" tabindex="-1"><a class="header-anchor" href="#totalbytesout"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_TotalBytesOut"></a> TotalBytesOut</a></h3>
+<h3 id="totalbytesout" tabindex="-1"><a class="header-anchor" href="#totalbytesout"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_TotalBytesOut"></a>TotalBytesOut</a></h3>
 <p>Total number of bytes written to the output so far, through all calls to Inflate()/Deflate().</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">long</span> TotalBytesOut</code></pre>
 <h4 id="field-value-10" tabindex="-1"><a class="header-anchor" href="#field-value-10">Field Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int64" target="_blank" rel="noopener noreferrer">long</a></p>
-<h3 id="windowbits" tabindex="-1"><a class="header-anchor" href="#windowbits"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_WindowBits"></a> WindowBits</a></h3>
+<h3 id="windowbits" tabindex="-1"><a class="header-anchor" href="#windowbits"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_WindowBits"></a>WindowBits</a></h3>
 <p>The number of Window Bits to use.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token keyword">int</span> WindowBits</code></pre>
 <h4 id="field-value-11" tabindex="-1"><a class="header-anchor" href="#field-value-11">Field Value</a></h4>
@@ -1353,13 +1356,13 @@ compression effectiveness as well as memory consumption. It's best to just leave
 setting alone if you don't know what it is.  The maximum value is 15 bits, which implies
 a 32k window.</p>
 <h2 id="properties" tabindex="-1"><a class="header-anchor" href="#properties">Properties</a></h2>
-<h3 id="adler" tabindex="-1"><a class="header-anchor" href="#adler"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Adler32"></a> Adler32</a></h3>
+<h3 id="adler" tabindex="-1"><a class="header-anchor" href="#adler"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Adler32"></a>Adler32</a></h3>
 <p>The Adler32 checksum on the data transferred through the codec so far. You probably don't need to look at this.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> Adler32 <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token punctuation">}</span></code></pre>
 <h4 id="property-value" tabindex="-1"><a class="header-anchor" href="#property-value">Property Value</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <h2 id="methods" tabindex="-1"><a class="header-anchor" href="#methods">Methods</a></h2>
-<h3 id="deflate-flushtype" tabindex="-1"><a class="header-anchor" href="#deflate-flushtype"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Deflate_MonoGame_Framework_Utilities_Deflate_FlushType_"></a> Deflate(FlushType)</a></h3>
+<h3 id="deflate-flushtype" tabindex="-1"><a class="header-anchor" href="#deflate-flushtype"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Deflate_MonoGame_Framework_Utilities_Deflate_FlushType_"></a>Deflate(FlushType)</a></h3>
 <p>Deflate one batch of data.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">Deflate</span><span class="token punctuation">(</span><span class="token class-name">FlushType</span> flush<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-1" tabindex="-1"><a class="header-anchor" href="#parameters-1">Parameters</a></h4>
@@ -1426,7 +1429,7 @@ flush everything.</p>
 }</code></pre>
 <h4 id="remarks-6" tabindex="-1"><a class="header-anchor" href="#remarks-6">Remarks</a></h4>
 <p>You must have set InputBuffer and OutputBuffer before calling this method.</p>
-<h3 id="enddeflate" tabindex="-1"><a class="header-anchor" href="#enddeflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_EndDeflate"></a> EndDeflate()</a></h3>
+<h3 id="enddeflate" tabindex="-1"><a class="header-anchor" href="#enddeflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_EndDeflate"></a>EndDeflate()</a></h3>
 <p>End a deflation session.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">EndDeflate</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-1" tabindex="-1"><a class="header-anchor" href="#returns-1">Returns</a></h4>
@@ -1434,7 +1437,7 @@ flush everything.</p>
 <p>Z_OK if all goes well.</p>
 <h4 id="remarks-7" tabindex="-1"><a class="header-anchor" href="#remarks-7">Remarks</a></h4>
 <p>Call this after making a series of one or more calls to Deflate(). All buffers are flushed.</p>
-<h3 id="endinflate" tabindex="-1"><a class="header-anchor" href="#endinflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_EndInflate"></a> EndInflate()</a></h3>
+<h3 id="endinflate" tabindex="-1"><a class="header-anchor" href="#endinflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_EndInflate"></a>EndInflate()</a></h3>
 <p>Ends an inflation session.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">EndInflate</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-2" tabindex="-1"><a class="header-anchor" href="#returns-2">Returns</a></h4>
@@ -1444,7 +1447,7 @@ flush everything.</p>
 <p>Call this after successively calling Inflate().  This will cause all buffers to be flushed.
 After calling this you cannot call Inflate() without a intervening call to one of the
 InitializeInflate() overloads.</p>
-<h3 id="inflate-flushtype" tabindex="-1"><a class="header-anchor" href="#inflate-flushtype"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Inflate_MonoGame_Framework_Utilities_Deflate_FlushType_"></a> Inflate(FlushType)</a></h3>
+<h3 id="inflate-flushtype" tabindex="-1"><a class="header-anchor" href="#inflate-flushtype"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_Inflate_MonoGame_Framework_Utilities_Deflate_FlushType_"></a>Inflate(FlushType)</a></h3>
 <p>Inflate the data in the InputBuffer, placing the result in the OutputBuffer.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">Inflate</span><span class="token punctuation">(</span><span class="token class-name">FlushType</span> flush<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-2" tabindex="-1"><a class="header-anchor" href="#parameters-2">Parameters</a></h4>
@@ -1506,7 +1509,7 @@ InitializeInflate() overloads.</p>
 <h4 id="remarks-9" tabindex="-1"><a class="header-anchor" href="#remarks-9">Remarks</a></h4>
 <p>You must have set InputBuffer and OutputBuffer, NextIn and NextOut, and AvailableBytesIn and
 AvailableBytesOut  before calling this method.</p>
-<h3 id="initializedeflate" tabindex="-1"><a class="header-anchor" href="#initializedeflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate"></a> InitializeDeflate()</a></h3>
+<h3 id="initializedeflate" tabindex="-1"><a class="header-anchor" href="#initializedeflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate"></a>InitializeDeflate()</a></h3>
 <p>Initialize the ZlibCodec for deflation operation.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeDeflate</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-4" tabindex="-1"><a class="header-anchor" href="#returns-4">Returns</a></h4>
@@ -1543,7 +1546,7 @@ while (true)
 compressor.EndDeflate();</code></pre>
 <h4 id="remarks-10" tabindex="-1"><a class="header-anchor" href="#remarks-10">Remarks</a></h4>
 <p>The codec will use the MAX window bits and the default level of compression.</p>
-<h3 id="initializedeflate-compressionlevel" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_"></a> InitializeDeflate(CompressionLevel)</a></h3>
+<h3 id="initializedeflate-compressionlevel" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_"></a>InitializeDeflate(CompressionLevel)</a></h3>
 <p>Initialize the ZlibCodec for deflation operation, using the specified CompressionLevel.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeDeflate</span><span class="token punctuation">(</span><span class="token class-name">CompressionLevel</span> level<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-3" tabindex="-1"><a class="header-anchor" href="#parameters-3">Parameters</a></h4>
@@ -1555,7 +1558,7 @@ compressor.EndDeflate();</code></pre>
 <h4 id="remarks-11" tabindex="-1"><a class="header-anchor" href="#remarks-11">Remarks</a></h4>
 <p>The codec will use the maximum window bits (15) and the specified
 CompressionLevel.  It will emit a ZLIB stream as it compresses.</p>
-<h3 id="initializedeflate-compressionlevel-bool" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Boolean_"></a> InitializeDeflate(CompressionLevel, bool)</a></h3>
+<h3 id="initializedeflate-compressionlevel-bool" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Boolean_"></a>InitializeDeflate(CompressionLevel, bool)</a></h3>
 <p>Initialize the ZlibCodec for deflation operation, using the specified CompressionLevel,
 and the explicit flag governing whether to emit an RFC1950 header byte pair.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeDeflate</span><span class="token punctuation">(</span><span class="token class-name">CompressionLevel</span> level<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> wantRfc1950Header<span class="token punctuation">)</span></code></pre>
@@ -1573,7 +1576,7 @@ If you want to generate a zlib stream, you should specify true for
 wantRfc1950Header. In this case, the library will emit a ZLIB
 header, as defined in <a href="http://www.ietf.org/rfc/rfc1950.txt">RFC
 1950</a>, in the compressed stream.</p>
-<h3 id="initializedeflate-compressionlevel-int" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel-int"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Int32_"></a> InitializeDeflate(CompressionLevel, int)</a></h3>
+<h3 id="initializedeflate-compressionlevel-int" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel-int"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Int32_"></a>InitializeDeflate(CompressionLevel, int)</a></h3>
 <p>Initialize the ZlibCodec for deflation operation, using the specified CompressionLevel,
 and the specified number of window bits.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeDeflate</span><span class="token punctuation">(</span><span class="token class-name">CompressionLevel</span> level<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">int</span></span> bits<span class="token punctuation">)</span></code></pre>
@@ -1587,7 +1590,7 @@ and the specified number of window bits.</p>
 <p>Z_OK if all goes well.</p>
 <h4 id="remarks-13" tabindex="-1"><a class="header-anchor" href="#remarks-13">Remarks</a></h4>
 <p>The codec will use the specified number of window bits and the specified CompressionLevel.</p>
-<h3 id="initializedeflate-compressionlevel-int-bool" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel-int-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Int32_System_Boolean_"></a> InitializeDeflate(CompressionLevel, int, bool)</a></h3>
+<h3 id="initializedeflate-compressionlevel-int-bool" tabindex="-1"><a class="header-anchor" href="#initializedeflate-compressionlevel-int-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeDeflate_MonoGame_Framework_Utilities_Deflate_CompressionLevel_System_Int32_System_Boolean_"></a>InitializeDeflate(CompressionLevel, int, bool)</a></h3>
 <p>Initialize the ZlibCodec for deflation operation, using the specified
 CompressionLevel, the specified number of window bits, and the explicit flag
 governing whether to emit an RFC1950 header byte pair.</p>
@@ -1602,7 +1605,7 @@ governing whether to emit an RFC1950 header byte pair.</p>
 <h4 id="returns-8" tabindex="-1"><a class="header-anchor" href="#returns-8">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Z_OK if all goes well.</p>
-<h3 id="initializeinflate" tabindex="-1"><a class="header-anchor" href="#initializeinflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate"></a> InitializeInflate()</a></h3>
+<h3 id="initializeinflate" tabindex="-1"><a class="header-anchor" href="#initializeinflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate"></a>InitializeInflate()</a></h3>
 <p>Initialize the inflation state.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeInflate</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-9" tabindex="-1"><a class="header-anchor" href="#returns-9">Returns</a></h4>
@@ -1611,7 +1614,7 @@ governing whether to emit an RFC1950 header byte pair.</p>
 <h4 id="remarks-14" tabindex="-1"><a class="header-anchor" href="#remarks-14">Remarks</a></h4>
 <p>It is not necessary to call this before using the ZlibCodec to inflate data;
 It is implicitly called when you call the constructor.</p>
-<h3 id="initializeinflate-bool" tabindex="-1"><a class="header-anchor" href="#initializeinflate-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate_System_Boolean_"></a> InitializeInflate(bool)</a></h3>
+<h3 id="initializeinflate-bool" tabindex="-1"><a class="header-anchor" href="#initializeinflate-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate_System_Boolean_"></a>InitializeInflate(bool)</a></h3>
 <p>Initialize the inflation state with an explicit flag to
 govern the handling of RFC1950 header bytes.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeInflate</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">bool</span></span> expectRfc1950Header<span class="token punctuation">)</span></code></pre>
@@ -1628,7 +1631,7 @@ you want to read a zlib stream you should specify true for
 expectRfc1950Header.  If you have a deflate stream, you will want to specify
 false. It is only necessary to invoke this initializer explicitly if you
 want to specify false.</p>
-<h3 id="initializeinflate-int" tabindex="-1"><a class="header-anchor" href="#initializeinflate-int"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate_System_Int32_"></a> InitializeInflate(int)</a></h3>
+<h3 id="initializeinflate-int" tabindex="-1"><a class="header-anchor" href="#initializeinflate-int"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate_System_Int32_"></a>InitializeInflate(int)</a></h3>
 <p>Initialize the ZlibCodec for inflation, with the specified number of window bits.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeInflate</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> windowBits<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-8" tabindex="-1"><a class="header-anchor" href="#parameters-8">Parameters</a></h4>
@@ -1638,7 +1641,7 @@ then you shouldn't be calling this initializer.</p>
 <h4 id="returns-11" tabindex="-1"><a class="header-anchor" href="#returns-11">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Z_OK if all goes well.</p>
-<h3 id="initializeinflate-int-bool" tabindex="-1"><a class="header-anchor" href="#initializeinflate-int-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate_System_Int32_System_Boolean_"></a> InitializeInflate(int, bool)</a></h3>
+<h3 id="initializeinflate-int-bool" tabindex="-1"><a class="header-anchor" href="#initializeinflate-int-bool"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_InitializeInflate_System_Int32_System_Boolean_"></a>InitializeInflate(int, bool)</a></h3>
 <p>Initialize the inflation state with an explicit flag to govern the handling of
 RFC1950 header bytes.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">InitializeInflate</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">int</span></span> windowBits<span class="token punctuation">,</span> <span class="token class-name"><span class="token keyword">bool</span></span> expectRfc1950Header<span class="token punctuation">)</span></code></pre>
@@ -1659,14 +1662,14 @@ header, as defined in <a href="http://www.ietf.org/rfc/rfc1950.txt">RFC
 1950</a>, in the compressed stream.  If you will be reading a DEFLATE or
 GZIP stream, which does not have such a header, you will want to specify
 false.</p>
-<h3 id="resetdeflate" tabindex="-1"><a class="header-anchor" href="#resetdeflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_ResetDeflate"></a> ResetDeflate()</a></h3>
+<h3 id="resetdeflate" tabindex="-1"><a class="header-anchor" href="#resetdeflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_ResetDeflate"></a>ResetDeflate()</a></h3>
 <p>Reset a codec for another deflation session.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">ResetDeflate</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="remarks-17" tabindex="-1"><a class="header-anchor" href="#remarks-17">Remarks</a></h4>
 <p>Call this to reset the deflation state.  For example if a thread is deflating
 non-consecutive blocks, you can call Reset() after the Deflate(Sync) of the first
 block and before the next Deflate(None) of the second block.</p>
-<h3 id="setdeflateparams-compressionlevel-compressionstrategy" tabindex="-1"><a class="header-anchor" href="#setdeflateparams-compressionlevel-compressionstrategy"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_SetDeflateParams_MonoGame_Framework_Utilities_Deflate_CompressionLevel_MonoGame_Framework_Utilities_Deflate_CompressionStrategy_"></a> SetDeflateParams(CompressionLevel, CompressionStrategy)</a></h3>
+<h3 id="setdeflateparams-compressionlevel-compressionstrategy" tabindex="-1"><a class="header-anchor" href="#setdeflateparams-compressionlevel-compressionstrategy"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_SetDeflateParams_MonoGame_Framework_Utilities_Deflate_CompressionLevel_MonoGame_Framework_Utilities_Deflate_CompressionStrategy_"></a>SetDeflateParams(CompressionLevel, CompressionStrategy)</a></h3>
 <p>Set the CompressionStrategy and CompressionLevel for a deflation session.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">SetDeflateParams</span><span class="token punctuation">(</span><span class="token class-name">CompressionLevel</span> level<span class="token punctuation">,</span> <span class="token class-name">CompressionStrategy</span> strategy<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-10" tabindex="-1"><a class="header-anchor" href="#parameters-10">Parameters</a></h4>
@@ -1677,7 +1680,7 @@ block and before the next Deflate(None) of the second block.</p>
 <h4 id="returns-13" tabindex="-1"><a class="header-anchor" href="#returns-13">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Z_OK if all goes well.</p>
-<h3 id="setdictionary-byte" tabindex="-1"><a class="header-anchor" href="#setdictionary-byte"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_SetDictionary_System_Byte___"></a> SetDictionary(byte[])</a></h3>
+<h3 id="setdictionary-byte" tabindex="-1"><a class="header-anchor" href="#setdictionary-byte"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_SetDictionary_System_Byte___"></a>SetDictionary(byte[])</a></h3>
 <p>Set the dictionary to be used for either Inflation or Deflation.</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">SetDictionary</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">byte</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> dictionary<span class="token punctuation">)</span></code></pre>
 <h4 id="parameters-11" tabindex="-1"><a class="header-anchor" href="#parameters-11">Parameters</a></h4>
@@ -1686,7 +1689,7 @@ block and before the next Deflate(None) of the second block.</p>
 <h4 id="returns-14" tabindex="-1"><a class="header-anchor" href="#returns-14">Returns</a></h4>
 <p><a href="https://learn.microsoft.com/dotnet/api/system.int32" target="_blank" rel="noopener noreferrer">int</a></p>
 <p>Z_OK if all goes well.</p>
-<h3 id="syncinflate" tabindex="-1"><a class="header-anchor" href="#syncinflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_SyncInflate"></a> SyncInflate()</a></h3>
+<h3 id="syncinflate" tabindex="-1"><a class="header-anchor" href="#syncinflate"><a id="MonoGame_Framework_Utilities_Deflate_ZlibCodec_SyncInflate"></a>SyncInflate()</a></h3>
 <p>I don't know what this does!</p>
 <pre class="language-csharp"><code class="language-csharp"><span class="token keyword">public</span> <span class="token return-type class-name"><span class="token keyword">int</span></span> <span class="token function">SyncInflate</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="returns-15" tabindex="-1"><a class="header-anchor" href="#returns-15">Returns</a></h4>
