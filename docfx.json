@@ -13,11 +13,12 @@
       "dest": "./content/api",
       "includePrivateMembers": false,
       "disableGitFeatures": false,
-      "disableDefaultFilter": false,
+      "disableDefaultFilter": true,
       "noRestore": false,
       "namespaceLayout": "flattened",
       "memberLayout": "samePage",
-      "EnumSortOrder": "alphabetic"
+      "EnumSortOrder": "alphabetic",
+      "outputFormat": "markdown"
     }
   ]
 }
